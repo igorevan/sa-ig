@@ -1,0 +1,268 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/sa/Bundle/example-RIA-R> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "example-RIA-R"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2024-04-01T14:59:51.283-03:00"^^xsd:dateTime ]
+  ] ;
+  fhir:Bundle.identifier [
+     fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-29376" ] ;
+     fhir:Identifier.value [ fhir:value "012345678" ]
+  ] ;
+  fhir:Bundle.type [ fhir:value "document"] ;
+  fhir:Bundle.timestamp [ fhir:value "2024-04-01T14:59:51.283-03:00"^^xsd:dateTime] ;
+  fhir:Bundle.entry [
+     fhir:index 0 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:transient-0" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:transient-0>
+  ], [
+     fhir:index 1 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:transient-1" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:transient-1>
+  ], [
+     fhir:index 2 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:transient-2" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:transient-2>
+  ] .
+
+<urn:uuid:transient-0> a fhir:Composition ;
+  fhir:Resource.id [ fhir:value "transient-0"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_transient-0\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Composition transient-0</b></p><a name=\"transient-0\"> </a><a name=\"hctransient-0\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html\">Registro de Imunobiológico Administrado na Rotina</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RIA}\">Registro de Imunobiológico Administrado</span></p><p><b>date</b>: 2024-04-01 08:18:30-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/0123456</p><p><b>title</b>: Registro de Imunobiologico Administrado na Rotina</p></div>"
+  ] ;
+  fhir:Composition.status [ fhir:value "final"] ;
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento" ] ;
+       fhir:Coding.code [ fhir:value "RIA" ]
+     ]
+  ] ;
+  fhir:Composition.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "01234567890" ]
+     ]
+  ] ;
+  fhir:Composition.date [ fhir:value "2024-04-01T08:18:30-03:00"^^xsd:dateTime] ;
+  fhir:Composition.author [
+     fhir:index 0 ;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "0123456" ]
+     ]
+  ] ;
+  fhir:Composition.title [ fhir:value "Registro de Imunobiologico Administrado na Rotina"] ;
+  fhir:Composition.section [
+     fhir:index 0 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:transient-1" ]
+     ]
+  ] .
+
+<urn:uuid:transient-1> a fhir:Immunization ;
+  fhir:Resource.id [ fhir:value "transient-1"] ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_transient-1\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Immunization transient-1</b></p><a name=\"transient-1\"> </a><a name=\"hctransient-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRImunobiologicoAdministrado-3.0.html\">Imunobiológico Administrado em Rotina</a></p></div><p><b>Grupo de Atendimento</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000703}\">Povos indígenas vivendo em terras indígenas</span></p><p><b>Condição Maternal</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal 1}\">Não se aplica</span></p><p><b>Contato Hanseníase</b>: false</p><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 55}\">HAinf</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/01234567890</p><p><b>occurrence</b>: 2024-04-01</p><p><b>primarySource</b>: false</p><p><b>reportOrigin</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem 01}\">Transcrição de caderneta</span></p><p><b>location</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais</code>/10</p><p><b>manufacturer</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>/152</p><p><b>lotNumber</b>: 220262</p><p><b>expirationDate</b>: 2025-05-10</p><p><b>site</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao 0}\">No registration in the source information system</span></p><p><b>route</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao 0}\">No registration in the source information system</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 225103}\">MEDICO INFECTOLOGISTA</span></td><td><a href=\"Practitioner/012345678912345\">Practitioner/012345678912345</a></td></tr></table><p><b>reasonReference</b>: <a href=\"Bundle-example-RIA-R.html#urn-uuid-transient-2\">Condition Hepatite aguda A</a></p><blockquote><p><b>protocolApplied</b></p><p><b>Estratégia de Vacinação</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao 1}\">Routine immunization</span></p><blockquote><p><b>Estratégia de Vacinação Pesquisa</b></p><ul><li>numeroProtocoloEstudoANVISA: GU1AMT9CYR</li><li>numeroVersaoProtocoloEstudo: F3D1U354V6</li><li>numeroRegistroVacinaAnvisa: WWZZJJWIBF</li></ul></blockquote><p><b>doseNumber</b>: 1</p></blockquote></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento" ] ;
+         fhir:Coding.code [ fhir:value "000703" ]
+       ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal" ] ;
+     fhir:Extension.valueCodeableConcept [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal" ] ;
+         fhir:Coding.code [ fhir:value "1" ]
+       ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase" ] ;
+     fhir:Extension.valueBoolean [ fhir:value "false"^^xsd:boolean ]
+  ] ;
+  fhir:Immunization.status [ fhir:value "completed"] ;
+  fhir:Immunization.vaccineCode [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico" ] ;
+       fhir:Coding.code [ fhir:value "55" ]
+     ]
+  ] ;
+  fhir:Immunization.patient [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "01234567890" ]
+     ]
+  ] ;
+  fhir:Immunization.occurrenceDateTime [ fhir:value "2024-04-01"^^xsd:date] ;
+  fhir:Immunization.primarySource [ fhir:value "false"^^xsd:boolean] ;
+  fhir:Immunization.reportOrigin [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem" ] ;
+       fhir:Coding.code [ fhir:value "01" ]
+     ]
+  ] ;
+  fhir:Immunization.location [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais" ] ;
+       fhir:Identifier.value [ fhir:value "10" ]
+     ]
+  ] ;
+  fhir:Immunization.manufacturer [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI" ] ;
+       fhir:Identifier.value [ fhir:value "152" ]
+     ]
+  ] ;
+  fhir:Immunization.lotNumber [ fhir:value "220262"] ;
+  fhir:Immunization.expirationDate [ fhir:value "2025-05-10"^^xsd:date] ;
+  fhir:Immunization.site [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao" ] ;
+       fhir:Coding.code [ fhir:value "0" ]
+     ]
+  ] ;
+  fhir:Immunization.route [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao" ] ;
+       fhir:Coding.code [ fhir:value "0" ]
+     ]
+  ] ;
+  fhir:Immunization.performer [
+     fhir:index 0 ;
+     fhir:Immunization.performer.function [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" ] ;
+         fhir:Coding.code [ fhir:value "225103" ]
+       ]
+     ] ;
+     fhir:Immunization.performer.actor [
+       fhir:link <https://fhir.saude.gov.br/sa/Practitioner/012345678912345> ;
+       fhir:Reference.reference [ fhir:value "Practitioner/012345678912345" ]
+     ]
+  ] ;
+  fhir:Immunization.reasonReference [
+     fhir:index 0 ;
+     fhir:Reference.reference [ fhir:value "urn:uuid:transient-2" ]
+  ] ;
+  fhir:Immunization.protocolApplied [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao" ] ;
+           fhir:Coding.code [ fhir:value "1" ]
+         ]
+       ]
+     ], [
+       fhir:index 1 ;
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "numeroProtocoloEstudoANVISA" ] ;
+         fhir:Extension.valueString [ fhir:value "GU1AMT9CYR" ]
+       ], [
+         fhir:index 1 ;
+         fhir:Extension.url [ fhir:value "numeroVersaoProtocoloEstudo" ] ;
+         fhir:Extension.valueString [ fhir:value "F3D1U354V6" ]
+       ], [
+         fhir:index 2 ;
+         fhir:Extension.url [ fhir:value "numeroRegistroVacinaAnvisa" ] ;
+         fhir:Extension.valueString [ fhir:value "WWZZJJWIBF" ]
+       ] ;
+       fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0" ]
+     ] ;
+     fhir:Immunization.protocolApplied.doseNumberString [ fhir:value "1" ]
+  ] .
+
+<urn:uuid:transient-2> a fhir:Condition ;
+  fhir:Resource.id [ fhir:value "transient-2"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2024-03-30T14:59:51.283-03:00"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_transient-2\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Condition transient-2</b></p><a name=\"transient-2\"> </a><a name=\"hctransient-2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2024-03-30 14:59:51-0300</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRCID10Avaliado-1.0.html\">CID10 Avaliado</a></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico 01}\">Principal</span></p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 B15}\">Hepatite aguda A</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/01234567890</p><p><b>onset</b>: 2024-03-30 14:59:51-0300</p></div>"
+  ] ;
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ] ;
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ] ;
+  fhir:Condition.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico" ] ;
+       fhir:Coding.code [ fhir:value "01" ] ;
+       fhir:Coding.display [ fhir:value "Principal" ]
+     ]
+  ] ;
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10" ] ;
+       fhir:Coding.code [ fhir:value "B15" ]
+     ]
+  ] ;
+  fhir:Condition.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "01234567890" ]
+     ]
+  ] ;
+  fhir:Condition.onsetDateTime [ fhir:value "2024-03-30T14:59:51.283-03:00"^^xsd:dateTime] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.saude.gov.br/sa/Bundle/example-RIA-R.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

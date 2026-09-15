@@ -1,0 +1,222 @@
+{
+  "resourceType" : "Bundle",
+  "id" : "example-RIA-R",
+  "meta" : {
+    "lastUpdated" : "2024-04-01T14:59:51.283-03:00"
+  },
+  "language" : "en",
+  "identifier" : {
+    "system" : "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-29376",
+    "value" : "012345678"
+  },
+  "type" : "document",
+  "timestamp" : "2024-04-01T14:59:51.283-03:00",
+  "entry" : [{
+    "fullUrl" : "urn:uuid:transient-0",
+    "resource" : {
+      "resourceType" : "Composition",
+      "id" : "transient-0",
+      "meta" : {
+        "profile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_transient-0\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Composition transient-0</b></p><a name=\"transient-0\"> </a><a name=\"hctransient-0\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html\">Registro de Imunobiológico Administrado na Rotina</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento RIA}\">Registro de Imunobiológico Administrado</span></p><p><b>date</b>: 2024-04-01 08:18:30-0300</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/0123456</p><p><b>title</b>: Registro de Imunobiologico Administrado na Rotina</p></div>"
+      },
+      "status" : "final",
+      "type" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+          "code" : "RIA"
+        }]
+      },
+      "subject" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+          "value" : "01234567890"
+        }
+      },
+      "date" : "2024-04-01T08:18:30-03:00",
+      "author" : [{
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0",
+          "value" : "0123456"
+        }
+      }],
+      "title" : "Registro de Imunobiologico Administrado na Rotina",
+      "section" : [{
+        "entry" : [{
+          "reference" : "urn:uuid:transient-1"
+        }]
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:transient-1",
+    "resource" : {
+      "resourceType" : "Immunization",
+      "id" : "transient-1",
+      "meta" : {
+        "profile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "extensions",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Immunization_transient-1\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Immunization transient-1</b></p><a name=\"transient-1\"> </a><a name=\"hctransient-1\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRImunobiologicoAdministrado-3.0.html\">Imunobiológico Administrado em Rotina</a></p></div><p><b>Grupo de Atendimento</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento 000703}\">Povos indígenas vivendo em terras indígenas</span></p><p><b>Condição Maternal</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal 1}\">Não se aplica</span></p><p><b>Contato Hanseníase</b>: false</p><p><b>status</b>: Completed</p><p><b>vaccineCode</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico 55}\">HAinf</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/01234567890</p><p><b>occurrence</b>: 2024-04-01</p><p><b>primarySource</b>: false</p><p><b>reportOrigin</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem 01}\">Transcrição de caderneta</span></p><p><b>location</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais</code>/10</p><p><b>manufacturer</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI</code>/152</p><p><b>lotNumber</b>: 220262</p><p><b>expirationDate</b>: 2025-05-10</p><p><b>site</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao 0}\">No registration in the source information system</span></p><p><b>route</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao 0}\">No registration in the source information system</span></p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 225103}\">MEDICO INFECTOLOGISTA</span></td><td><a href=\"Practitioner/012345678912345\">Practitioner/012345678912345</a></td></tr></table><p><b>reasonReference</b>: <a href=\"Bundle-example-RIA-R.html#urn-uuid-transient-2\">Condition Hepatite aguda A</a></p><blockquote><p><b>protocolApplied</b></p><p><b>Estratégia de Vacinação</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao 1}\">Routine immunization</span></p><blockquote><p><b>Estratégia de Vacinação Pesquisa</b></p><ul><li>numeroProtocoloEstudoANVISA: GU1AMT9CYR</li><li>numeroVersaoProtocoloEstudo: F3D1U354V6</li><li>numeroRegistroVacinaAnvisa: WWZZJJWIBF</li></ul></blockquote><p><b>doseNumber</b>: 1</p></blockquote></div>"
+      },
+      "extension" : [{
+        "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+            "code" : "000703"
+          }]
+        }
+      },
+      {
+        "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal",
+        "valueCodeableConcept" : {
+          "coding" : [{
+            "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+            "code" : "1"
+          }]
+        }
+      },
+      {
+        "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase",
+        "valueBoolean" : false
+      }],
+      "status" : "completed",
+      "vaccineCode" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+          "code" : "55"
+        }]
+      },
+      "patient" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+          "value" : "01234567890"
+        }
+      },
+      "occurrenceDateTime" : "2024-04-01",
+      "primarySource" : false,
+      "reportOrigin" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+          "code" : "01"
+        }]
+      },
+      "location" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+          "value" : "10"
+        }
+      },
+      "manufacturer" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+          "value" : "152"
+        }
+      },
+      "lotNumber" : "220262",
+      "expirationDate" : "2025-05-10",
+      "site" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao",
+          "code" : "0"
+        }]
+      },
+      "route" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+          "code" : "0"
+        }]
+      },
+      "performer" : [{
+        "function" : {
+          "coding" : [{
+            "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+            "code" : "225103"
+          }]
+        },
+        "actor" : {
+          "reference" : "Practitioner/012345678912345"
+        }
+      }],
+      "reasonReference" : [{
+        "reference" : "urn:uuid:transient-2"
+      }],
+      "protocolApplied" : [{
+        "extension" : [{
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0",
+          "valueCodeableConcept" : {
+            "coding" : [{
+              "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+              "code" : "1"
+            }]
+          }
+        },
+        {
+          "extension" : [{
+            "url" : "numeroProtocoloEstudoANVISA",
+            "valueString" : "GU1AMT9CYR"
+          },
+          {
+            "url" : "numeroVersaoProtocoloEstudo",
+            "valueString" : "F3D1U354V6"
+          },
+          {
+            "url" : "numeroRegistroVacinaAnvisa",
+            "valueString" : "WWZZJJWIBF"
+          }],
+          "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"
+        }],
+        "doseNumberString" : "1"
+      }]
+    }
+  },
+  {
+    "fullUrl" : "urn:uuid:transient-2",
+    "resource" : {
+      "resourceType" : "Condition",
+      "id" : "transient-2",
+      "meta" : {
+        "lastUpdated" : "2024-03-30T14:59:51.283-03:00",
+        "profile" : ["http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0"]
+      },
+      "language" : "en",
+      "text" : {
+        "status" : "generated",
+        "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_transient-2\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Condition transient-2</b></p><a name=\"transient-2\"> </a><a name=\"hctransient-2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2024-03-30 14:59:51-0300</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRCID10Avaliado-1.0.html\">CID10 Avaliado</a></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico 01}\">Principal</span></p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 B15}\">Hepatite aguda A</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/01234567890</p><p><b>onset</b>: 2024-03-30 14:59:51-0300</p></div>"
+      },
+      "clinicalStatus" : {
+        "coding" : [{
+          "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+          "code" : "active"
+        }]
+      },
+      "category" : [{
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+          "code" : "01",
+          "display" : "Principal"
+        }]
+      }],
+      "code" : {
+        "coding" : [{
+          "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+          "code" : "B15"
+        }]
+      },
+      "subject" : {
+        "identifier" : {
+          "system" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0",
+          "value" : "01234567890"
+        }
+      },
+      "onsetDateTime" : "2024-03-30T14:59:51.283-03:00"
+    }
+  }]
+}

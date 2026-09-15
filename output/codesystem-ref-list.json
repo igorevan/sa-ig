@@ -1,0 +1,192 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/composition-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CompositionStatus",
+    "title" : "CompositionStatus",
+    "description" : "The workflow/clinical status of the composition.",
+    "oids" : ["2.16.840.1.113883.4.642.4.242"],
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-composition-status.html" : "CompositionStatus"
+  },
+  {
+    "url" : "http://hl7.org/fhir/event-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "EventStatus",
+    "title" : "EventStatus",
+    "description" : "Codes identifying the lifecycle stage of an event.",
+    "oids" : ["2.16.840.1.113883.4.642.4.110"],
+    "uses" : {
+    },
+    "ValueSet-BREstadoEvento-1.0.html" : "Estado do Evento"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ConditionClinicalStatusCodes",
+    "title" : "Condition Clinical Status Codes",
+    "description" : "Preferred value set for Condition Clinical Status.",
+    "oids" : ["2.16.840.1.113883.4.642.1.1074"],
+    "uses" : {
+    },
+    "ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html" : "Estado da Resolução de Diagnóstico ou Problema"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCBO",
+    "title" : "Classificação Brasileira de Ocupações - CBO (CodeSystem)",
+    "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+    "uses" : {
+    },
+    "ValueSet-BROcupacao-1.0.html" : "Classificação Brasileira de Ocupações - CBO (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCID10",
+    "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)",
+    "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos.",
+    "uses" : {
+    },
+    "ValueSet-BRCID10-1.0.html" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCategoriaDiagnostico",
+    "title" : "Categoria do Diagnóstico (CodeSystem)",
+    "description" : "Códigos para representação do tipo de categoria do diagnóstico realizado.",
+    "uses" : {
+    },
+    "ValueSet-BRCategoriaDiagnostico.html" : "Categoria do Diagnóstico (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCondicaoMaternal",
+    "title" : "Condição Maternal (CodeSystem)",
+    "description" : "Indicação da condição maternal da pessoa vacinada.",
+    "uses" : {
+    },
+    "ValueSet-BRCondicaoMaternal-1.0.html" : "Condição Maternal (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRDose",
+    "title" : "Dose de Vacina",
+    "description" : "Define a dose da administração de uma substância.",
+    "uses" : {
+    },
+    "ValueSet-BRDose-1.0.html" : "Dose do Imunobiológico"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstrategiaVacinacao",
+    "title" : "Estratégia de Vacinação (CodeSystem)",
+    "description" : "Classifica a estratégia de vacinação adotada.",
+    "uses" : {
+    },
+    "ValueSet-BREstrategiaVacinacao-1.0.html" : "Estratégia de Vacinação (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRFabricantePNI",
+    "title" : "Fabricante do Imunobiológico (CodeSystem)",
+    "description" : "Apresenta o fabricante do imunobiológico.",
+    "uses" : {
+    },
+    "ValueSet-BRFabricanteImunobiologico-1.0.html" : "Fabricante do Imunobiológico (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRGrupoAtendimento",
+    "title" : "Grupo de Atendimento (CodeSystem)",
+    "description" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+    "uses" : {
+    },
+    "ValueSet-BRGrupoAtendimento-1.0.html" : "Tipo de grupo de atendimento (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRImunobiologico",
+    "title" : "Imunobiológico (CodeSystem)",
+    "description" : "Classifica os tipos de imunobiológicos.",
+    "uses" : {
+    },
+    "ValueSet-BRImunobiologico-1.0.html" : "Imunobiológico (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRLocalAplicacao",
+    "title" : "Local de Aplicação (CodeSystem)",
+    "description" : "Define a localização anatômica de aplicação de uma substância",
+    "uses" : {
+    },
+    "ValueSet-BRLocalAplicacao-1.0.html" : "Local de Aplicação (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRPais",
+    "title" : "País (CodeSystem)",
+    "description" : "Códigos para representação de países.",
+    "uses" : {
+    },
+    "ValueSet-BRPais-1.0.html" : "País (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRRegistroOrigem",
+    "title" : "Registro de Origem (CodeSystem)",
+    "description" : "Códigos para representação da Origem do Registro de Imunobiológico.",
+    "uses" : {
+    },
+    "ValueSet-BRRegistroOrigem.html" : "Registro de Origem (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRTipoDocumento",
+    "title" : "Tipo de Documento (CodeSystem)",
+    "description" : "Classificação dos tipos de documentos compartilhados no Brasil.",
+    "uses" : {
+    },
+    "ValueSet-BRTipoDocumento-1.0.html" : "Tipo de Documento (ValueSet)"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRViaAdministracao",
+    "title" : "Via de Administração",
+    "description" : "Classifica a via na qual foi administrada uma substância em um indivíduo.",
+    "uses" : {
+    },
+    "ValueSet-BRViaAdministracao-1.0.html" : "Via de Administração do Imunobiológico"
+  }]
+}

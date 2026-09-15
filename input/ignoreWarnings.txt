@@ -1,0 +1,28 @@
+== Suppressed Messages ==
+
+# Errors relacionados aos recursos Patient, Practitioner and Organization
+%StructureDefinition/BRIndividuo-1.0%
+%StructureDefinition/BRProfissional-1.0%
+%StructureDefinition/BREstabelecimentoSaude-1.0%
+%Practitioner/012345678912345%
+
+# Errors relacionados as particularidades dos CodeSystems e ValueSets da RNDS
+%Esta propriedade tem apenas um código%
+The value set expansion is too large, and only a subset has been displayed
+%Referência ao projeto CodeSystem%
+Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset
+
+# Erros de validação de exemplos
+Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|1.0.0-release
+%Não foi possível encontrar uma correspondência de perfil%
+
+# Erros relacionados as especificações da RNDS
+%have an OID assigned%
+
+# Outros erros
+The Implementation Guide contains no examples for this profile
+The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
+The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
+An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
+O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 está obsoleto com a nota Use additionalBinding extension or element instead

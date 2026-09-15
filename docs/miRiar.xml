@@ -1,0 +1,511 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+
+  <a name="objetivo"> </a>
+  <h3>Objetivo</h3>
+
+  <p>O documento clínico <b>RIA-R</b> (Registro de Imunobiológico Administrado em Rotina),
+    destina-se ao registro das doses das vacinas previstas no Calendário Nacional de Imunização em
+    atividades de vacinação rotineiras, bem como das doses aplicadas durante os estudos clínicos que
+    subsidiaram a autorização de uso emergencial ou aprovação de registro sanitário de vacinas
+    Covid-19 e de outras vacinas pela <a href="https://www.gov.br/anvisa/pt-br">Agência Nacional de Vigilância Sanitária
+      (ANVISA)</a>.</p>
+
+  <div
+    style="background-color: #fff3cd; border-left: 5px solid #ffc107; color: #856404; padding: 15px; margin: 20px 0; font-family: sans-serif; border-radius: 4px;">
+    <strong>⚠️ ATENÇÃO:</strong>
+    O <b>Registro de Imunobiológico Administrado em Campanha (RIA-C)</b> foi descontinuado. O modelo vigente é o
+    <b>Registro de Imunobiológico Administrado em Rotina (RIA-R)</b>
+  </div>
+
+  <a name="marcos"> </a>
+  <h3>Marcos Legais</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.in.gov.br/web/dou/-/portaria-conjunta-saes/svsa/seidigi-n-25-de-27-de-novembro-de-2023-527017519">PORTARIA
+        CONJUNTA SAES/SVSA/SEIDIGI Nº 25, DE 27 DE NOVEMBRO DE 2023</a>
+    </li>
+  </ul>
+
+  <a name="ria"> </a>
+  <h3>Modelo de Informação</h3>
+  <p>
+    O modelo de informação é uma representação conceitual e canônica, onde os elementos referentes a
+    um documento específico são modelados em seções e blocos de dados, com seus respectivos tipos
+    de dados a serem informados. Também são apresentadas as referências para o uso de recursos
+    terminológicos, da seguinte maneira:
+  </p>
+  <ul>
+    <li>
+      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+    </li>
+    <li>
+      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento
+        deve/pode aparecer:</p>
+
+      <pre><code>
+          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez
+          [1..1] - O elemento é obrigatório e deve estar presente uma única vez
+          [0..N] - O elemento é opcional e pode ocorrer várias vezes
+          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes</code>
+        </pre>
+
+    </li>
+    <li>
+      <b>Coluna 3</b> - Seção/Item: nome do bloco ou da informação a ser enviada;
+    </li>
+    <li>
+      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+    </li>
+    <li>
+      <b>Coluna 5</b> - Conceito: apresenta as definições do elemento;
+    </li>
+    <li>
+      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas
+      ao elemento;
+    </li>
+    <li>
+      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
+      a ser utilizado para preenchimento do elemento;
+    </li>
+    <li>
+      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do
+      Modelo Computacional em FHIR.
+    </li>
+  </ul>
+
+  <a name="blocos"> </a>
+  <h3>Blocos do Modelo de Informação</h3>
+
+  <p>
+    Segue abaixo o modelo de informação para o Registro de Imunobiológico Administrado em Rotina
+    (RIA-R):
+  </p>
+
+  <a name="identificacao"> </a>
+  <h4>Identificação do Indivíduo</h4>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de dados</th>
+        <th>Conceito</th>
+        <th>Definição de uso do elemento</th>
+        <th>Conteúdo (ValueSet/CodeSystem)</th>
+        <th>Recurso FHIR</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>1..1</td>
+        <td>Identificação do paciente</td>
+        <td>Seção</td>
+        <td>Bloco de informações do indivíduo imunizado</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Identificador Nacional do Indivíduo</td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação unívoca dos usuários das ações e serviços de saúde, mediante número único válido em todo o
+          território nacional.</td>
+        <td>Poderão ser utilizados para essa identificação o Cartão Nacional de Saúde (CNS) válido ou Cadastro de Pessoa
+          Física (CPF).</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html">Registro de
+            Imunobiológico Administrado em Rotina</a> <i>(Composition)</i>, <a
+            href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i> e <a href="StructureDefinition-BRCID10Avaliado-1.0.html">CID10 Avaliado</a>
+          <i>(Condition)</i>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Condição Maternal</td>
+        <td>Texto codificado</td>
+        <td>Identifica a condição maternal do indivíduo no ato da imunização.</td>
+        <td>Para registro da condição maternal, deverão ser utilizados os códigos disponibilizados no CodeSystem
+          “BRCondicaoMaternal” da RNDS. </td>
+        <td><a href="ValueSet-BRCondicaoMaternal-1.0.html">Condição Maternal</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a name="encontro"> </a>
+  <h4>Informações do Contato Assistencial</h4>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de dado</th>
+        <th>Conceito</th>
+        <th>Definição de uso do elemento</th>
+        <th>Conteúdo (ValueSet/CodeSystem)</th>
+        <th>Recurso FHIR</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>1..1</td>
+        <td>Informações do Contato Assistencial</td>
+        <td>Seção</td>
+        <td>Bloco de informações do contato assistencial</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Estabelecimento de Saúde</td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação única do estabelecimento de saúde, por meio do Cadastro Nacional de Estabelecimentos de Saúde
+          (CNES).</td>
+        <td>Código CNES do Estabelecimento de Saúde.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html">Registro de
+            Imunobiológico Administrado em Rotina</a> <i>(Composition)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Identificador do profissional</td>
+        <td>Caracteres numéricos</td>
+        <td>Identifica o número do Cadastro Nacional de Saúde (CNS) do profissional de saúde que realizou o atendimento
+          ou transcrição.</td>
+        <td>Deverá ser utilizado para a identificação, o Cartão Nacional de Saúde (CNS) do profissional.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <a name="imunizacao"> </a>
+  <h4>Registro de imunização</h4>
+
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de dado</th>
+        <th>Conceito</th>
+        <th>Definição de uso do elemento</th>
+        <th>Conteúdo (ValueSet/CodeSystem)</th>
+        <th>Recurso FHIR</th>
+      </tr>
+    </thead>
+    <thead>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>1..N</td>
+        <td>Registro de imunização</td>
+        <td>Seção</td>
+        <td></td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>3</td>
+        <td>1..1</td>
+        <td>Grupo de Atendimento</td>
+        <td>Texto codificado</td>
+        <td>Identifica a classificação do grupo de atendimento dos indivíduos para a vacinação.</td>
+        <td>Para registro do grupo de atendimento, deverão ser utilizados os códigos
+          disponibilizados no CodeSystem
+          “BRGrupoAtendimento” da RNDS. </td>
+        <td><a href="ValueSet-BRGrupoAtendimento-1.0.html">Tipo de Grupo de Atendimento</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Estratégia de vacinação</td>
+        <td>Texto codificado</td>
+        <td>Identifica a estratégia de vacinação adotada, conforme estabelecidos pelo Programa
+          Nacional de Imunização
+          (PNI) e disponibilizado em CodeSystem da Rede Nacional de Dados em Saúde (RNDS).</td>
+        <td>Para registro da estratégia, deverão ser utilizado os códigos disponibilizados no
+          CodeSystem
+          "BREstrategiaVacinacao" da RNDS.</td>
+        <td><a href="ValueSet-BREstrategiaVacinacao-1.0.html">Estratégia de Vacinação</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0..1</td>
+        <td>Especialidade do profissional prescritor</td>
+        <td>Texto codificado</td>
+        <td>Identifica a especialidade do profissional que prescreveu a administração do
+          imunobiológico por meio do Código Brasileiro de Ocupações (CBO)
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>:
+            Quando a estratégia de vacinação for "Especial", o campo deve ser obrigatório.</p>
+        </td>
+        <td>Para registro da especialidade do profissional prescritor, deverão ser utilizados os
+          códigos da
+          Classificação Brasileira de Ocupações (CBO) disponibilizados no CodeSystem "BRCBO" da
+          RNDS.
+        </td>
+        <td><a href="ValueSet-BROcupacao-1.0.html">Classificação Brasileira de Ocupações (CBO)</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0..1</td>
+        <td>Motivo de Indicação</td>
+        <td>Texto codificado</td>
+        <td>Identifica o código da Classificação Internacional de Doenças (CID) do motivo da
+          indicação para administração do imunobiológico.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>: Quando a estratégia
+            de vacinação for "Especial", o campo deve ser obrigatório.</p>
+        </td>
+        <td>Para registro do motivo da indicação para a administração do imunobiológico, deverão ser
+          utilizados os
+          códigos da Classificação Internacional de Doenças (CID) disponibilizados no CodeSystem
+          "BRCID10" da RNDS.</td>
+        <td><a href="ValueSet-BRCID10-1.0.html">Classificação Internacional de Doenças - Décima Revisão
+            (CID-10)</a></td>
+        <td><a href="StructureDefinition-BRCID10Avaliado-1.0.html">CID10 Avaliado</a> <i>(Condition)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>0..1</td>
+        <td>Contato Hanseníase</td>
+        <td>Booleano</td>
+        <td>Identifica indivíduos com contato próximo de pacientes que vivem com Hanseníase.
+          <br />
+          <p style="color: red;"><b>Regra
+              negocial</b>: O campo deve ser obrigatório quando o imunobiológico for vacina Bacilo Calmette
+            - Guérim (BCG). Code 15</p>
+        </td>
+        <td>Para registro do campo Contato Hanseníase, deverão ser utilizados as opções true ou
+          false (Verdadeiro ou
+          Falso).</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0..1</td>
+        <td>Pesquisa Clínica</td>
+        <td>Seção</td>
+        <td>Dados do Estudo Clínico para o desenvolvimento do imunobiológico administrado</td>
+        <td></td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>0..1</td>
+        <td>ANVISA Protocolo Estudo</td>
+        <td>Texto livre</td>
+        <td>Identifica o número do protocolo do estudo clínico autorizado pela Agência Nacional de
+          Vigilância Sanitária
+          para administração de vacinas.</td>
+        <td>Número do protocolo do estudo clínico na ANVISA.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>0..1</td>
+        <td>ANVISA Protocolo Versão</td>
+        <td>Texto livre</td>
+        <td>Identifica o número da versão do protocolo do estudo clínico autorizado pela Agência
+          Nacional de Vigilância
+          Sanitária para administração de vacinas.</td>
+        <td>Número da versão do protocolo do estudo na ANVISA.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>0..1</td>
+        <td>ANVISA Num Registro</td>
+        <td>Texto livre</td>
+        <td>Identifica o número do registro sanitário da vacina registrado na Agência Nacional de
+          Vigilância Sanitária
+        </td>
+        <td>Número do registro sanitário da vacina na ANVISA. Este registro pode ser emergencial ou
+          definitivo.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Data da administração do imunobiológico</td>
+        <td>Data</td>
+        <td>Data em que o imunobiológico foi administrado. O padrão da data deve seguir a ISO8601.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>: A data não pode ser maior que o dia vigente.</p>
+        </td>
+        <td>Data em que o imunobiológico foi administrado.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Data e hora do registro no sistema de origem</td>
+        <td>Data</td>
+        <td>Data e hora em que o registro da vacinação foi registrado no sistema de origem. O padrão da data deve seguir
+          a ISO8601.</td>
+        <td>Data e hora em que o registro do imunobiológico administrado foi administrado no sistema de origem.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html">Registro de
+            Imunobiológico Administrado em Rotina</a> <i>(Composition)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Imunobiológico</td>
+        <td>Texto codificado</td>
+        <td>Identifica o nome do imunobiológico administrado no indivíduo.</td>
+        <td>Para registro do imunobiológico administrado, deverão ser utilizados os códigos disponibilizados no
+          CodeSystem “BRImunobiologico” da RNDS. </td>
+        <td><a href="ValueSet-BRImunobiologico-1.0.html">Imunobiológico</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1..1</td>
+        <td>Fabricante</td>
+        <td>Texto codificado</td>
+        <td>Identifica o laboratório fabricante do imunobiológico administrado no indivíduo.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>: Para
+            registro de transcrição de caderneta de vacinação, este campo é opcional.</p>
+        </td>
+        <td>Para registro do fabricante, deverão ser utilizados os códigos disponibilizados no
+          CodeSystem
+          “BRFabricantePNI” da RNDS. </td>
+        <td><a href="ValueSet-BRFabricanteImunobiologico-1.0.html">Fabricante do Imunobiológico</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>1..1</td>
+        <td>Lote</td>
+        <td>Texto livre</td>
+        <td>Identifica o lote do imunobiológico de acordo com o fabricante.
+          <br />
+          <p style="color: red;"><b>Regra negocial</b>:
+            Para registro de transcrição de caderneta de vacinação, este campo é opcional.</p>
+        </td>
+        <td>O lote é fundamental para identificação de características do imunobiológico. É uma
+          informação presente na
+          embalagem do produto ou, algumas vezes, na caderneta de vacinação.</td>
+        <td></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Dose</td>
+        <td>Texto codificado</td>
+        <td>Identifica o registro da dose da vacina administrada no indivíduo.</td>
+        <td>Para registro da dose da vacina administrada, deverão ser utilizados os códigos
+          disponibilizados no
+          CodeSystem “BRDose” da RNDS.</td>
+        <td><a href="ValueSet-BRDose-1.0.html">Dose do Imunobiológico</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Via de administração</td>
+        <td>Texto codificado</td>
+        <td>Identifica a via com que o imunobiológico administrado entra em contato com o organismo.</td>
+        <td>Para registro da via de administração, deverão ser utilizados os códigos
+          disponibilizados no CodeSystem
+          "BRViaAdministracao" da RNDS.</td>
+        <td><a href="ValueSet-BRViaAdministracao-1.0.html">Via de Administração do Imunobiológico</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Local de aplicação</td>
+        <td>Texto codificado</td>
+        <td>Identifica a localização anatômica em que o imunobiológico foi aplicado.</td>
+        <td>Para registro do local de administração da vacina, deverão ser utilizados os códigos
+          disponibilizados no
+          CodeSystem "BRLocalAplicacao" da RNDS.</td>
+        <td><a href="ValueSet-BRLocalAplicacao-1.0.html">Local de Aplicação</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>1..1</td>
+        <td>Transcrição de Caderneta</td>
+        <td>Booleano</td>
+        <td>Identifica se o registro de vacinação é uma transcrição de caderneta</td>
+        <td>Para a identificação de que o registro se trata de uma transcrição, deverá ser utilizado
+          o código apropriado
+          presente no CodeSystem "BRRegistroOrigem" na RNDS.</td>
+        <td><a href="ValueSet-BRRegistroOrigem.html">Registro de Origem</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>0..1</td>
+        <td>Indicação do país de origem do registro da vacina.</td>
+        <td>Texto codificado</td>
+        <td>Identifica se o registro da administração da vacina, realizado por transcrição de
+          caderneta, foi realizado
+          no Brasil ou em outro País.</td>
+        <td>Para a identificação de qual país o registro de imunização transcrito foi realizado,
+          deverão ser utilizados
+          os códigos disponibilizados no CodeSystem "BRPais" da RNDS.</td>
+        <td><a href="ValueSet-BRPais-1.0.html">País</a></td>
+        <td><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em
+            Rotina</a> <i>(Immunization)</i></td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

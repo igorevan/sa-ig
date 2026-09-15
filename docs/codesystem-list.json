@@ -1,0 +1,114 @@
+{
+  "codeSystems" : [{
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCBO",
+    "title" : "Classificação Brasileira de Ocupações - CBO (CodeSystem)",
+    "description" : "Classifica as profissões do mercado de trabalho brasileiro."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCID10",
+    "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)",
+    "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCategoriaDiagnostico",
+    "title" : "Categoria do Diagnóstico (CodeSystem)",
+    "description" : "Códigos para representação do tipo de categoria do diagnóstico realizado."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCondicaoMaternal",
+    "title" : "Condição Maternal (CodeSystem)",
+    "description" : "Indicação da condição maternal da pessoa vacinada."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRDose",
+    "title" : "Dose de Vacina",
+    "description" : "Define a dose da administração de uma substância."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstrategiaVacinacao",
+    "title" : "Estratégia de Vacinação (CodeSystem)",
+    "description" : "Classifica a estratégia de vacinação adotada."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRFabricantePNI",
+    "title" : "Fabricante do Imunobiológico (CodeSystem)",
+    "description" : "Apresenta o fabricante do imunobiológico."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRGrupoAtendimento",
+    "title" : "Grupo de Atendimento (CodeSystem)",
+    "description" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRImunobiologico",
+    "title" : "Imunobiológico (CodeSystem)",
+    "description" : "Classifica os tipos de imunobiológicos."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRLocalAplicacao",
+    "title" : "Local de Aplicação (CodeSystem)",
+    "description" : "Define a localização anatômica de aplicação de uma substância"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRPais",
+    "title" : "País (CodeSystem)",
+    "description" : "Códigos para representação de países."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRRegistroOrigem",
+    "title" : "Registro de Origem (CodeSystem)",
+    "description" : "Códigos para representação da Origem do Registro de Imunobiológico."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRTipoDocumento",
+    "title" : "Tipo de Documento (CodeSystem)",
+    "description" : "Classificação dos tipos de documentos compartilhados no Brasil."
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRViaAdministracao",
+    "title" : "Via de Administração",
+    "description" : "Classifica a via na qual foi administrada uma substância em um indivíduo."
+  }]
+}

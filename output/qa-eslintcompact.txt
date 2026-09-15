@@ -1,0 +1,8 @@
+SARNDSIG
+=========================================
+
+/home/igor/sa-ig/input/examples/example-RIA-R.json: line 52, col 16, Error - Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0 (STRUCTURE)
+/home/igor/sa-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset (BUSINESSRULE)
+
+err = 2, warn = 0, info = 0
+IG Publisher Version: 2.3.4

@@ -1,0 +1,1164 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/sa/CodeSystem/BRGrupoAtendimento> a fhir:CodeSystem ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "BRGrupoAtendimento"] ;
+  fhir:Resource.language [ fhir:value "en"] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ]
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg" ] ;
+     fhir:Extension.valueCode [ fhir:value "ehr" ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm" ] ;
+     fhir:Extension.valueInteger [
+       fhir:value "1"^^xsd:integer ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir>
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status" ] ;
+     fhir:Extension.valueCode [
+       fhir:value "normative" ;
+       fhir:Element.extension [
+         fhir:index -1 ;
+         fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom" ] ;
+         fhir:Extension.valueCanonical [
+           fhir:value "https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir" ;
+           fhir:link <https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir>
+         ]
+       ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:Extension.url [ fhir:value "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version" ] ;
+     fhir:Extension.valueCode [ fhir:value "4.0.1" ]
+  ] ;
+  fhir:CodeSystem.url [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"] ;
+  fhir:CodeSystem.version [ fhir:value "1.0.0-release"] ;
+  fhir:CodeSystem.name [ fhir:value "BRGrupoAtendimento"] ;
+  fhir:CodeSystem.title [ fhir:value "Grupo de Atendimento (CodeSystem)"] ;
+  fhir:CodeSystem.status [ fhir:value "active"] ;
+  fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
+  fhir:CodeSystem.date [ fhir:value "2021-08-20T14:59:27.326+00:00"^^xsd:dateTime] ;
+  fhir:CodeSystem.publisher [ fhir:value "Ministério da Saúde do Brasil"] ;
+  fhir:CodeSystem.contact [
+     fhir:index -1 ;
+     fhir:ContactDetail.name [ fhir:value "Ministério da Saúde do Brasil" ] ;
+     fhir:ContactDetail.telecom [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "url" ] ;
+       fhir:ContactPoint.value [ fhir:value "http://www.saude.gov.br" ]
+     ], [
+       fhir:index -1 ;
+       fhir:ContactPoint.system [ fhir:value "email" ] ;
+       fhir:ContactPoint.value [ fhir:value "cgiis.datasus@saude.gov.br" ]
+     ]
+  ] ;
+  fhir:CodeSystem.description [ fhir:value "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."] ;
+  fhir:CodeSystem.jurisdiction [
+     fhir:index -1 ;
+     fhir:CodeableConcept.coding [
+       fhir:index -1 ;
+       fhir:Coding.system [ fhir:value "urn:iso:std:iso:3166" ] ;
+       fhir:Coding.code [ fhir:value "BR" ]
+     ]
+  ] ;
+  fhir:CodeSystem.caseSensitive [ fhir:value "true"^^xsd:boolean] ;
+  fhir:CodeSystem.content [ fhir:value "complete"] ;
+  fhir:CodeSystem.property [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "Category" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Identifica a classificação macro do grupo de atendimento para a vacinação, agregando descrições específicas de indivíduos que compartilham características clínicas, epidemiológicas, ocupacionais, etárias ou sociais comuns, com o objetivo de padronizar registros, apoiar estratégias de imunização e viabilizar análises agregadas nos sistemas de informação em saúde." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "string" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.property.code [ fhir:value "inactive" ] ;
+     fhir:CodeSystem.property.uri [ fhir:value "http://hl7.org/fhir/concept-properties#inactive" ] ;
+     fhir:CodeSystem.property.description [ fhir:value "Status do Grupo de Atendimento em que determina se ele está apto para uso no registro de doses aplicadas. Serão aceitos códigos inativos apenas em caso de Transcrição de Caderneta." ] ;
+     fhir:CodeSystem.property.type [ fhir:value "boolean" ]
+  ] ;
+  fhir:CodeSystem.concept [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "00" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Sem registro no modelo de informação de origem" ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hemoglobinopatia grave" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Neoplasias" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000103" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Diabetes Mellitus" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000104" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pneumopatias Crônicas Graves" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000105" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doença Renal Crônica" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000106" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doenças Cardiovasculares e Cerebrovasculares" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000107" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Hipertensão de difícil controle ou com complicações/lesão de órgão alvo" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000108" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Indivíduos Transplantados de Órgão Sólido" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000109" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Obesidade Grave (Imc≥40)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000110" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Síndrome de Down" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000111" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Outros Imunocomprometidos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000112" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Indivíduos Transplantados de Medula Óssea" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000114" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cirrose hepática" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000115" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doença neurológica crônica" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000116" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doença cardiovascular" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000117" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Imunocomprometidos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000118" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trissomias" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000119" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doença Hepática Crônica" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000120" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Prematuridade" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000121" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Anomalias de vias aéreas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000122" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Obesidade (score-Z acima de +2)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000123" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Erros Inatos da Imunidade (EII)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Comorbidades" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000201" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 18 a 64 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000202" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 65 a 69 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000203" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 70 a 74 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000204" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 75 a 79 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000205" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 80 anos ou mais" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000206" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 12 a 17 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000207" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 5 a 11 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000208" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 3 a 4 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000209" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 6 meses a 2 anos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000210" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Faixa Etária" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Faixa Etária" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000301" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas de 60 nos ou mais Institucionalizadas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Pessoas Institucionalizadas" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000302" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas Institucionalizadas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Pessoas Institucionalizadas" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000401" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Marinha do Brasil - MB" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças Armadas (membros ativos)" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000402" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Exército Brasileiro - EB" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças Armadas (membros ativos)" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000403" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Força Aérea Brasileira - FAB" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças Armadas (membros ativos)" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000501" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bombeiro Civil" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças de Segurança e Salvamento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000502" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Bombeiro Militar" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças de Segurança e Salvamento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000503" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Guarda Municipal" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças de Segurança e Salvamento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000504" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Policial Rodoviário Federal" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças de Segurança e Salvamento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000505" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Policial Civil" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças de Segurança e Salvamento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000506" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Policial Federal" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças de Segurança e Salvamento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000507" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Policial Militar" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Forças de Segurança e Salvamento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000601" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Quilombola" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos e Comunidades Tradicionais" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000602" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ribeirinha" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos e Comunidades Tradicionais" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000603" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Crianças Quilombolas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos e Comunidades Tradicionais" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000604" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Crianças Ribeirinhas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos e Comunidades Tradicionais" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000701" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Povos indígenas em terras indígenas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos Indígenas" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000702" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Crianças Indígenas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos Indígenas" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000703" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Povos indígenas vivendo em terras indígenas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos Indígenas" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000704" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Povos indígenas vivendo fora das terras indígenas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Povos Indígenas" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000801" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ensino Básico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores da Educação" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000802" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ensino Superior" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores da Educação" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000901" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Auxiliar de Veterinário" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000902" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Biólogo" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000903" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Biomédico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000904" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cozinheiro e Auxiliares" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000905" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Cuidador de Idosos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000906" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Doula/Parteira" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000907" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Enfermeiro(a)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000908" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Farmacêutico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000909" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fisioterapeutas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000910" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Fonoaudiólogo" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000911" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Funcionário do Sistema Funerário que tenham contato com cadáveres potencialmente contaminados" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000912" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médico" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000913" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Médico Veterinário" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000914" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Motorista de Ambulância" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000915" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Nutricionista" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000916" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Odontologista" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000917" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profissionais e Auxiliares de limpeza" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000918" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profissionais de Educação Física" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000919" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Psicólogo" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000920" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Recepcionista" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000921" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Segurança" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000922" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Assistente Social" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000923" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Técnico de Enfermagem" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000924" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Técnico de Veterinário" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000925" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Terapeuta Ocupacional" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000926" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Outros Trabalhadores da Saúde" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000927" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Auxiliar de Enfermagem" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000928" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Técnico de Odontologia" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000929" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Acadêmicos/estudantes em estágio em estabelecimentos de saúde" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000930" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agente de Combate a Endemias - ACE" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000931" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Agente Comunitário de Saúde - ACS" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000932" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Auxiliar em Saúde Bucal - ASB" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "000933" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Técnico em Saúde Bucal - TSB" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Saúde" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001001" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aéreo" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Transporte" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001002" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Caminhoneiro" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Transporte" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001003" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Coletivo Rodoviário Passageiros Urbano e de Longo Curso" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Transporte" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001004" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Ferroviário" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Transporte" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001005" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Metroviário" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Transporte" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001006" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Aquaviário" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Transporte" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas com Deficiência Institucionalizadas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Pessoas com Deficiência" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001102" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas com Deficiência Permanente" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Pessoas com Deficiência" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001201" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas em Situação de Rua" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Pessoas em Situação de Rua" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001301" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trabalhadores Portuários" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores Portuários" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001401" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Funcionário do Sistema de Privação de Liberdade" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Funcionário do Sistema de Privação de Liberdade" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001501" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "População Privada de Liberdade" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "População Privada de Liberdade" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001502" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Adolescentes cumprindo medidas Socioeducativas" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "População Privada de Liberdade" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001601" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trabalhadores Industriais" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores Industriais" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001701" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Trabalhadores de limpeza urbana e manejo de resíduos sólidos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Limpeza Urbana" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001801" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Gestante" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Gestante" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "001901" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Puérpera" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Puérpera" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "002001" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "População Rural" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "População Rural" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "002101" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Profissionais dos Correios" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Trabalhadores de Logística" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "002201" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Pessoas com Transtorno do Espectro Autista (TEA)" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Transtorno do Desenvolvimento" ]
+     ]
+  ], [
+     fhir:index -1 ;
+     fhir:CodeSystem.concept.code [ fhir:value "999999" ] ;
+     fhir:CodeSystem.concept.display [ fhir:value "Outros Grupos" ] ;
+     fhir:CodeSystem.concept.property [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "inactive" ] ;
+       fhir:CodeSystem.concept.property.valueBoolean [ fhir:value "true"^^xsd:boolean ]
+     ], [
+       fhir:index -1 ;
+       fhir:CodeSystem.concept.property.code [ fhir:value "Category" ] ;
+       fhir:CodeSystem.concept.property.valueString [ fhir:value "Outros" ]
+     ]
+  ] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.saude.gov.br/sa/CodeSystem/BRGrupoAtendimento.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

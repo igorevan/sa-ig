@@ -1,0 +1,252 @@
+# Estratégia de Vacinação (CodeSystem) - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0-release
+
+## CodeSystem: Estratégia de Vacinação (CodeSystem) 
+
+ 
+Classifica a estratégia de vacinação adotada. 
+
+This Code system is referenced in the definition of the following value sets:
+
+* [Estratégia de Vacinação (ValueSet)](ValueSet-BREstrategiaVacinacao-1.0.md)
+
+-------
+
+ [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BREstrategiaVacinacao",
+  "language" : "pt-BR",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "ehr"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "normative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+    "valueCode" : "4.0.1"
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+  "version" : "1.0.0-release",
+  "name" : "BREstrategiaVacinacao",
+  "title" : "Estratégia de Vacinação (CodeSystem)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-11T18:12:20.2627546+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Classifica a estratégia de vacinação adotada.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "property" : [{
+    "code" : "inactive",
+    "uri" : "http://hl7.org/fhir/concept-properties#inactive",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "0",
+    "display" : "Sem registro no sistema de informação de origem",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "1",
+    "display" : "Rotina",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Routine immunization"
+    },
+    {
+      "language" : "es",
+      "value" : "Rutina"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Especial",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Special"
+    },
+    {
+      "language" : "es",
+      "value" : "Especial"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Bloqueio",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Blocking vaccination"
+    },
+    {
+      "language" : "es",
+      "value" : "Vacunación de bloqueo"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Intensificação",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Intensification"
+    },
+    {
+      "language" : "es",
+      "value" : "Intensificación"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Campanha indiscriminada",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Indiscriminate campaign"
+    },
+    {
+      "language" : "es",
+      "value" : "Campaña indiscriminada"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Campanha seletiva",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Selective campaign"
+    },
+    {
+      "language" : "es",
+      "value" : "Campaña selectiva"
+    }]
+  },
+  {
+    "code" : "7",
+    "display" : "Soroterapia",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Serum therapy"
+    },
+    {
+      "language" : "es",
+      "value" : "Sueroterapia"
+    }]
+  },
+  {
+    "code" : "8",
+    "display" : "Serviço Privado",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Private Sector"
+    },
+    {
+      "language" : "es",
+      "value" : "Servicio privado"
+    }]
+  },
+  {
+    "code" : "9",
+    "display" : "Monitoramento das Estratégias de Vacinação"
+  },
+  {
+    "code" : "10",
+    "display" : "Pesquisa",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Trials"
+    },
+    {
+      "language" : "es",
+      "value" : "Ensayos clínicos"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Pré-exposição",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Pre-exposure"
+    },
+    {
+      "language" : "es",
+      "value" : "Preexposición"
+    }]
+  },
+  {
+    "code" : "12",
+    "display" : "Pós-exposição",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Post-exposure"
+    },
+    {
+      "language" : "es",
+      "value" : "Post-exposición"
+    }]
+  },
+  {
+    "code" : "13",
+    "display" : "Reexposição",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Re-exposure"
+    },
+    {
+      "language" : "es",
+      "value" : "Reexposición"
+    }]
+  },
+  {
+    "code" : "14",
+    "display" : "Vacinação Escolar"
+  },
+  {
+    "code" : "15",
+    "display" : "Operação Gota"
+  }]
+}
+
+```

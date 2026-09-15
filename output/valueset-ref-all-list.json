@@ -1,0 +1,565 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/body-site",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "SNOMEDCTBodyStructures",
+    "title" : "SNOMED CT Body Structures",
+    "description" : "This value set includes all codes from [SNOMED CT](http://snomed.info/sct) where concept is-a 442083009 (Anatomical or acquired body site (body structure)).",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.141"],
+    "sources" : ["2.16.840.1.113883.4.642.3.141"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/composition-attestation-mode",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CompositionAttestationMode",
+    "title" : "CompositionAttestationMode",
+    "description" : "The way in which a person authenticated a composition.",
+    "systems" : ["http://hl7.org/fhir/composition-attestation-mode"],
+    "oids" : ["2.16.840.1.113883.4.642.3.238"],
+    "sources" : ["2.16.840.1.113883.4.642.3.238"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/composition-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CompositionStatus",
+    "title" : "CompositionStatus",
+    "description" : "The workflow/clinical status of the composition.",
+    "systems" : ["http://hl7.org/fhir/composition-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.241"],
+    "sources" : ["2.16.840.1.113883.4.642.3.241"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-severity",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "Condition/DiagnosisSeverity",
+    "title" : "Condition/Diagnosis Severity",
+    "description" : "Preferred value set for Condition/Diagnosis severity grading.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.168"],
+    "sources" : ["2.16.840.1.113883.4.642.3.168"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStage",
+    "title" : "Condition Stage",
+    "description" : "Example value set for stages of cancer and other conditions.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.170"],
+    "sources" : ["2.16.840.1.113883.4.642.3.170"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionStageType",
+    "title" : "Condition Stage Type",
+    "description" : "Example value set for the type of stages of cancer and other conditions",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.171"],
+    "sources" : ["2.16.840.1.113883.4.642.3.171"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ConditionVerificationStatus",
+    "title" : "ConditionVerificationStatus",
+    "description" : "The verification status to support or decline the clinical status of the condition or diagnosis.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-ver-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.166"],
+    "sources" : ["2.16.840.1.113883.4.642.3.166"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/doc-section-codes",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DocumentSectionCodes",
+    "title" : "Document Section Codes",
+    "description" : "Document section codes (LOINC codes used in CCDA sections).",
+    "systems" : ["http://loinc.org"],
+    "oids" : ["2.16.840.1.113883.4.642.3.237"],
+    "sources" : ["2.16.840.1.113883.4.642.3.237"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "DocumentClassValueSet",
+    "title" : "Document Class Value Set",
+    "description" : "This is the code specifying the high-level kind of document (e.g. Prescription, Discharge Summary, Report, etc.). Note: Class code for documents comes from LOINC, and is based upon one of the following:The type of service described by the document. It is described at a very high level in Section 7.3 of the LOINC Manual. The type study performed. It was determined by identifying modalities for study reports. The section of the chart where the document is placed. It was determined from the SETs created for Claims Attachment requests.",
+    "systems" : ["http://loinc.org"],
+    "oids" : ["2.16.840.1.113883.3.88.12.80.46"],
+    "sources" : ["2.16.840.1.113883.3.88.12.80.46"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/document-relationship-type",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "DocumentRelationshipType",
+    "title" : "DocumentRelationshipType",
+    "description" : "The type of relationship between documents.",
+    "systems" : ["http://hl7.org/fhir/document-relationship-type"],
+    "oids" : ["2.16.840.1.113883.4.642.3.244"],
+    "sources" : ["2.16.840.1.113883.4.642.3.244"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "Identifier Type Codes",
+    "title" : "IdentifierType",
+    "description" : "A coded type for an identifier that can be used to determine which identifier to use for a specific purpose.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v2-0203"],
+    "oids" : ["2.16.840.1.113883.4.642.3.45"],
+    "sources" : ["2.16.840.1.113883.4.642.3.45"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "IdentifierUse",
+    "title" : "IdentifierUse",
+    "description" : "Identifies the purpose for this identifier, if known .",
+    "systems" : ["http://hl7.org/fhir/identifier-use"],
+    "oids" : ["2.16.840.1.113883.4.642.3.57"],
+    "sources" : ["2.16.840.1.113883.4.642.3.57"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-funding-source",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationFundingSource",
+    "title" : "Immunization Funding Source",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the source of the vaccine administered. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-funding-source"],
+    "oids" : ["2.16.840.1.113883.4.642.3.293"],
+    "sources" : ["2.16.840.1.113883.4.642.3.293"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-program-eligibility",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationProgramEligibility",
+    "title" : "Immunization Program Eligibility",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the patient's eligibility for a vaccination program. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-program-eligibility"],
+    "oids" : ["2.16.840.1.113883.4.642.3.291"],
+    "sources" : ["2.16.840.1.113883.4.642.3.291"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationReasonCodes",
+    "title" : "Immunization Reason Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was administered. This value set is provided as a suggestive example.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.290"],
+    "sources" : ["2.16.840.1.113883.4.642.3.290"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-status-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationStatusReasonCodes",
+    "title" : "Immunization Status Reason Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose of vaccine was not administered. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActReason",
+    "http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.992"],
+    "sources" : ["2.16.840.1.113883.4.642.3.992"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-subpotent-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationSubpotentReason",
+    "title" : "Immunization Subpotent Reason",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the reason why a dose is considered to be subpotent. This value set is provided as a suggestive example.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/immunization-subpotent-reason"],
+    "oids" : ["2.16.840.1.113883.4.642.3.993"],
+    "sources" : ["2.16.840.1.113883.4.642.3.993"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/immunization-target-disease",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ImmunizationTargetDiseaseCodes",
+    "title" : "Immunization Target Disease Codes",
+    "description" : "The value set to instantiate this attribute should be drawn from a terminologically robust code system that consists of or contains concepts to support describing the disease that the dose is being administered against. This value set is provided as a suggestive example and includes the SNOMED CT concepts from the 64572001 (Disease) hierarchy.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.1047"],
+    "sources" : ["2.16.840.1.113883.4.642.3.1047"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/languages",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CommonLanguages",
+    "title" : "Common Languages",
+    "description" : "This value set includes common codes from BCP-47 (http://tools.ietf.org/html/bcp47)",
+    "systems" : ["urn:ietf:bcp:47"],
+    "oids" : ["2.16.840.1.113883.4.642.3.20"],
+    "sources" : ["2.16.840.1.113883.4.642.3.20"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ListEmptyReasons",
+    "title" : "List Empty Reasons",
+    "description" : "General reasons for a list to be empty. Reasons are either related to a summary list (i.e. problem or medication list) or to a workflow related list (i.e. consultation list).",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/list-empty-reason"],
+    "oids" : ["2.16.840.1.113883.4.642.3.322"],
+    "sources" : ["2.16.840.1.113883.4.642.3.322"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/list-mode",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ListMode",
+    "title" : "ListMode",
+    "description" : "The processing mode that applies to this list.",
+    "systems" : ["http://hl7.org/fhir/list-mode"],
+    "oids" : ["2.16.840.1.113883.4.642.3.318"],
+    "sources" : ["2.16.840.1.113883.4.642.3.318"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/list-order",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ListOrderCodes",
+    "title" : "List Order Codes",
+    "description" : "Base values for the order of the items in a list resource.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/list-order"],
+    "oids" : ["2.16.840.1.113883.4.642.3.324"],
+    "sources" : ["2.16.840.1.113883.4.642.3.324"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/manifestation-or-symptom",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "ManifestationAndSymptomCodes",
+    "title" : "Manifestation and Symptom Codes",
+    "description" : "Example value set for Manifestation and Symptom codes.",
+    "systems" : ["http://snomed.info/sct"],
+    "oids" : ["2.16.840.1.113883.4.642.3.169"],
+    "sources" : ["2.16.840.1.113883.4.642.3.169"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://hl7.org/fhir/ValueSet/resource-types",
+    "version" : "4.0.1",
+    "status" : "active",
+    "name" : "ResourceType",
+    "title" : "ResourceType",
+    "description" : "One of the resource types defined as part of this version of FHIR.",
+    "systems" : ["http://hl7.org/fhir/resource-types"],
+    "oids" : ["2.16.840.1.113883.4.642.3.27"],
+    "sources" : ["2.16.840.1.113883.4.642.3.27"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado",
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina",
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v3-ActCode",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "ActCode",
+    "title" : "v3 Code System ActCode",
+    "description" : "A code specifying the particular kind of Act that the Act-instance represents within its class.  Constraints:\r\nThe kind of Act (e.g. physical examination, serum potassium, inpatient encounter, charge financial transaction, etc.) is specified with a code from one of several, typically external, coding systems.  The coding system will depend on the class of Act, such as LOINC for observations, etc. Conceptually, the Act.code must be a specialization of the Act.classCode. This is why the structure of ActClass domain should be reflected in the superstructure of the ActCode domain and then individual codes or externally referenced vocabularies subordinated under these domains that reflect the ActClass structure. Act.classCode and Act.code are not modifiers of each other but the Act.code concept should really imply the Act.classCode concept. For a negative example, it is not appropriate to use an Act.code \"potassium\" together with and Act.classCode for \"laboratory observation\" to somehow mean \"potassium laboratory observation\" and then use the same Act.code for \"potassium\" together with Act.classCode for \"medication\" to mean \"substitution of potassium\". This mutually modifying use of Act.code and Act.classCode is not permitted.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://terminology.hl7.org/ValueSet/v3-ConfidentialityClassification",
+    "version" : "2014-03-26",
+    "status" : "active",
+    "name" : "v3.ConfidentialityClassification",
+    "title" : "V3 Value SetConfidentialityClassification",
+    "description" : " Set of codes used to value Act.Confidentiality and Role.Confidentiality attribute in accordance with the definition for concept domain \"Confidentiality\".",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/v3-Confidentiality"],
+    "oids" : ["2.16.840.1.113883.1.11.10228"],
+    "sources" : ["2.16.840.1.113883.1.11.10228"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCID10",
+    "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)",
+    "description" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCategoriaDiagnostico",
+    "title" : "Categoria do Diagnóstico (ValueSet)",
+    "description" : "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCondicaoMaternal",
+    "title" : "Condição Maternal (ValueSet)",
+    "description" : "ValueSet utilizado para Indicar a condição maternal da pessoa vacinada.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCondicaoMaternal.html" : "Condição Maternal"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRDose",
+    "title" : "Dose do Imunobiológico",
+    "description" : "ValueSet utilizado para definir o tipo da dose administrada no indivíduo.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstadoEvento",
+    "title" : "Estado do Evento",
+    "description" : "Identificação do estado de um evento.",
+    "systems" : ["http://hl7.org/fhir/event-status"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstadoResolucaoDiagnosticoProblema",
+    "title" : "Estado da Resolução de Diagnóstico ou Problema",
+    "description" : "Estado da resolução de um diagnóstico ou problema.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstrategiaVacinacao",
+    "title" : "Estratégia de Vacinação (ValueSet)",
+    "description" : "Identifica a estratégia de vacinação adotada.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"],
+    "uses" : {
+    },
+    "StructureDefinition-BREstrategiaVacinacao-1.0.html" : "Estratégia de Vacinação"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRFabricanteImunobiologico",
+    "title" : "Fabricante do Imunobiológico (ValueSet)",
+    "description" : "Fabricante do imunobiológico administrado",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRGrupoAtendimento",
+    "title" : "Tipo de grupo de atendimento (ValueSet)",
+    "description" : "Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"],
+    "uses" : {
+    },
+    "StructureDefinition-BRGrupoAtendimento.html" : "Grupo de Atendimento"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRImunobiologico",
+    "title" : "Imunobiológico (ValueSet)",
+    "description" : "Tipos de imunobiológicos disponíveis no Brasil.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRLocalAplicacao",
+    "title" : "Local de Aplicação (ValueSet)",
+    "description" : "Localização anatômica para aplicação de um injetável.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BROcupacao",
+    "title" : "Classificação Brasileira de Ocupações - CBO (ValueSet)",
+    "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRPais",
+    "title" : "País (ValueSet)",
+    "description" : "Códigos para representação de países.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRRegistroOrigem",
+    "title" : "Registro de Origem (ValueSet)",
+    "description" : "Códigos para representação da Origem do Registro de Imunobiológico.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRTipoDocumento",
+    "title" : "Tipo de Documento (ValueSet)",
+    "description" : "Classifica o tipo de documento que está sendo trafegado.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRViaAdministracao",
+    "title" : "Via de Administração do Imunobiológico",
+    "description" : "Via de administração de um imunobiológico.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  }]
+}

@@ -1,0 +1,61 @@
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="BREstadoResolucaoDiagnosticoProblema-1.0" />
+  <language value="en" />
+  <url value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" />
+  <version value="02.00" />
+  <name value="BREstadoResolucaoDiagnosticoProblema" />
+  <title value="Estado da Resolução de Diagnóstico ou Problema" />
+  <status value="active" />
+  <experimental value="false" />
+  <date value="2020-03-12T13:09:53.3447193+00:00" />
+  <publisher value="Ministério da Saúde do Brasil" />
+  <description value="Estado da resolução de um diagnóstico ou problema." />
+  <immutable value="false" />
+  <compose>
+    <include>
+      <system value="http://terminology.hl7.org/CodeSystem/condition-clinical" />
+      <concept>
+        <code value="active" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Ativo" />
+        </designation>
+      </concept>
+      <concept>
+        <code value="recurrence" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Recorrente" />
+        </designation>
+      </concept>
+      <concept>
+        <code value="relapse" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Recidiva" />
+        </designation>
+      </concept>
+      <concept>
+        <code value="inactive" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Inativo" />
+        </designation>
+      </concept>
+      <concept>
+        <code value="remission" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Remissão" />
+        </designation>
+      </concept>
+      <concept>
+        <code value="resolved" />
+        <designation>
+          <language value="pt-BR" />
+          <value value="Resolvido" />
+        </designation>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

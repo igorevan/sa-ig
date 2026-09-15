@@ -1,0 +1,91 @@
+SARNDSIG : Validation Results
+=========================================
+
+err = 2, warn = 0, info = 0
+IG Publisher Version: 2.3.4
+Generated Tue Sep 15 16:40:33 BRT 2026. FHIR version 4.0.1 for br.gov.saude.sa.fhir#1.0.0-release (canonical = https://fhir.saude.gov.br/sa)
+ Build Errors : 0 / 0 / 0
+ /home/igor/sa-ig/input/examples/example-RIA-R : 1 / 2 / 2
+ /home/igor/sa-ig/input/myig : 0 / 0 / 2
+ /home/igor/sa-ig/input/resources/CodeSystem-BRCBO : 0 / 1 / 3
+ /home/igor/sa-ig/input/resources/CodeSystem-BRCID10 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRCategoriaDiagnostico : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRCondicaoMaternal : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRDose : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BREstrategiaVacinacao : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRFabricantePNI : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRGrupoAtendimento : 0 / 1 / 2
+ /home/igor/sa-ig/input/resources/CodeSystem-BRImunobiologico : 0 / 1 / 3
+ /home/igor/sa-ig/input/resources/CodeSystem-BRLocalAplicacao : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRPais : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRRegistroOrigem : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRTipoDocumento : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/CodeSystem-BRViaAdministracao : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/StructureDefinition-BRCID10Avaliado-1.0 : 0 / 6 / 3
+ /home/igor/sa-ig/input/resources/StructureDefinition-BRCondicaoMaternal : 0 / 0 / 2
+ /home/igor/sa-ig/input/resources/StructureDefinition-BRContatoHanseniase : 0 / 0 / 2
+ /home/igor/sa-ig/input/resources/StructureDefinition-BREstrategiaVacinacao-1.0 : 0 / 0 / 2
+ /home/igor/sa-ig/input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0 : 0 / 0 / 2
+ /home/igor/sa-ig/input/resources/StructureDefinition-BRGrupoAtendimento : 0 / 0 / 2
+ /home/igor/sa-ig/input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0 : 1 / 11 / 2
+ /home/igor/sa-ig/input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0 : 0 / 10 / 2
+ /home/igor/sa-ig/input/resources/ValueSet-BRCID10-1.0 : 0 / 1 / 3
+ /home/igor/sa-ig/input/resources/ValueSet-BRCategoriaDiagnostico : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRCondicaoMaternal-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRDose-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BREstadoEvento-1.0 : 0 / 1 / 9
+ /home/igor/sa-ig/input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BREstrategiaVacinacao-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRFabricanteImunobiologico-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRGrupoAtendimento-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRImunobiologico-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRLocalAplicacao-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BROcupacao-1.0 : 0 / 1 / 3
+ /home/igor/sa-ig/input/resources/ValueSet-BRPais-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRRegistroOrigem : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRTipoDocumento-1.0 : 0 / 1 / 1
+ /home/igor/sa-ig/input/resources/ValueSet-BRViaAdministracao-1.0 : 0 / 1 / 1
+</table>
+== n/a ==
+== input/examples/example-RIA-R.json ==
+ERROR: Bundle/example-RIA-R: Bundle.entry[0].resource.section[0].entry[0]: Não foi possível encontrar uma correspondência de perfil para urn:uuid:transient-1 entre as opções: http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0
+== input/myig.xml ==
+== input/resources/CodeSystem-BRCBO.xml ==
+== input/resources/CodeSystem-BRCID10.xml ==
+== input/resources/CodeSystem-BRCategoriaDiagnostico.xml ==
+== input/resources/CodeSystem-BRCondicaoMaternal.xml ==
+== input/resources/CodeSystem-BRDose.xml ==
+== input/resources/CodeSystem-BREstrategiaVacinacao.xml ==
+== input/resources/CodeSystem-BRFabricantePNI.xml ==
+== input/resources/CodeSystem-BRGrupoAtendimento.xml ==
+== input/resources/CodeSystem-BRImunobiologico.xml ==
+== input/resources/CodeSystem-BRLocalAplicacao.xml ==
+== input/resources/CodeSystem-BRPais.xml ==
+== input/resources/CodeSystem-BRRegistroOrigem.xml ==
+== input/resources/CodeSystem-BRTipoDocumento.xml ==
+== input/resources/CodeSystem-BRViaAdministracao.xml ==
+== input/resources/StructureDefinition-BRCID10Avaliado-1.0.xml ==
+== input/resources/StructureDefinition-BRCondicaoMaternal.xml ==
+== input/resources/StructureDefinition-BRContatoHanseniase.xml ==
+== input/resources/StructureDefinition-BREstrategiaVacinacao-1.0.xml ==
+== input/resources/StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.xml ==
+== input/resources/StructureDefinition-BRGrupoAtendimento.xml ==
+== input/resources/StructureDefinition-BRImunobiologicoAdministrado-3.0.xml ==
+ERROR: Imunobiológico Administrado em Rotina.Immunization.status: Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset
+== input/resources/StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.json ==
+== input/resources/ValueSet-BRCID10-1.0.xml ==
+== input/resources/ValueSet-BRCategoriaDiagnostico.xml ==
+== input/resources/ValueSet-BRCondicaoMaternal-1.0.xml ==
+== input/resources/ValueSet-BRDose-1.0.xml ==
+== input/resources/ValueSet-BREstadoEvento-1.0.xml ==
+== input/resources/ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.xml ==
+== input/resources/ValueSet-BREstrategiaVacinacao-1.0.xml ==
+== input/resources/ValueSet-BRFabricanteImunobiologico-1.0.xml ==
+== input/resources/ValueSet-BRGrupoAtendimento-1.0.xml ==
+== input/resources/ValueSet-BRImunobiologico-1.0.xml ==
+== input/resources/ValueSet-BRLocalAplicacao-1.0.xml ==
+== input/resources/ValueSet-BROcupacao-1.0.xml ==
+== input/resources/ValueSet-BRPais-1.0.xml ==
+== input/resources/ValueSet-BRRegistroOrigem.xml ==
+== input/resources/ValueSet-BRTipoDocumento-1.0.xml ==
+== input/resources/ValueSet-BRViaAdministracao-1.0.xml ==

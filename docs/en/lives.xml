@@ -1,0 +1,35 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <a name="lives"> </a>
+  <h3>Lives do RIA</h3>
+  <p> Seguem as lives sobre o RIA realizadas pelo Datasus. Essas transmissões têm teor informativo e
+    abordam tanto o contexto negocial quanto técnico do modelo. Os vídeos cobrem detalhadamente as etapas de
+    credenciamento, APIs, homologação, além de aprofundar nos modelos informacional e computacional, na montagem dos
+    Bundles e em dicas gerais e orientações para a implementação. </p>
+
+  <a name="live1"> </a>
+  <h4><a href="https://www.youtube.com/watch?v=gpIGEZviYdg">Live do RIA (05/12/2025)</a></h4>
+  <p>Essa live trata das atualizações do RIA, abordando o contexto e importância do modelo, além dos marcos
+    regulatórios, credenciamento, estrutura, aspectos técnicos e validação dos dados.</p>
+  <p>O objetivo central é orientar gestores e equipes técnicas de estabelecimentos de saúde sobre a nova versão do
+    modelo e os procedimentos necessários para a integração e conformidade dos sistemas com a RNDS.</p>
+
+  <div>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gpIGEZviYdg?origin=https://fhir.saude.gov.br"
+      title="YouTube video player" frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen">
+    </iframe>
+  </div>
+
+  <a name="live2"> </a>
+  <h4><a href="https://www.youtube.com/watch?v=umdXBnQY0Z0">Live do RIA (06/02/2026)</a></h4>
+  <p>Essa live trata das evoluções técnicas do modelo e orientações importantes sobre a correção de erros no envio de
+    dados, além da migração para o modelo vigente (RIA-R).</p>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/umdXBnQY0Z0?origin=https://fhir.saude.gov.br"
+    title="YouTube video player" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="allowfullscreen">
+  </iframe>
+</div>

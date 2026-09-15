@@ -1,0 +1,208 @@
+{
+  "codeSystems" : [{
+    "url" : "http://hl7.org/fhir/ValueSet/composition-status",
+    "version" : "4.0.1",
+    "status" : "draft",
+    "name" : "CompositionStatus",
+    "title" : "CompositionStatus",
+    "description" : "The workflow/clinical status of the composition.",
+    "systems" : ["http://hl7.org/fhir/composition-status"],
+    "oids" : ["2.16.840.1.113883.4.642.3.241"],
+    "sources" : ["2.16.840.1.113883.4.642.3.241"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCID10",
+    "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)",
+    "description" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCategoriaDiagnostico",
+    "title" : "Categoria do Diagnóstico (ValueSet)",
+    "description" : "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRCondicaoMaternal",
+    "title" : "Condição Maternal (ValueSet)",
+    "description" : "ValueSet utilizado para Indicar a condição maternal da pessoa vacinada.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCondicaoMaternal.html" : "Condição Maternal"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRDose",
+    "title" : "Dose do Imunobiológico",
+    "description" : "ValueSet utilizado para definir o tipo da dose administrada no indivíduo.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstadoEvento",
+    "title" : "Estado do Evento",
+    "description" : "Identificação do estado de um evento.",
+    "systems" : ["http://hl7.org/fhir/event-status"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstadoResolucaoDiagnosticoProblema",
+    "title" : "Estado da Resolução de Diagnóstico ou Problema",
+    "description" : "Estado da resolução de um diagnóstico ou problema.",
+    "systems" : ["http://terminology.hl7.org/CodeSystem/condition-clinical"],
+    "uses" : {
+    },
+    "StructureDefinition-BRCID10Avaliado-1.0.html" : "CID10 Avaliado"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BREstrategiaVacinacao",
+    "title" : "Estratégia de Vacinação (ValueSet)",
+    "description" : "Identifica a estratégia de vacinação adotada.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"],
+    "uses" : {
+    },
+    "StructureDefinition-BREstrategiaVacinacao-1.0.html" : "Estratégia de Vacinação"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRFabricanteImunobiologico",
+    "title" : "Fabricante do Imunobiológico (ValueSet)",
+    "description" : "Fabricante do imunobiológico administrado",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRGrupoAtendimento",
+    "title" : "Tipo de grupo de atendimento (ValueSet)",
+    "description" : "Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"],
+    "uses" : {
+    },
+    "StructureDefinition-BRGrupoAtendimento.html" : "Grupo de Atendimento"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRImunobiologico",
+    "title" : "Imunobiológico (ValueSet)",
+    "description" : "Tipos de imunobiológicos disponíveis no Brasil.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRLocalAplicacao",
+    "title" : "Local de Aplicação (ValueSet)",
+    "description" : "Localização anatômica para aplicação de um injetável.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BROcupacao",
+    "title" : "Classificação Brasileira de Ocupações - CBO (ValueSet)",
+    "description" : "Classifica as profissões do mercado de trabalho brasileiro.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRPais",
+    "title" : "País (ValueSet)",
+    "description" : "Códigos para representação de países.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRRegistroOrigem",
+    "title" : "Registro de Origem (ValueSet)",
+    "description" : "Códigos para representação da Origem do Registro de Imunobiológico.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRTipoDocumento",
+    "title" : "Tipo de Documento (ValueSet)",
+    "description" : "Classifica o tipo de documento que está sendo trafegado.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
+    "uses" : {
+    },
+    "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html" : "Registro de Imunobiológico Administrado na Rotina"
+  },
+  {
+    "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+    "version" : "1.0.0-release",
+    "status" : "active",
+    "name" : "BRViaAdministracao",
+    "title" : "Via de Administração do Imunobiológico",
+    "description" : "Via de administração de um imunobiológico.",
+    "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"],
+    "uses" : {
+    },
+    "StructureDefinition-BRImunobiologicoAdministrado-3.0.html" : "Imunobiológico Administrado em Rotina"
+  }]
+}

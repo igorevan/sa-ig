@@ -1,0 +1,234 @@
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BREstrategiaVacinacao",
+  "language" : "pt-BR",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\" xml:lang=\"pt-BR\" lang=\"pt-BR\"><p class=\"res-header-id\"><b>Narrativa gerada: CodeSystem BREstrategiaVacinacao</b></p><a name=\"BREstrategiaVacinacao\"> </a><a name=\"hcBREstrategiaVacinacao\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Língua: pt-BR</p></div><p><b>Propriedades</b></p><p><b>Este sistema de códigos define as seguintes propriedades para os seus conceitos</b></p><table class=\"grid\"><tr><td><b>Nome</b></td><td><b>Código</b></td><td><b>URI</b></td><td><b>Tipo</b></td></tr><tr><td>Inactive</td><td>inactive</td><td>http://hl7.org/fhir/concept-properties#inactive</td><td>boolean</td></tr></table><p><b>Conceitos</b></p><p>Este case-sensitive sistema de código <code>http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao</code> define o seguinte códigos:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Inactive</b></td></tr><tr style=\"background-color: #ffeeee\"><td style=\"white-space:nowrap\">0<a name=\"BREstrategiaVacinacao-0\"> </a></td><td>Sem registro no sistema de informação de origem</td><td>true</td></tr><tr><td style=\"white-space:nowrap\">1<a name=\"BREstrategiaVacinacao-1\"> </a></td><td>Rotina</td><td/></tr><tr><td style=\"white-space:nowrap\">2<a name=\"BREstrategiaVacinacao-2\"> </a></td><td>Especial</td><td/></tr><tr><td style=\"white-space:nowrap\">3<a name=\"BREstrategiaVacinacao-3\"> </a></td><td>Bloqueio</td><td/></tr><tr><td style=\"white-space:nowrap\">4<a name=\"BREstrategiaVacinacao-4\"> </a></td><td>Intensificação</td><td/></tr><tr><td style=\"white-space:nowrap\">5<a name=\"BREstrategiaVacinacao-5\"> </a></td><td>Campanha indiscriminada</td><td/></tr><tr><td style=\"white-space:nowrap\">6<a name=\"BREstrategiaVacinacao-6\"> </a></td><td>Campanha seletiva</td><td/></tr><tr><td style=\"white-space:nowrap\">7<a name=\"BREstrategiaVacinacao-7\"> </a></td><td>Soroterapia</td><td/></tr><tr><td style=\"white-space:nowrap\">8<a name=\"BREstrategiaVacinacao-8\"> </a></td><td>Serviço Privado</td><td/></tr><tr><td style=\"white-space:nowrap\">9<a name=\"BREstrategiaVacinacao-9\"> </a></td><td>Monitoramento das Estratégias de Vacinação</td><td/></tr><tr><td style=\"white-space:nowrap\">10<a name=\"BREstrategiaVacinacao-10\"> </a></td><td>Pesquisa</td><td/></tr><tr><td style=\"white-space:nowrap\">11<a name=\"BREstrategiaVacinacao-11\"> </a></td><td>Pré-exposição</td><td/></tr><tr><td style=\"white-space:nowrap\">12<a name=\"BREstrategiaVacinacao-12\"> </a></td><td>Pós-exposição</td><td/></tr><tr><td style=\"white-space:nowrap\">13<a name=\"BREstrategiaVacinacao-13\"> </a></td><td>Reexposição</td><td/></tr><tr><td style=\"white-space:nowrap\">14<a name=\"BREstrategiaVacinacao-14\"> </a></td><td>Vacinação Escolar</td><td/></tr><tr><td style=\"white-space:nowrap\">15<a name=\"BREstrategiaVacinacao-15\"> </a></td><td>Operação Gota</td><td/></tr></table><p><b>Ecrãs de idiomas adicionais</b></p><table class=\"codes\"><tr><td><b>Código</b></td><td><b>English (English, en)</b></td><td><b>Spanish (es)</b></td></tr><tr><td>0</td><td></td><td></td></tr><tr><td>1</td><td>Routine immunization</td><td>Rutina</td></tr><tr><td>2</td><td>Special</td><td>Especial</td></tr><tr><td>3</td><td>Blocking vaccination</td><td>Vacunación de bloqueo</td></tr><tr><td>4</td><td>Intensification</td><td>Intensificación</td></tr><tr><td>5</td><td>Indiscriminate campaign</td><td>Campaña indiscriminada</td></tr><tr><td>6</td><td>Selective campaign</td><td>Campaña selectiva</td></tr><tr><td>7</td><td>Serum therapy</td><td>Sueroterapia</td></tr><tr><td>8</td><td>Private Sector</td><td>Servicio privado</td></tr><tr><td>9</td><td></td><td></td></tr><tr><td>10</td><td>Trials</td><td>Ensayos clínicos</td></tr><tr><td>11</td><td>Pre-exposure</td><td>Preexposición</td></tr><tr><td>12</td><td>Post-exposure</td><td>Post-exposición</td></tr><tr><td>13</td><td>Re-exposure</td><td>Reexposición</td></tr><tr><td>14</td><td></td><td></td></tr><tr><td>15</td><td></td><td></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
+    "valueCode" : "ehr"
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-fmm",
+    "valueInteger" : 1,
+    "_valueInteger" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-standards-status",
+    "valueCode" : "normative",
+    "_valueCode" : {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-conformance-derivedFrom",
+        "valueCanonical" : "https://fhir.saude.gov.br/sa/ImplementationGuide/br.gov.saude.sa.fhir"
+      }]
+    }
+  },
+  {
+    "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version",
+    "valueCode" : "4.0.1"
+  }],
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao",
+  "version" : "1.0.0-release",
+  "name" : "BREstrategiaVacinacao",
+  "title" : "Estratégia de Vacinação (CodeSystem)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-11T18:12:20.2627546+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Classifica a estratégia de vacinação adotada.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "property" : [{
+    "code" : "inactive",
+    "uri" : "http://hl7.org/fhir/concept-properties#inactive",
+    "type" : "boolean"
+  }],
+  "concept" : [{
+    "code" : "0",
+    "display" : "Sem registro no sistema de informação de origem",
+    "property" : [{
+      "code" : "inactive",
+      "valueBoolean" : true
+    }]
+  },
+  {
+    "code" : "1",
+    "display" : "Rotina",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Routine immunization"
+    },
+    {
+      "language" : "es",
+      "value" : "Rutina"
+    }]
+  },
+  {
+    "code" : "2",
+    "display" : "Especial",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Special"
+    },
+    {
+      "language" : "es",
+      "value" : "Especial"
+    }]
+  },
+  {
+    "code" : "3",
+    "display" : "Bloqueio",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Blocking vaccination"
+    },
+    {
+      "language" : "es",
+      "value" : "Vacunación de bloqueo"
+    }]
+  },
+  {
+    "code" : "4",
+    "display" : "Intensificação",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Intensification"
+    },
+    {
+      "language" : "es",
+      "value" : "Intensificación"
+    }]
+  },
+  {
+    "code" : "5",
+    "display" : "Campanha indiscriminada",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Indiscriminate campaign"
+    },
+    {
+      "language" : "es",
+      "value" : "Campaña indiscriminada"
+    }]
+  },
+  {
+    "code" : "6",
+    "display" : "Campanha seletiva",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Selective campaign"
+    },
+    {
+      "language" : "es",
+      "value" : "Campaña selectiva"
+    }]
+  },
+  {
+    "code" : "7",
+    "display" : "Soroterapia",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Serum therapy"
+    },
+    {
+      "language" : "es",
+      "value" : "Sueroterapia"
+    }]
+  },
+  {
+    "code" : "8",
+    "display" : "Serviço Privado",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Private Sector"
+    },
+    {
+      "language" : "es",
+      "value" : "Servicio privado"
+    }]
+  },
+  {
+    "code" : "9",
+    "display" : "Monitoramento das Estratégias de Vacinação"
+  },
+  {
+    "code" : "10",
+    "display" : "Pesquisa",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Trials"
+    },
+    {
+      "language" : "es",
+      "value" : "Ensayos clínicos"
+    }]
+  },
+  {
+    "code" : "11",
+    "display" : "Pré-exposição",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Pre-exposure"
+    },
+    {
+      "language" : "es",
+      "value" : "Preexposición"
+    }]
+  },
+  {
+    "code" : "12",
+    "display" : "Pós-exposição",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Post-exposure"
+    },
+    {
+      "language" : "es",
+      "value" : "Post-exposición"
+    }]
+  },
+  {
+    "code" : "13",
+    "display" : "Reexposição",
+    "designation" : [{
+      "language" : "en",
+      "value" : "Re-exposure"
+    },
+    {
+      "language" : "es",
+      "value" : "Reexposición"
+    }]
+  },
+  {
+    "code" : "14",
+    "display" : "Vacinação Escolar"
+  },
+  {
+    "code" : "15",
+    "display" : "Operação Gota"
+  }]
+}

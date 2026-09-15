@@ -1,0 +1,18 @@
+{
+  "package-id": "br.gov.saude.sa.fhir",
+  "version": "1.0.0-release",
+  "path": "https://fhir.saude.gov.br/sa/",
+  "mode": "working",
+  "status": "release",
+  "sequence": "Releases",
+  "desc": "1.0.0 Release",
+  "changes": "changes.html",
+  "first": true,
+  "title": "SA IG",
+  "ci-build": "https://igorevan.github.io/sa-ig/",
+  "registry-description": "Primeira versão do Guia de Implementação do Sumário de Alta (SA) da RNDS",
+  "registry-country": "BR",
+  "registry-authority": "Ministério da Saúde do Brasil",
+  "category": "base",
+  "introduction": "Guia de Implementação do Sumário de Alta (SA) da RNDS"
+}
