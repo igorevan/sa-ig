@@ -4,25 +4,29 @@
 %StructureDefinition/BRIndividuo-1.0%
 %StructureDefinition/BRProfissional-1.0%
 %StructureDefinition/BREstabelecimentoSaude-1.0%
-%Practitioner/012345678912345%
+%StructureDefinition/BRPessoaJuridicaProfissionalLiberal-1.0%
+%StructureDefinition/BRLotacaoProfissional-1.0%
 
 # Errors relacionados as particularidades dos CodeSystems e ValueSets da RNDS
+%allergy-intolerance-category%
+O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma informação ValueSet, pelo que os códigos serão validados como códigos internos
+%não é um código válido neste sistema de códigos%
 %Esta propriedade tem apenas um código%
 The value set expansion is too large, and only a subset has been displayed
 %Referência ao projeto CodeSystem%
-Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/immunization-status|4.0.1 because The codes 'stopped,in-progress,on-hold,preparation,unknown' are not in the base valueset
+Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 because The codes 'draft,active,cancelled,completed,entered-in-error,on-hold,unknown' are not in the base valueset
 
 # Erros de validação de exemplos
-Detalhes para urn:uuid:transient-1 que correspondem ao perfil http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0|1.0.0-release
-%Não foi possível encontrar uma correspondência de perfil%
 
 # Erros relacionados as especificações da RNDS
 %have an OID assigned%
+Para o tipo complexo CodeableConcept, considere a possibilidade de utilizar um padrão em vez de um valor fixo para evitar restringir demasiado a instância
+O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 está obsoleto com a nota Use additionalBinding extension or element instead
+O extensão http://hl7.org/fhir/StructureDefinition/regex|5.3.0 está obsoleto com a nota This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
 
 # Outros erros
-The Implementation Guide contains no examples for this profile
+%The Implementation Guide contains no examples%
 The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
 An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
-O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 está obsoleto com a nota Use additionalBinding extension or element instead

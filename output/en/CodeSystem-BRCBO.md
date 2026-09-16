@@ -21,6 +21,9 @@ This Code system is referenced in the definition of the following value sets:
 {
   "resourceType" : "CodeSystem",
   "id" : "BRCBO",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T12:05:01.176+00:00"
+  },
   "language" : "pt-BR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",

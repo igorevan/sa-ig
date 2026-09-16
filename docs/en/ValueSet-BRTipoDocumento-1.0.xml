@@ -2,6 +2,10 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="BRTipoDocumento-1.0"/>
+  <meta>
+    <versionId value="1"/>
+    <lastUpdated value="2020-03-12T13:26:59.33+00:00"/>
+  </meta>
   <language value="en"/>
   <text>
     <status value="generated"/>

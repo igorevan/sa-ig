@@ -21,6 +21,9 @@ This Code system is referenced in the definition of the following value sets:
 {
   "resourceType" : "CodeSystem",
   "id" : "BRViaAdministracao",
+  "meta" : {
+    "lastUpdated" : "2021-01-11T14:28:22.708+00:00"
+  },
   "language" : "pt-BR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",

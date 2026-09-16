@@ -8,6 +8,9 @@
 <https://fhir.saude.gov.br/sa/CodeSystem/BRCID10> a fhir:CodeSystem ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "BRCID10"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2020-03-11T19:14:22.960+00:00"^^xsd:dateTime ]
+  ] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ]
@@ -52,7 +55,7 @@
   fhir:CodeSystem.url [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"] ;
   fhir:CodeSystem.version [ fhir:value "1.0.0-release"] ;
   fhir:CodeSystem.name [ fhir:value "BRCID10"] ;
-  fhir:CodeSystem.title [ fhir:value "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)"] ;
+  fhir:CodeSystem.title [ fhir:value "Classificação Internacional de Doenças - Décima Revisão - CID-10"] ;
   fhir:CodeSystem.status [ fhir:value "active"] ;
   fhir:CodeSystem.experimental [ fhir:value "false"^^xsd:boolean] ;
   fhir:CodeSystem.date [ fhir:value "2020-03-11T19:14:37.3549708+00:00"^^xsd:dateTime] ;

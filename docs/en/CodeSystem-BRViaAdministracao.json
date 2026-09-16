@@ -1,6 +1,9 @@
 {
   "resourceType" : "CodeSystem",
   "id" : "BRViaAdministracao",
+  "meta" : {
+    "lastUpdated" : "2021-01-11T14:28:22.708+00:00"
+  },
   "language" : "en",
   "text" : {
     "status" : "generated"

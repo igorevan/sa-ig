@@ -7,7 +7,7 @@ Estado da resolução de um diagnóstico ou problema.
 
  **References** 
 
-* [CID10 Avaliado](StructureDefinition-BRCID10Avaliado-1.0.md)
+* [Problema / Diagnóstico](StructureDefinition-BRProblemaDiagnostico.md)
 
 ### Logical Definition (CLD)
 
@@ -88,6 +88,7 @@ Estado da resolução de um diagnóstico ou problema.
       "system" : "http://terminology.hl7.org/CodeSystem/condition-clinical",
       "concept" : [{
         "code" : "active",
+        "display" : "Active",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Ativo"
@@ -95,6 +96,7 @@ Estado da resolução de um diagnóstico ou problema.
       },
       {
         "code" : "recurrence",
+        "display" : "Recurrence",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Recorrente"
@@ -102,6 +104,7 @@ Estado da resolução de um diagnóstico ou problema.
       },
       {
         "code" : "relapse",
+        "display" : "Relapse",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Recidiva"
@@ -109,6 +112,7 @@ Estado da resolução de um diagnóstico ou problema.
       },
       {
         "code" : "inactive",
+        "display" : "Inactive",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Inativo"
@@ -116,6 +120,7 @@ Estado da resolução de um diagnóstico ou problema.
       },
       {
         "code" : "remission",
+        "display" : "Remission",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Remissão"
@@ -123,6 +128,7 @@ Estado da resolução de um diagnóstico ou problema.
       },
       {
         "code" : "resolved",
+        "display" : "Resolved",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Resolvido"

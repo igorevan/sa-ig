@@ -25,7 +25,7 @@
   <title value="Guia de Implementação do Sumário de Alta (SA) da RNDS"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2026-09-15T16:38:15-03:00"/>
+  <date value="2026-09-16T19:02:54-03:00"/>
   <publisher value="Ministério da Saúde do Brasil"/>
   <contact>
     <name value="Ministério da Saúde do Brasil"/>
@@ -95,310 +95,6 @@
       </extension>
       <extension url="value">
         <valueString value="http://www.saude.gov.br/fhir/r4"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueString value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -630,310 +326,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
-        <valueCode value="special-url"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueCode value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -1129,11 +521,31 @@
         <valueString value="Bundle"/>
       </extension>
       <reference>
-        <reference value="Bundle/example-RIA-R"/>
+        <reference value="Bundle/example-SA"/>
       </reference>
-      <name value="Bundle de exemplo do RIA-R"/>
-      <description value="Bundle de exemplo do Registro de Imunobiológico Administrado em Rotina (RIA-R)"/>
-      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"/>
+      <name value="Bundle de exemplo do SA"/>
+      <description value="Bundle de exemplo do Sumário de Alta (SA)"/>
+      <exampleCanonical value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRAlergenosCBARA"/>
+      </reference>
+      <name value="Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)"/>
+      <description value="Classifica as alergias e reações adversas."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRCBHPMTUSS"/>
+      </reference>
+      <name value="Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS"/>
+      <description value="Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1150,9 +562,19 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/BRCIAP2"/>
+      </reference>
+      <name value="Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2"/>
+      <description value="Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/BRCID10"/>
       </reference>
-      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)"/>
+      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10"/>
       <description value="Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."/>
     </resource>
     <resource>
@@ -1160,60 +582,30 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRCategoriaDiagnostico"/>
+        <reference value="CodeSystem/BRCaraterAtendimento"/>
       </reference>
-      <name value="Categoria do Diagnóstico (CodeSystem)"/>
-      <description value="Códigos para representação do tipo de categoria do diagnóstico realizado."/>
+      <name value="Caráter de Atendimento"/>
+      <description value="Terminologia que classifica a prioridade de realização de um Contato Assistencial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRCondicaoMaternal"/>
+        <reference value="CodeSystem/BRDadoAusenteOuDesconhecido"/>
       </reference>
-      <name value="Condição Maternal (CodeSystem)"/>
-      <description value="Indicação da condição maternal da pessoa vacinada."/>
+      <name value="Classificação de dados ausentes ou desconhecidos - IPS"/>
+      <description value="Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRDose"/>
+        <reference value="CodeSystem/BRFinanciamento"/>
       </reference>
-      <name value="Dose de Vacina"/>
-      <description value="Define a dose da administração de uma substância."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BREstrategiaVacinacao"/>
-      </reference>
-      <name value="Estratégia de Vacinação (CodeSystem)"/>
-      <description value="Classifica a estratégia de vacinação adotada."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRFabricantePNI"/>
-      </reference>
-      <name value="Fabricante do Imunobiológico (CodeSystem)"/>
-      <description value="Apresenta o fabricante do imunobiológico."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="CodeSystem"/>
-      </extension>
-      <reference>
-        <reference value="CodeSystem/BRGrupoAtendimento"/>
-      </reference>
-      <name value="Grupo de Atendimento (CodeSystem)"/>
-      <description value="Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."/>
+      <name value="Financiamento (CodeSystem)"/>
+      <description value="Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1230,30 +622,150 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRLocalAplicacao"/>
+        <reference value="CodeSystem/BRJustificativaIndividuoNaoIdentificado"/>
       </reference>
-      <name value="Local de Aplicação (CodeSystem)"/>
-      <description value="Define a localização anatômica de aplicação de uma substância"/>
+      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo (CodeSystem)"/>
+      <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRPais"/>
+        <reference value="CodeSystem/BRMedDRA"/>
       </reference>
-      <name value="País (CodeSystem)"/>
-      <description value="Códigos para representação de países."/>
+      <name value="Medical Dictionary for Regulatory Activities (MedDRA)"/>
+      <description value="Medical Dictionary for Regulatory Activities."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
-        <reference value="CodeSystem/BRRegistroOrigem"/>
+        <reference value="CodeSystem/BRMedicamento"/>
       </reference>
-      <name value="Registro de Origem (CodeSystem)"/>
-      <description value="Códigos para representação da Origem do Registro de Imunobiológico."/>
+      <name value="Medicamento (CodeSystem)"/>
+      <description value="Drogas dirigidas para uso humano, apresentadas em sua formulação final."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRModalidadeAssistencial"/>
+      </reference>
+      <name value="Modalidade Assistencial (CodeSystem)"/>
+      <description value="Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRModalidadeTelessaude"/>
+      </reference>
+      <name value="Modalidade de Telessaúde (CodeSystem)"/>
+      <description value="Códigos para representação da modalidade de telessaúde realizada."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRMotivoDesfecho"/>
+      </reference>
+      <name value="Motivo do Desfecho"/>
+      <description value="Caracteriza o motivo de conclusão total ou parcial do contato assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRObmAMPP"/>
+      </reference>
+      <name value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)"/>
+      <description value="Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRObmANVISA"/>
+      </reference>
+      <name value="Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)"/>
+      <description value="Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de Registro na Agência Nacional de Vigilância Sanitária (Anvisa)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRObmCATMAT"/>
+      </reference>
+      <name value="Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)"/>
+      <description value="Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRObmEAN"/>
+      </reference>
+      <name value="Terminologia de Produto Medicinal Virtual (VMP) na GS1.org"/>
+      <description value="Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRObmVMP"/>
+      </reference>
+      <name value="Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)"/>
+      <description value="Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRPapelProblemaDiagnostico"/>
+      </reference>
+      <name value="Classificação do papel de um problema e diagnóstico (CodeSystem)"/>
+      <description value="Classificação do papel de um problema/diagnóstico."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRProcedencia"/>
+      </reference>
+      <name value="Procedência"/>
+      <description value="Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRResponsabilidadeParticipante"/>
+      </reference>
+      <name value="Responsabilidade no Contato Assistencial"/>
+      <description value="Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRTabelaSUS"/>
+      </reference>
+      <name value="Tabela de procedimentos, medicamentos e OPM do SUS"/>
+      <description value="Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1270,6 +782,56 @@
         <valueString value="CodeSystem"/>
       </extension>
       <reference>
+        <reference value="CodeSystem/BRTipoIdentificador"/>
+      </reference>
+      <name value="Tipo de Identificador"/>
+      <description value="Classifica o tipo de indicador que está sendo utilizado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRTipoObservacao"/>
+      </reference>
+      <name value="Tipo de Observação (CodeSystem)"/>
+      <description value="Tipo de Observação."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRTurno"/>
+      </reference>
+      <name value="Turno do dia (CodeSystem)"/>
+      <description value="Code System utilizado para definir o turno de um dia."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRUnidadeMedida"/>
+      </reference>
+      <name value="Unidade de Medida"/>
+      <description value="Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
+        <reference value="CodeSystem/BRUnidadeTempo"/>
+      </reference>
+      <name value="Unidade de tempo"/>
+      <description value="Code System utilizado para definir a classe de unidades de tempo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="CodeSystem"/>
+      </extension>
+      <reference>
         <reference value="CodeSystem/BRViaAdministracao"/>
       </reference>
       <name value="Via de Administração"/>
@@ -1280,120 +842,300 @@
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRCID10Avaliado-1.0"/>
+        <reference value="StructureDefinition/BRAlergiaReacaoAdversa-1.0"/>
       </reference>
-      <name value="CID10 Avaliado"/>
-      <description value="Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
+      <name value="Alergia ou Reação Adversa"/>
+      <description value="Alergia ou Reação Adversa"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:extension"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRCondicaoMaternal"/>
+        <reference value="StructureDefinition/BRCodigoSerialMedicamento"/>
       </reference>
-      <name value="Condição Maternal"/>
-      <description value="Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRContatoHanseniase"/>
-      </reference>
-      <name value="Contato Hanseníase"/>
-      <description value="Extensão utilizada para identificar indivíduos com contato próximo de pacientes que vivem com Hanseníase."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BREstrategiaVacinacao-1.0"/>
-      </reference>
-      <name value="Estratégia de Vacinação"/>
-      <description value="Identifica a estratégia de vacinação adotada."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"/>
-      </reference>
-      <name value="Estratégia de Vacinação Pesquisa"/>
-      <description value="Extensão para as informações relacionadas aos dados da pesquisa clínica registrada na ANVISA."/>
-    </resource>
-    <resource>
-      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
-        <valueString value="StructureDefinition:extension"/>
-      </extension>
-      <reference>
-        <reference value="StructureDefinition/BRGrupoAtendimento"/>
-      </reference>
-      <name value="Grupo de Atendimento"/>
-      <description value="Identificação do grupo de atendimento para vacinação."/>
+      <name value="Código Serial de Medicamento"/>
+      <description value="Código Serial de Medicamento"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRImunobiologicoAdministrado-3.0"/>
+        <reference value="StructureDefinition/BRConjuntoMinimoDados-1.1"/>
       </reference>
-      <name value="Imunobiológico Administrado em Rotina"/>
-      <description value="Representa um imunobiológico administrado em Rotina (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023)."/>
+      <name value="Conjunto Mínimo de Dados"/>
+      <description value="Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:resource"/>
       </extension>
       <reference>
-        <reference value="StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"/>
+        <reference value="StructureDefinition/BRContatoAssistencial-1.0"/>
       </reference>
-      <name value="Registro de Imunobiológico Administrado na Rotina"/>
-      <description value="Documento que aprepresenta o registro da administração de imunobiológicos na rotina de imunização (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023)."/>
+      <name value="Contato Assistencial"/>
+      <description value="Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRFinanciamento-1.0"/>
+      </reference>
+      <name value="Financiamento"/>
+      <description value="Extensão utilizada para identificar financiamento."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRIdentificacaoEquipe-1.0"/>
+      </reference>
+      <name value="Identificador Nacional de Equipe"/>
+      <description value="Extensão para permitir informar o código do Identificador Nacional de Equipe."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRIndividuoNaoIdentificado-1.0"/>
+      </reference>
+      <name value="Informações Complementares de Indivíduos Não Identificados"/>
+      <description value="Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRIntervaloDoses"/>
+      </reference>
+      <name value="Intervalo de Doses"/>
+      <description value="Extensão para descrever uma unidade de tempo referenciada pelo UCUM."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRLocalAtendimento-1.0"/>
+      </reference>
+      <name value="Local de Atendimento"/>
+      <description value="Uma referência genérica aos locais onde um Contato Assistencial pode acontecer."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRMedicamento"/>
+      </reference>
+      <name value="Medicamento (StructureDefinition)"/>
+      <description value="Medicamento"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRObservacaoDescritiva-1.0"/>
+      </reference>
+      <name value="Observação Descritiva"/>
+      <description value="Descrições textuais simples sobre um paciente."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BROcupacao-1.0"/>
+      </reference>
+      <name value="Ocupação"/>
+      <description value="Extensão para incluir a Ocupação"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BROutrasInformacoes"/>
+      </reference>
+      <name value="Outras Informações"/>
+      <description value="Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRPlanoCuidados-1.0"/>
+      </reference>
+      <name value="Plano de Cuidados"/>
+      <description value="Descreve o plano de cuidados, instruções e recomendações."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRPrescricaoMedicamento"/>
+      </reference>
+      <name value="Prescrição de Medicamento"/>
+      <description value="Prescrição de Medicamento"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRProblemaDiagnostico"/>
+      </reference>
+      <name value="Problema / Diagnóstico"/>
+      <description value="Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRProcedimentoRealizado-1.0"/>
+      </reference>
+      <name value="Procedimento Realizado"/>
+      <description value="Procedimento realizado em um indivíduo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRQuantidade-1.0"/>
+      </reference>
+      <name value="Quantidade"/>
+      <description value="Extensão para identificar quantidades."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRRegistroPrescricaoMedicamento"/>
+      </reference>
+      <name value="Registro de Prescrição de Medicamento"/>
+      <description value="Modelo que gera o documento de Registro de Prescrição de Medicamento"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRRestricaoFuncionalIncapacidadeSaude-1.0"/>
+      </reference>
+      <name value="Restrições Funcionais e Incapacidades em Saúde"/>
+      <description value="Registra restrições funcionais ou incapacidades em saúde observadas no indivíduo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRResumoEvolucaoClinica"/>
+      </reference>
+      <name value="Resumo da Evolução Clínica"/>
+      <description value="Descrição da evolução clínica do indivíduo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:resource"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRSumarioAlta"/>
+      </reference>
+      <name value="Sumário de Alta (SA)"/>
+      <description value="O sumário de alta apresenta o conjunto dos principais registros realizados durante a permanência do indivíduo em um atendimento, como evolução clínica, procedimentos assistenciais, intervenções clínicas e diagnósticas, condutas adotadas e iniciadas para seguimento em clínica ou outro estabelecimento de assistência à saúde, e principalmente no final de sua permanência. A troca das informações essenciais referente ao período de permanência do indivíduo em um estabelecimento de saúde garante sua segurança na continuidade do tratamento. (Resolução CIT Nº 33, de 22 de março de 2018)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/BRTurno"/>
+      </reference>
+      <name value="Turno"/>
+      <description value="Extensão para descrever uma unidade de tempo referenciada pelo UCUM."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCID10-1.0"/>
+        <reference value="ValueSet/BRAlergenos-1.0"/>
       </reference>
-      <name value="Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)"/>
-      <description value="Classificação Internacional de Doenças - Décima Revisão (CID-10)"/>
+      <name value="Alérgenos"/>
+      <description value="Descreve o agente capaz de causar alergia ou reação adversa em seres humanos."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCategoriaDiagnostico"/>
+        <reference value="ValueSet/BRCaraterAtendimento-1.0"/>
       </reference>
-      <name value="Categoria do Diagnóstico (ValueSet)"/>
-      <description value="ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado."/>
+      <name value="Caráter de atendimento do Contato Assistencial"/>
+      <description value="ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRCondicaoMaternal-1.0"/>
+        <reference value="ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"/>
       </reference>
-      <name value="Condição Maternal (ValueSet)"/>
-      <description value="ValueSet utilizado para Indicar a condição maternal da pessoa vacinada."/>
+      <name value="Categoria do Agente da Alergia ou Reação Adversa"/>
+      <description value="Categoriza a substância responsável por causar uma alergia ou reação adversa."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRDose-1.0"/>
+        <reference value="ValueSet/BRCategoriaCondicao"/>
       </reference>
-      <name value="Dose do Imunobiológico"/>
-      <description value="ValueSet utilizado para definir o tipo da dose administrada no indivíduo."/>
+      <name value="Classificação de uma condição"/>
+      <description value="Tradução para o português do brasil da classificação de uma condição"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0"/>
+      </reference>
+      <name value="Criticidade de Alergias e Reações Adversas"/>
+      <description value="Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoContatoAssistencial-1.0"/>
+      </reference>
+      <name value="Estado do Contato Assistencial"/>
+      <description value="Classifica o estado de um Contato Assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BREstadoDocumento-1.0"/>
+      </reference>
+      <name value="Estado do Documento"/>
+      <description value="Classifica o estado do documento que está sendo trafegado."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1410,6 +1152,16 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
+        <reference value="ValueSet/BREstadoObservacao-1.0"/>
+      </reference>
+      <name value="Estado da Observação"/>
+      <description value="Tipos de estados de uma observação."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
         <reference value="ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"/>
       </reference>
       <name value="Estado da Resolução de Diagnóstico ou Problema"/>
@@ -1420,50 +1172,90 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BREstrategiaVacinacao-1.0"/>
+        <reference value="ValueSet/BREstadoRestricaoFuncionalIncapacidadeSaude-1.0"/>
       </reference>
-      <name value="Estratégia de Vacinação (ValueSet)"/>
-      <description value="Identifica a estratégia de vacinação adotada."/>
+      <name value="Estado da Restrição Funcional ou Incapacidade de Saúde"/>
+      <description value="Estado da Restrição Funcional ou Incapacidade de Saúde"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRFabricanteImunobiologico-1.0"/>
+        <reference value="ValueSet/BREstadoSolicitacao-1.0"/>
       </reference>
-      <name value="Fabricante do Imunobiológico (ValueSet)"/>
-      <description value="Fabricante do imunobiológico administrado"/>
+      <name value="Estado da Solicitação"/>
+      <description value="Estado da solicitação."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRGrupoAtendimento-1.0"/>
+        <reference value="ValueSet/BREstadoSolicitacaoMedicamento-1.0"/>
       </reference>
-      <name value="Tipo de grupo de atendimento (ValueSet)"/>
-      <description value="Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."/>
+      <name value="Estado da Solicitação de Medicamento"/>
+      <description value="Estado da Solicitação de Medicamento"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRImunobiologico-1.0"/>
+        <reference value="ValueSet/BRFinanciamento-1.0"/>
       </reference>
-      <name value="Imunobiológico (ValueSet)"/>
-      <description value="Tipos de imunobiológicos disponíveis no Brasil."/>
+      <name value="Financiamento do procedimento realizado (ValueSet)"/>
+      <description value="Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRLocalAplicacao-1.0"/>
+        <reference value="ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0"/>
       </reference>
-      <name value="Local de Aplicação (ValueSet)"/>
-      <description value="Localização anatômica para aplicação de um injetável."/>
+      <name value="Grau de Certeza de Alergias e Reações Adversas"/>
+      <description value="Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"/>
+      </reference>
+      <name value="Justificativa da Impossibilidade de Identificação do Indivíduo (ValueSet)"/>
+      <description value="Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRModalidadeAssistencial-1.0"/>
+      </reference>
+      <name value="Modalidade Assistencial (ValueSet)"/>
+      <description value="Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRModalidadeTelessaude"/>
+      </reference>
+      <name value="Modalidade de Telessaúde (ValueSet)"/>
+      <description value="Conjunto de códigos utilizados para identificar as modalidades de telessaúde no contexto do atendimento clínico."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRMotivoDesfecho-1.0"/>
+      </reference>
+      <name value="Motivo do desfecho do Contato assistencial"/>
+      <description value="ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1480,20 +1272,90 @@
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRPais-1.0"/>
+        <reference value="ValueSet/BRPapelProblemaDiagnostico"/>
       </reference>
-      <name value="País (ValueSet)"/>
-      <description value="Códigos para representação de países."/>
+      <name value="Classificação do papel de um problema e diagnóstico (ValueSet)"/>
+      <description value="Tradução para o português do brasil da classificação do papel de um problema/diagnóstico."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="ValueSet"/>
       </extension>
       <reference>
-        <reference value="ValueSet/BRRegistroOrigem"/>
+        <reference value="ValueSet/BRPrescricaoNaoEstruturada"/>
       </reference>
-      <name value="Registro de Origem (ValueSet)"/>
-      <description value="Códigos para representação da Origem do Registro de Imunobiológico."/>
+      <name value="Indicativo de prescrição não estruturada ou medicamento não identificado"/>
+      <description value="Indicativo de prescrição não estruturada ou medicamento não identificado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRProblemaDiagnostico"/>
+      </reference>
+      <name value="Classificação Internacional de Doenças e Atenção Primária"/>
+      <description value="Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRProcedencia-1.0"/>
+      </reference>
+      <name value="Procedência do Contato Assistencial"/>
+      <description value="Classifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRProcedimentosNacionais-1.0"/>
+      </reference>
+      <name value="Procedimento realizado"/>
+      <description value="ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRReacoesAdversasMedDRA-1.0"/>
+      </reference>
+      <name value="Reações Adversas da MedDRA"/>
+      <description value="Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRResponsabilidadeParticipante-1.0"/>
+      </reference>
+      <name value="Reponsabilidade no Contato Assistencial"/>
+      <description value="Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRSexo-1.0"/>
+      </reference>
+      <name value="Sexo"/>
+      <description value="Sexo de um indivíduo."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTerminologiaMedicamento"/>
+      </reference>
+      <name value="Terminologia dos medicamentos"/>
+      <description value="ValueSet utilizado para definir a terminologia de um dado medicamento."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1504,6 +1366,66 @@
       </reference>
       <name value="Tipo de Documento (ValueSet)"/>
       <description value="Classifica o tipo de documento que está sendo trafegado."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTipoIdentificadorProcedimento-1.0"/>
+      </reference>
+      <name value="Tipo de Identificador do Procedimento"/>
+      <description value="Classifica o tipo de identificador que está sendo utilizado para o procedimento."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTipoObservacao-1.0"/>
+      </reference>
+      <name value="Tipo de Observação (ValueSet)"/>
+      <description value="Tipo de Observação."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRTurno"/>
+      </reference>
+      <name value="Turno do dia (ValueSet)"/>
+      <description value="ValueSet utilizado para definir o turno de um dia."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRUnidadeConsumo"/>
+      </reference>
+      <name value="Unidade de Consumo"/>
+      <description value="ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRUnidadeMedidaMedicamento"/>
+      </reference>
+      <name value="Unidade de Medida de Medicamento"/>
+      <description value="ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante."/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/BRUnidadeTempo"/>
+      </reference>
+      <name value="Unidade de Tempo"/>
+      <description value="ValueSet utilizado para definir uma unidade de tempo."/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
@@ -1563,9 +1485,9 @@
           <valueCode value="informative"/>
         </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="miRiar.html"/>
+          <valueUrl value="miSA.html"/>
         </extension>
-        <nameUrl value="miRiar.html"/>
+        <nameUrl value="miSA.html"/>
         <title value="Modelo de Informação"/>
         <generation value="html"/>
       </page>
@@ -1574,9 +1496,9 @@
           <valueCode value="informative"/>
         </extension>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="mcRiar.html"/>
+          <valueUrl value="mcSA.html"/>
         </extension>
-        <nameUrl value="mcRiar.html"/>
+        <nameUrl value="mcSA.html"/>
         <title value="Modelo Computacional"/>
         <generation value="html"/>
       </page>

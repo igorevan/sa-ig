@@ -9,9 +9,8 @@
       href="https://www.gov.br/saude/pt-br/composicao/seidigi/rnds">Rede Nacional de
       Dados em Saúde (RNDS)</a>, fornecendo as orientações técnicas necessárias para a integração
     dos sistemas/soluções locais com a rede, para o envio do <a
-      href="https://servicos-datasus.saude.gov.br/detalhe/urB3hXWTee">Registro de Imunobiológico
-      Administrado
-      (RIA)</a> seguindo as especificações do padrão <a href="https://hl7.org/fhir/R4/">HL7
+      href="https://servicos-datasus.saude.gov.br/detalhe/90MmHuJ441">Sumário de Alta (SA)</a> seguindo as
+    especificações do padrão <a href="https://hl7.org/fhir/R4/">HL7
       FHIR versão R4</a>. </p>
   <a name="contextualizacao"></a>
   <h3>Contextualização</h3>
@@ -30,7 +29,7 @@
     de saúde.
   </p>
   <p> Dessa forma, os serviços (<i>web services</i>) permitirão que as entidades da área da saúde
-    compartilhem as informações do Registro de Imunobiológico Administrado (RIA) com a RNDS de forma
+    compartilhem as informações do Sumário de Alta (SA) com a RNDS de forma
     oportuna e confiável a quem precisa desta informação. </p>
   <a name="interoperabilidade"></a>
   <h3>Interoperabilidade</h3>
@@ -54,7 +53,7 @@
   <h3>Roteiro</h3>
   <ul>
     <!-- <li>
-      <a href="lives.html">Lives</a>: Lives com orientações técnicas e negociais sobre o RIA.
+      <a href="lives.html">Lives</a>: Lives com orientações técnicas e negociais sobre o SA.
     </li> -->
     <li>
       <a href="credenciamento.html">Credenciamento</a>: Saiba qual é o processo e requisitos a serem
@@ -65,16 +64,16 @@
       integração com a RNDS.
     </li>
     <li>
-      <a href="miRiar.html">Modelo de Informação (RIA-R)</a>: Define o Modelo de Informação (MI) do
-      RIA-R.
+      <a href="miSA.html">Modelo de Informação (SA)</a>: Define o Modelo de Informação (MI) do
+      SA.
     </li>
     <li>
-      <a href="mcRiar.html">Modelo Computacional (RIA-R)</a>: Define o Modelo Computacional (MC) do
-      RIA-R.
+      <a href="mcSA.html">Modelo Computacional (SA)</a>: Define o Modelo Computacional (MC) do
+      SA.
     </li>
     <li>
       <a href="artifacts.html">Artefatos</a>: Reúne todos os recursos <i>(Resources)</i> do FHIR
-      para elaboração dos Modelos Computacionais do RIA.
+      para elaboração dos Modelos Computacionais do SA.
     </li>
     <li>
       <a href="exemplos.html">Exemplos</a>: Instâncias de exemplos.

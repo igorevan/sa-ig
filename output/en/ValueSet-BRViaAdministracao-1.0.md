@@ -7,7 +7,7 @@ Via de administração de um imunobiológico.
 
  **References** 
 
-* [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)
+* [Prescrição de Medicamento](StructureDefinition-BRPrescricaoMedicamento.md)
 
 ### Logical Definition (CLD)
 
@@ -27,6 +27,9 @@ Via de administração de um imunobiológico.
 {
   "resourceType" : "ValueSet",
   "id" : "BRViaAdministracao-1.0",
+  "meta" : {
+    "lastUpdated" : "2021-08-27T14:51:30.604+00:00"
+  },
   "language" : "pt-BR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",

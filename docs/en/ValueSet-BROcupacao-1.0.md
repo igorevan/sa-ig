@@ -7,7 +7,8 @@ Classifica as profissões do mercado de trabalho brasileiro.
 
  **References** 
 
-* [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)
+* [Ocupação](StructureDefinition-BROcupacao-1.0.md)
+* [Procedimento Realizado](StructureDefinition-BRProcedimentoRealizado-1.0.md)
 
 ### Logical Definition (CLD)
 
@@ -27,6 +28,9 @@ Classifica as profissões do mercado de trabalho brasileiro.
 {
   "resourceType" : "ValueSet",
   "id" : "BROcupacao-1.0",
+  "meta" : {
+    "lastUpdated" : "2020-03-12T13:22:07.223+00:00"
+  },
   "language" : "pt-BR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",

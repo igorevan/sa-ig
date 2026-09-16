@@ -99,13 +99,5 @@
   {
     "code" : "ATM",
     "display" : "Atestado Médico/Odontológico"
-  },
-  {
-    "code" : "REPM",
-    "display" : "Registro Eletrônico da Prescrição de Medicamento"
-  },
-  {
-    "code" : "REDFM",
-    "display" : "Registro Eletrônico de Dispensação ou Fornecimento de Medicamentos"
   }]
 }

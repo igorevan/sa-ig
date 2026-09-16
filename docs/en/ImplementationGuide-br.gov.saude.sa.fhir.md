@@ -31,7 +31,7 @@
   "title" : "Guia de Implementação do Sumário de Alta (SA) da RNDS",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-15T16:38:15-03:00",
+  "date" : "2026-09-16T19:02:54-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
@@ -116,424 +116,6 @@
       {
         "url" : "value",
         "valueString" : "http://www.saude.gov.br/fhir/r4"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueString" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -852,424 +434,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCategoriaDiagnostico"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRPais"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCID10-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaDiagnostico"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRImunobiologico-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRLocalAplicacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BROcupacao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRPais-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
-        "valueCode" : "special-url"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueCode" : "autoload-resources"
       },
       {
@@ -1538,14 +702,44 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "Bundle-example-RIA-R.html"
+        "valueUri" : "Bundle-example-SA.html"
       }],
       "reference" : {
-        "reference" : "Bundle/example-RIA-R"
+        "reference" : "Bundle/example-SA"
       },
-      "name" : "Bundle de exemplo do RIA-R",
-      "description" : "Bundle de exemplo do Registro de Imunobiológico Administrado em Rotina (RIA-R)",
-      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"
+      "name" : "Bundle de exemplo do SA",
+      "description" : "Bundle de exemplo do Sumário de Alta (SA)",
+      "exampleCanonical" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRAlergenosCBARA.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRAlergenosCBARA"
+      },
+      "name" : "Catálogo Brasileiro de Alergias e Reações Adversas (CBARA)",
+      "description" : "Classifica as alergias e reações adversas."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRCBHPMTUSS.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRCBHPMTUSS"
+      },
+      "name" : "Classificação Brasileira Hierarquizada de Procedimentos Médicos - CBHPM e da Terminologia Unificada da Saúde Suplementar - TUSS",
+      "description" : "Classificações de procedimentos utilizadas no Brasil, no contexto da assistência à saúde privada, não complementar ao SUS, e eventualmente no SUS para classificar procedimento inexistente na Tabela SUS."
     },
     {
       "extension" : [{
@@ -1569,12 +763,27 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRCIAP2.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRCIAP2"
+      },
+      "name" : "Classificação Internacional de Atenção Primária - Segunda Edição - CIAP2",
+      "description" : "Classifica os problemas identificados no contato assistencial pelos profissionais de saúde, os motivos da contato assistencial e as respostas propostas pela equipe seguindo a sistematização SOAP."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "CodeSystem-BRCID10.html"
       }],
       "reference" : {
         "reference" : "CodeSystem/BRCID10"
       },
-      "name" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)",
+      "name" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
       "description" : "Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos."
     },
     {
@@ -1584,13 +793,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRCategoriaDiagnostico.html"
+        "valueUri" : "CodeSystem-BRCaraterAtendimento.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/BRCategoriaDiagnostico"
+        "reference" : "CodeSystem/BRCaraterAtendimento"
       },
-      "name" : "Categoria do Diagnóstico (CodeSystem)",
-      "description" : "Códigos para representação do tipo de categoria do diagnóstico realizado."
+      "name" : "Caráter de Atendimento",
+      "description" : "Terminologia que classifica a prioridade de realização de um Contato Assistencial."
     },
     {
       "extension" : [{
@@ -1599,13 +808,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRCondicaoMaternal.html"
+        "valueUri" : "CodeSystem-BRDadoAusenteOuDesconhecido.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/BRCondicaoMaternal"
+        "reference" : "CodeSystem/BRDadoAusenteOuDesconhecido"
       },
-      "name" : "Condição Maternal (CodeSystem)",
-      "description" : "Indicação da condição maternal da pessoa vacinada."
+      "name" : "Classificação de dados ausentes ou desconhecidos - IPS",
+      "description" : "Classificação de dados conhecidos mas ausentes e de dados desconhecidos a partir do International Patient Summary - IPS."
     },
     {
       "extension" : [{
@@ -1614,58 +823,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRDose.html"
+        "valueUri" : "CodeSystem-BRFinanciamento.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/BRDose"
+        "reference" : "CodeSystem/BRFinanciamento"
       },
-      "name" : "Dose de Vacina",
-      "description" : "Define a dose da administração de uma substância."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BREstrategiaVacinacao.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/BREstrategiaVacinacao"
-      },
-      "name" : "Estratégia de Vacinação (CodeSystem)",
-      "description" : "Classifica a estratégia de vacinação adotada."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRFabricantePNI.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/BRFabricantePNI"
-      },
-      "name" : "Fabricante do Imunobiológico (CodeSystem)",
-      "description" : "Apresenta o fabricante do imunobiológico."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "CodeSystem"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRGrupoAtendimento.html"
-      }],
-      "reference" : {
-        "reference" : "CodeSystem/BRGrupoAtendimento"
-      },
-      "name" : "Grupo de Atendimento (CodeSystem)",
-      "description" : "Domínio que identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."
+      "name" : "Financiamento (CodeSystem)",
+      "description" : "Terminologia que descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."
     },
     {
       "extension" : [{
@@ -1689,13 +853,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRLocalAplicacao.html"
+        "valueUri" : "CodeSystem-BRJustificativaIndividuoNaoIdentificado.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/BRLocalAplicacao"
+        "reference" : "CodeSystem/BRJustificativaIndividuoNaoIdentificado"
       },
-      "name" : "Local de Aplicação (CodeSystem)",
-      "description" : "Define a localização anatômica de aplicação de uma substância"
+      "name" : "Justificativa da Impossibilidade de Identificação do Indivíduo (CodeSystem)",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"
     },
     {
       "extension" : [{
@@ -1704,13 +868,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRPais.html"
+        "valueUri" : "CodeSystem-BRMedDRA.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/BRPais"
+        "reference" : "CodeSystem/BRMedDRA"
       },
-      "name" : "País (CodeSystem)",
-      "description" : "Códigos para representação de países."
+      "name" : "Medical Dictionary for Regulatory Activities (MedDRA)",
+      "description" : "Medical Dictionary for Regulatory Activities."
     },
     {
       "extension" : [{
@@ -1719,13 +883,193 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "CodeSystem-BRRegistroOrigem.html"
+        "valueUri" : "CodeSystem-BRMedicamento.html"
       }],
       "reference" : {
-        "reference" : "CodeSystem/BRRegistroOrigem"
+        "reference" : "CodeSystem/BRMedicamento"
       },
-      "name" : "Registro de Origem (CodeSystem)",
-      "description" : "Códigos para representação da Origem do Registro de Imunobiológico."
+      "name" : "Medicamento (CodeSystem)",
+      "description" : "Drogas dirigidas para uso humano, apresentadas em sua formulação final."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRModalidadeAssistencial.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRModalidadeAssistencial"
+      },
+      "name" : "Modalidade Assistencial (CodeSystem)",
+      "description" : "Classifica os contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRModalidadeTelessaude.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRModalidadeTelessaude"
+      },
+      "name" : "Modalidade de Telessaúde (CodeSystem)",
+      "description" : "Códigos para representação da modalidade de telessaúde realizada."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRMotivoDesfecho.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRMotivoDesfecho"
+      },
+      "name" : "Motivo do Desfecho",
+      "description" : "Caracteriza o motivo de conclusão total ou parcial do contato assistencial."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRObmAMPP.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRObmAMPP"
+      },
+      "name" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Ontologia Brasileira de Medicamentos (OBM)",
+      "description" : "Apresenta o Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRObmANVISA.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRObmANVISA"
+      },
+      "name" : "Terminologia de Produto Medicinal Comercial com Apresentação (AMPP) na Agência Nacional de Vigilância Sanitária (Anvisa)",
+      "description" : "Apresenta o Produto Medicinal Comercial com Apresentação (AMPP) e seu Código de Registro na Agência Nacional de Vigilância Sanitária (Anvisa)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRObmCATMAT.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRObmCATMAT"
+      },
+      "name" : "Terminologia de Produto Medicinal Virtual (VMP) no Catálogo de Materiais (CATMAT)",
+      "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu código no Catálogo de Materiais (CATMAT)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRObmEAN.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRObmEAN"
+      },
+      "name" : "Terminologia de Produto Medicinal Virtual (VMP) na GS1.org",
+      "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu Número Europeu do Artigo (EAN) na GS1.org"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRObmVMP.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRObmVMP"
+      },
+      "name" : "Terminologia de Produto Medicinal Virtual (VMP) na Ontologia Brasileira de Medicamentos (OBM)",
+      "description" : "Apresenta o Produto Medicinal Virtual (VMP) e seu Código na Ontologia Brasileira de Medicamentos (OBM)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRPapelProblemaDiagnostico.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRPapelProblemaDiagnostico"
+      },
+      "name" : "Classificação do papel de um problema e diagnóstico (CodeSystem)",
+      "description" : "Classificação do papel de um problema/diagnóstico."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRProcedencia.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRProcedencia"
+      },
+      "name" : "Procedência",
+      "description" : "Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRResponsabilidadeParticipante.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRResponsabilidadeParticipante"
+      },
+      "name" : "Responsabilidade no Contato Assistencial",
+      "description" : "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assisntecial."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRTabelaSUS.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRTabelaSUS"
+      },
+      "name" : "Tabela de procedimentos, medicamentos e OPM do SUS",
+      "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS"
     },
     {
       "extension" : [{
@@ -1749,6 +1093,81 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRTipoIdentificador.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRTipoIdentificador"
+      },
+      "name" : "Tipo de Identificador",
+      "description" : "Classifica o tipo de indicador que está sendo utilizado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRTipoObservacao.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRTipoObservacao"
+      },
+      "name" : "Tipo de Observação (CodeSystem)",
+      "description" : "Tipo de Observação."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRTurno.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRTurno"
+      },
+      "name" : "Turno do dia (CodeSystem)",
+      "description" : "Code System utilizado para definir o turno de um dia."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRUnidadeMedida.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRUnidadeMedida"
+      },
+      "name" : "Unidade de Medida",
+      "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "CodeSystem-BRUnidadeTempo.html"
+      }],
+      "reference" : {
+        "reference" : "CodeSystem/BRUnidadeTempo"
+      },
+      "name" : "Unidade de tempo",
+      "description" : "Code System utilizado para definir a classe de unidades de tempo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "CodeSystem"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "CodeSystem-BRViaAdministracao.html"
       }],
       "reference" : {
@@ -1764,13 +1183,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BRCID10Avaliado-1.0.html"
+        "valueUri" : "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/BRCID10Avaliado-1.0"
+        "reference" : "StructureDefinition/BRAlergiaReacaoAdversa-1.0"
       },
-      "name" : "CID10 Avaliado",
-      "description" : "Diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."
+      "name" : "Alergia ou Reação Adversa",
+      "description" : "Alergia ou Reação Adversa"
     },
     {
       "extension" : [{
@@ -1779,73 +1198,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BRCondicaoMaternal.html"
+        "valueUri" : "StructureDefinition-BRCodigoSerialMedicamento.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/BRCondicaoMaternal"
+        "reference" : "StructureDefinition/BRCodigoSerialMedicamento"
       },
-      "name" : "Condição Maternal",
-      "description" : "Indicação da condição maternal da pessoa vacinada (Nenhuma, Gestante, Puérpera). O campo é de preenchimento obrigatório para indivíduos em idade fértil, independente do sexo."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BRContatoHanseniase.html"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BRContatoHanseniase"
-      },
-      "name" : "Contato Hanseníase",
-      "description" : "Extensão utilizada para identificar indivíduos com contato próximo de pacientes que vivem com Hanseníase."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BREstrategiaVacinacao-1.0.html"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BREstrategiaVacinacao-1.0"
-      },
-      "name" : "Estratégia de Vacinação",
-      "description" : "Identifica a estratégia de vacinação adotada."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BREstrategiaVacinacaoPesquisa-1.0.html"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0"
-      },
-      "name" : "Estratégia de Vacinação Pesquisa",
-      "description" : "Extensão para as informações relacionadas aos dados da pesquisa clínica registrada na ANVISA."
-    },
-    {
-      "extension" : [{
-        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
-        "valueString" : "StructureDefinition:extension"
-      },
-      {
-        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BRGrupoAtendimento.html"
-      }],
-      "reference" : {
-        "reference" : "StructureDefinition/BRGrupoAtendimento"
-      },
-      "name" : "Grupo de Atendimento",
-      "description" : "Identificação do grupo de atendimento para vacinação."
+      "name" : "Código Serial de Medicamento",
+      "description" : "Código Serial de Medicamento"
     },
     {
       "extension" : [{
@@ -1854,13 +1213,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BRImunobiologicoAdministrado-3.0.html"
+        "valueUri" : "StructureDefinition-BRConjuntoMinimoDados-1.1.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/BRImunobiologicoAdministrado-3.0"
+        "reference" : "StructureDefinition/BRConjuntoMinimoDados-1.1"
       },
-      "name" : "Imunobiológico Administrado em Rotina",
-      "description" : "Representa um imunobiológico administrado em Rotina (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023)."
+      "name" : "Conjunto Mínimo de Dados",
+      "description" : "Documento público que coleta os dados dos atendimentos em saúde realizados em qualquer estabelecimento de saúde do país, público ou privado, em cada contato assistencial"
     },
     {
       "extension" : [{
@@ -1869,13 +1228,298 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.html"
+        "valueUri" : "StructureDefinition-BRContatoAssistencial-1.0.html"
       }],
       "reference" : {
-        "reference" : "StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0"
+        "reference" : "StructureDefinition/BRContatoAssistencial-1.0"
       },
-      "name" : "Registro de Imunobiológico Administrado na Rotina",
-      "description" : "Documento que aprepresenta o registro da administração de imunobiológicos na rotina de imunização (Portaria Conjunta SAES/SVSA/SEIDIGI Nº 25, de 27 de Novembro de 2023)."
+      "name" : "Contato Assistencial",
+      "description" : "Resumo ou sumário referente a um atendimento ininterrupto dispensado a um indivíduo em uma mesma modalidade assistencial e em um mesmo estabelecimento de saúde, gerado após a conclusão deste atendimento."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRFinanciamento-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRFinanciamento-1.0"
+      },
+      "name" : "Financiamento",
+      "description" : "Extensão utilizada para identificar financiamento."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRIdentificacaoEquipe-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRIdentificacaoEquipe-1.0"
+      },
+      "name" : "Identificador Nacional de Equipe",
+      "description" : "Extensão para permitir informar o código do Identificador Nacional de Equipe."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRIndividuoNaoIdentificado-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRIndividuoNaoIdentificado-1.0"
+      },
+      "name" : "Informações Complementares de Indivíduos Não Identificados",
+      "description" : "Informações complementares necessárias ao Contato Assistencial na hipótese do indivíduo não poder ser identificado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRIntervaloDoses.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRIntervaloDoses"
+      },
+      "name" : "Intervalo de Doses",
+      "description" : "Extensão para descrever uma unidade de tempo referenciada pelo UCUM."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRLocalAtendimento-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRLocalAtendimento-1.0"
+      },
+      "name" : "Local de Atendimento",
+      "description" : "Uma referência genérica aos locais onde um Contato Assistencial pode acontecer."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRMedicamento.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRMedicamento"
+      },
+      "name" : "Medicamento (StructureDefinition)",
+      "description" : "Medicamento"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRObservacaoDescritiva-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRObservacaoDescritiva-1.0"
+      },
+      "name" : "Observação Descritiva",
+      "description" : "Descrições textuais simples sobre um paciente."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BROcupacao-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BROcupacao-1.0"
+      },
+      "name" : "Ocupação",
+      "description" : "Extensão para incluir a Ocupação"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BROutrasInformacoes.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BROutrasInformacoes"
+      },
+      "name" : "Outras Informações",
+      "description" : "Representa quaisquer outras informações acerca dos dados de desfecho do atendimento registrado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRPlanoCuidados-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRPlanoCuidados-1.0"
+      },
+      "name" : "Plano de Cuidados",
+      "description" : "Descreve o plano de cuidados, instruções e recomendações."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRPrescricaoMedicamento.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRPrescricaoMedicamento"
+      },
+      "name" : "Prescrição de Medicamento",
+      "description" : "Prescrição de Medicamento"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRProblemaDiagnostico.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRProblemaDiagnostico"
+      },
+      "name" : "Problema / Diagnóstico",
+      "description" : "Problema e/ou diagnóstico atribuído pelo profissional de saúde ao indivíduo no contato assistencial."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRProcedimentoRealizado-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRProcedimentoRealizado-1.0"
+      },
+      "name" : "Procedimento Realizado",
+      "description" : "Procedimento realizado em um indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRQuantidade-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRQuantidade-1.0"
+      },
+      "name" : "Quantidade",
+      "description" : "Extensão para identificar quantidades."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRRegistroPrescricaoMedicamento.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRRegistroPrescricaoMedicamento"
+      },
+      "name" : "Registro de Prescrição de Medicamento",
+      "description" : "Modelo que gera o documento de Registro de Prescrição de Medicamento"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRRestricaoFuncionalIncapacidadeSaude-1.0"
+      },
+      "name" : "Restrições Funcionais e Incapacidades em Saúde",
+      "description" : "Registra restrições funcionais ou incapacidades em saúde observadas no indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRResumoEvolucaoClinica.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRResumoEvolucaoClinica"
+      },
+      "name" : "Resumo da Evolução Clínica",
+      "description" : "Descrição da evolução clínica do indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:resource"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRSumarioAlta.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRSumarioAlta"
+      },
+      "name" : "Sumário de Alta (SA)",
+      "description" : "O sumário de alta apresenta o conjunto dos principais registros realizados durante a permanência do indivíduo em um atendimento, como evolução clínica, procedimentos assistenciais, intervenções clínicas e diagnósticas, condutas adotadas e iniciadas para seguimento em clínica ou outro estabelecimento de assistência à saúde, e principalmente no final de sua permanência. A troca das informações essenciais referente ao período de permanência do indivíduo em um estabelecimento de saúde garante sua segurança na continuidade do tratamento. (Resolução CIT Nº 33, de 22 de março de 2018)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "StructureDefinition-BRTurno.html"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/BRTurno"
+      },
+      "name" : "Turno",
+      "description" : "Extensão para descrever uma unidade de tempo referenciada pelo UCUM."
     },
     {
       "extension" : [{
@@ -1884,13 +1528,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRCID10-1.0.html"
+        "valueUri" : "ValueSet-BRAlergenos-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRCID10-1.0"
+        "reference" : "ValueSet/BRAlergenos-1.0"
       },
-      "name" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)",
-      "description" : "Classificação Internacional de Doenças - Décima Revisão (CID-10)"
+      "name" : "Alérgenos",
+      "description" : "Descreve o agente capaz de causar alergia ou reação adversa em seres humanos."
     },
     {
       "extension" : [{
@@ -1899,13 +1543,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRCategoriaDiagnostico.html"
+        "valueUri" : "ValueSet-BRCaraterAtendimento-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRCategoriaDiagnostico"
+        "reference" : "ValueSet/BRCaraterAtendimento-1.0"
       },
-      "name" : "Categoria do Diagnóstico (ValueSet)",
-      "description" : "ValueSet utilizado para definir o tipo de categoria do diagnóstico realizado."
+      "name" : "Caráter de atendimento do Contato Assistencial",
+      "description" : "ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial."
     },
     {
       "extension" : [{
@@ -1914,13 +1558,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRCondicaoMaternal-1.0.html"
+        "valueUri" : "ValueSet-BRCategoriaAgenteAlergiasReacoesAdversas-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRCondicaoMaternal-1.0"
+        "reference" : "ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0"
       },
-      "name" : "Condição Maternal (ValueSet)",
-      "description" : "ValueSet utilizado para Indicar a condição maternal da pessoa vacinada."
+      "name" : "Categoria do Agente da Alergia ou Reação Adversa",
+      "description" : "Categoriza a substância responsável por causar uma alergia ou reação adversa."
     },
     {
       "extension" : [{
@@ -1929,13 +1573,58 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRDose-1.0.html"
+        "valueUri" : "ValueSet-BRCategoriaCondicao.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRDose-1.0"
+        "reference" : "ValueSet/BRCategoriaCondicao"
       },
-      "name" : "Dose do Imunobiológico",
-      "description" : "ValueSet utilizado para definir o tipo da dose administrada no indivíduo."
+      "name" : "Classificação de uma condição",
+      "description" : "Tradução para o português do brasil da classificação de uma condição"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRCriticidadeAlergiasReacoesAdversas-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0"
+      },
+      "name" : "Criticidade de Alergias e Reações Adversas",
+      "description" : "Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BREstadoContatoAssistencial-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstadoContatoAssistencial-1.0"
+      },
+      "name" : "Estado do Contato Assistencial",
+      "description" : "Classifica o estado de um Contato Assistencial."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BREstadoDocumento-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstadoDocumento-1.0"
+      },
+      "name" : "Estado do Documento",
+      "description" : "Classifica o estado do documento que está sendo trafegado."
     },
     {
       "extension" : [{
@@ -1959,6 +1648,21 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BREstadoObservacao-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BREstadoObservacao-1.0"
+      },
+      "name" : "Estado da Observação",
+      "description" : "Tipos de estados de uma observação."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
         "valueUri" : "ValueSet-BREstadoResolucaoDiagnosticoProblema-1.0.html"
       }],
       "reference" : {
@@ -1974,13 +1678,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BREstrategiaVacinacao-1.0.html"
+        "valueUri" : "ValueSet-BREstadoRestricaoFuncionalIncapacidadeSaude-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BREstrategiaVacinacao-1.0"
+        "reference" : "ValueSet/BREstadoRestricaoFuncionalIncapacidadeSaude-1.0"
       },
-      "name" : "Estratégia de Vacinação (ValueSet)",
-      "description" : "Identifica a estratégia de vacinação adotada."
+      "name" : "Estado da Restrição Funcional ou Incapacidade de Saúde",
+      "description" : "Estado da Restrição Funcional ou Incapacidade de Saúde"
     },
     {
       "extension" : [{
@@ -1989,13 +1693,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRFabricanteImunobiologico-1.0.html"
+        "valueUri" : "ValueSet-BREstadoSolicitacao-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRFabricanteImunobiologico-1.0"
+        "reference" : "ValueSet/BREstadoSolicitacao-1.0"
       },
-      "name" : "Fabricante do Imunobiológico (ValueSet)",
-      "description" : "Fabricante do imunobiológico administrado"
+      "name" : "Estado da Solicitação",
+      "description" : "Estado da solicitação."
     },
     {
       "extension" : [{
@@ -2004,13 +1708,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRGrupoAtendimento-1.0.html"
+        "valueUri" : "ValueSet-BREstadoSolicitacaoMedicamento-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRGrupoAtendimento-1.0"
+        "reference" : "ValueSet/BREstadoSolicitacaoMedicamento-1.0"
       },
-      "name" : "Tipo de grupo de atendimento (ValueSet)",
-      "description" : "Identifica o tipo de grupo de atendimento que o indivíduo apresentou para a vacinação em campanha."
+      "name" : "Estado da Solicitação de Medicamento",
+      "description" : "Estado da Solicitação de Medicamento"
     },
     {
       "extension" : [{
@@ -2019,13 +1723,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRImunobiologico-1.0.html"
+        "valueUri" : "ValueSet-BRFinanciamento-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRImunobiologico-1.0"
+        "reference" : "ValueSet/BRFinanciamento-1.0"
       },
-      "name" : "Imunobiológico (ValueSet)",
-      "description" : "Tipos de imunobiológicos disponíveis no Brasil."
+      "name" : "Financiamento do procedimento realizado (ValueSet)",
+      "description" : "Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde."
     },
     {
       "extension" : [{
@@ -2034,13 +1738,73 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRLocalAplicacao-1.0.html"
+        "valueUri" : "ValueSet-BRGrauCertezaAlergiasReacoesAdversas-1.0.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRLocalAplicacao-1.0"
+        "reference" : "ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0"
       },
-      "name" : "Local de Aplicação (ValueSet)",
-      "description" : "Localização anatômica para aplicação de um injetável."
+      "name" : "Grau de Certeza de Alergias e Reações Adversas",
+      "description" : "Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRJustificativaIndividuoNaoIdentificado-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRJustificativaIndividuoNaoIdentificado-1.0"
+      },
+      "name" : "Justificativa da Impossibilidade de Identificação do Indivíduo (ValueSet)",
+      "description" : "Classifica as razões pelo qual não foi possível obter os dados de identificação do indivíduo em um contato assistencial. (Port. nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRModalidadeAssistencial-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRModalidadeAssistencial-1.0"
+      },
+      "name" : "Modalidade Assistencial (ValueSet)",
+      "description" : "Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRModalidadeTelessaude.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRModalidadeTelessaude"
+      },
+      "name" : "Modalidade de Telessaúde (ValueSet)",
+      "description" : "Conjunto de códigos utilizados para identificar as modalidades de telessaúde no contexto do atendimento clínico."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRMotivoDesfecho-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRMotivoDesfecho-1.0"
+      },
+      "name" : "Motivo do desfecho do Contato assistencial",
+      "description" : "ValueSet utilizado para classificar o motivo de conclusão total ou parcial do contato assistencial."
     },
     {
       "extension" : [{
@@ -2064,13 +1828,13 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRPais-1.0.html"
+        "valueUri" : "ValueSet-BRPapelProblemaDiagnostico.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRPais-1.0"
+        "reference" : "ValueSet/BRPapelProblemaDiagnostico"
       },
-      "name" : "País (ValueSet)",
-      "description" : "Códigos para representação de países."
+      "name" : "Classificação do papel de um problema e diagnóstico (ValueSet)",
+      "description" : "Tradução para o português do brasil da classificação do papel de um problema/diagnóstico."
     },
     {
       "extension" : [{
@@ -2079,13 +1843,118 @@
       },
       {
         "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
-        "valueUri" : "ValueSet-BRRegistroOrigem.html"
+        "valueUri" : "ValueSet-BRPrescricaoNaoEstruturada.html"
       }],
       "reference" : {
-        "reference" : "ValueSet/BRRegistroOrigem"
+        "reference" : "ValueSet/BRPrescricaoNaoEstruturada"
       },
-      "name" : "Registro de Origem (ValueSet)",
-      "description" : "Códigos para representação da Origem do Registro de Imunobiológico."
+      "name" : "Indicativo de prescrição não estruturada ou medicamento não identificado",
+      "description" : "Indicativo de prescrição não estruturada ou medicamento não identificado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRProblemaDiagnostico.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRProblemaDiagnostico"
+      },
+      "name" : "Classificação Internacional de Doenças e Atenção Primária",
+      "description" : "Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10)"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRProcedencia-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRProcedencia-1.0"
+      },
+      "name" : "Procedência do Contato Assistencial",
+      "description" : "Classifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRProcedimentosNacionais-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRProcedimentosNacionais-1.0"
+      },
+      "name" : "Procedimento realizado",
+      "description" : "ValueSet das classificações brasileiras para procedimentos adotadas em contexto nacional, os CodeSystems apresentam os códigos da competência atual, para o envio de competência anterior os códigos devem ser consultados na RTS."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRReacoesAdversasMedDRA-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRReacoesAdversasMedDRA-1.0"
+      },
+      "name" : "Reações Adversas da MedDRA",
+      "description" : "Classifica as reações adversas de acordo com o Medical Dictionary for Regulatory Activities."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRResponsabilidadeParticipante-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRResponsabilidadeParticipante-1.0"
+      },
+      "name" : "Reponsabilidade no Contato Assistencial",
+      "description" : "Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRSexo-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRSexo-1.0"
+      },
+      "name" : "Sexo",
+      "description" : "Sexo de um indivíduo."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRTerminologiaMedicamento.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRTerminologiaMedicamento"
+      },
+      "name" : "Terminologia dos medicamentos",
+      "description" : "ValueSet utilizado para definir a terminologia de um dado medicamento."
     },
     {
       "extension" : [{
@@ -2101,6 +1970,96 @@
       },
       "name" : "Tipo de Documento (ValueSet)",
       "description" : "Classifica o tipo de documento que está sendo trafegado."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRTipoIdentificadorProcedimento-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRTipoIdentificadorProcedimento-1.0"
+      },
+      "name" : "Tipo de Identificador do Procedimento",
+      "description" : "Classifica o tipo de identificador que está sendo utilizado para o procedimento."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRTipoObservacao-1.0.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRTipoObservacao-1.0"
+      },
+      "name" : "Tipo de Observação (ValueSet)",
+      "description" : "Tipo de Observação."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRTurno.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRTurno"
+      },
+      "name" : "Turno do dia (ValueSet)",
+      "description" : "ValueSet utilizado para definir o turno de um dia."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRUnidadeConsumo.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRUnidadeConsumo"
+      },
+      "name" : "Unidade de Consumo",
+      "description" : "ValueSet utilizado para definir a unidade de consumo de um medicamento prescrito."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRUnidadeMedidaMedicamento.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRUnidadeMedidaMedicamento"
+      },
+      "name" : "Unidade de Medida de Medicamento",
+      "description" : "ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante."
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "ValueSet-BRUnidadeTempo.html"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/BRUnidadeTempo"
+      },
+      "name" : "Unidade de Tempo",
+      "description" : "ValueSet utilizado para definir uma unidade de tempo."
     },
     {
       "extension" : [{
@@ -2175,9 +2134,9 @@
         },
         {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "miRiar.html"
+          "valueUrl" : "miSA.html"
         }],
-        "nameUrl" : "miRiar.html",
+        "nameUrl" : "miSA.html",
         "title" : "Modelo de Informação",
         "generation" : "html"
       },
@@ -2188,9 +2147,9 @@
         },
         {
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "mcRiar.html"
+          "valueUrl" : "mcSA.html"
         }],
-        "nameUrl" : "mcRiar.html",
+        "nameUrl" : "mcSA.html",
         "title" : "Modelo Computacional",
         "generation" : "html"
       },

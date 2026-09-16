@@ -57,13 +57,13 @@
   <definition>
     <resource>
       <reference>
-        <reference value="Bundle/example-RIA-R" />
+        <reference value="Bundle/example-SA" />
       </reference>
-      <name value="Bundle de exemplo do RIA-R" />
+      <name value="Bundle de exemplo do SA" />
       <description
-        value="Bundle de exemplo do Registro de Imunobiológico Administrado em Rotina (RIA-R)" />
+        value="Bundle de exemplo do Sumário de Alta (SA)" />
       <exampleCanonical
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0" />
+        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta" />
     </resource>
     <page>
       <nameUrl value="toc.html" />
@@ -90,12 +90,12 @@
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="miRiar.html" />
+        <nameUrl value="miSA.html" />
         <title value="Modelo de Informação" />
         <generation value="html" />
       </page>
       <page>
-        <nameUrl value="mcRiar.html" />
+        <nameUrl value="mcSA.html" />
         <title value="Modelo Computacional" />
         <generation value="html" />
       </page>
@@ -152,8 +152,8 @@
     <!-- <parameter>
       <code value="i18n-default-lang" />
       <value value="pt-BR" />
-    </parameter>
-    <parameter>
+    </parameter> -->
+    <!-- <parameter>
       <code value="i18n-lang" />
       <value value="pt-BR" />
     </parameter> -->
@@ -161,7 +161,7 @@
       <code value="special-url-base" />
       <value value="http://www.saude.gov.br/fhir/r4" />
     </parameter>
-    <parameter>
+    <!-- <parameter>
       <code value="special-url" />
       <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" />
     </parameter>
@@ -175,31 +175,7 @@
     </parameter>
     <parameter>
       <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRCondicaoMaternal" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRDose" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BREstrategiaVacinacao" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRFabricantePNI" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRGrupoAtendimento" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
       <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRImunobiologico" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRLocalAplicacao" />
     </parameter>
     <parameter>
       <code value="special-url" />
@@ -207,51 +183,11 @@
     </parameter>
     <parameter>
       <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRRegistroOrigem" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
       <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento" />
     </parameter>
     <parameter>
       <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
       <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value
-        value="http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0" />
     </parameter>
     <parameter>
       <code value="special-url" />
@@ -263,32 +199,12 @@
     </parameter>
     <parameter>
       <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRCondicaoMaternal-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRDose-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
       <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0" />
     </parameter>
     <parameter>
       <code value="special-url" />
       <value
         value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoResolucaoDiagnosticoProblema-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BREstrategiaVacinacao-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRFabricanteImunobiologico-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRGrupoAtendimento-1.0" />
     </parameter>
     <parameter>
       <code value="special-url" />
@@ -308,15 +224,7 @@
     </parameter>
     <parameter>
       <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRRegistroOrigem" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
       <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoDocumento-1.0" />
-    </parameter>
-    <parameter>
-      <code value="special-url" />
-      <value value="http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0" />
-    </parameter>
+    </parameter> -->
   </definition>
 </ImplementationGuide>

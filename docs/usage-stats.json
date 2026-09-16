@@ -5,8 +5,15 @@
   "jurisdiction": "BR",
   "extensions": [
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal",
-      "title": "Condição Maternal",
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento",
+      "title": "Código Serial de Medicamento",
+      "types": [
+        "string"
+      ]
+    },
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0",
+      "title": "Financiamento",
       "types": [
         "CodeableConcept",
         "string",
@@ -23,37 +30,19 @@
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase",
-      "title": "Contato Hanseníase",
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0",
+      "title": "Identificador Nacional de Equipe",
       "types": [
-        "boolean"
+        "integer"
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0",
-      "title": "Estratégia de Vacinação",
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0",
+      "title": "Informações Complementares de Indivíduos Não Identificados",
       "types": [
-        "CodeableConcept",
-        "string",
-        "Extension",
-        "Coding",
-        "string",
-        "Extension",
-        "uri",
-        "string",
         "code",
-        "string",
-        "boolean",
-        "string"
-      ]
-    },
-    {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0",
-      "title": "Estratégia de Vacinação Pesquisa",
-      "types": [
-        "string",
-        "string",
-        "string",
+        "date",
+        "CodeableConcept",
         "base64Binary",
         "boolean",
         "canonical",
@@ -107,8 +96,68 @@
       ]
     },
     {
-      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento",
-      "title": "Grupo de Atendimento",
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses",
+      "title": "Intervalo de Doses",
+      "types": [
+        "code",
+        "string",
+        "Extension",
+        "string",
+        "positiveInt",
+        "base64Binary",
+        "boolean",
+        "canonical",
+        "code",
+        "date",
+        "dateTime",
+        "decimal",
+        "id",
+        "instant",
+        "integer",
+        "markdown",
+        "oid",
+        "positiveInt",
+        "string",
+        "time",
+        "unsignedInt",
+        "uri",
+        "url",
+        "uuid",
+        "Address",
+        "Age",
+        "Annotation",
+        "Attachment",
+        "CodeableConcept",
+        "Coding",
+        "ContactPoint",
+        "Count",
+        "Distance",
+        "Duration",
+        "HumanName",
+        "Identifier",
+        "Money",
+        "Period",
+        "Quantity",
+        "Range",
+        "Ratio",
+        "Reference",
+        "SampledData",
+        "Signature",
+        "Timing",
+        "ContactDetail",
+        "Contributor",
+        "DataRequirement",
+        "Expression",
+        "ParameterDefinition",
+        "RelatedArtifact",
+        "TriggerDefinition",
+        "UsageContext",
+        "Dosage"
+      ]
+    },
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0",
+      "title": "Ocupação",
       "types": [
         "CodeableConcept",
         "string",
@@ -123,25 +172,97 @@
         "boolean",
         "string"
       ]
+    },
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes",
+      "title": "Outras Informações",
+      "types": [
+        "Annotation"
+      ]
+    },
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0",
+      "title": "Quantidade",
+      "types": [
+        "decimal",
+        "integer",
+        "positiveInt",
+        "unsignedInt"
+      ]
+    },
+    {
+      "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno",
+      "title": "Turno",
+      "types": [
+        "code"
+      ]
     }
   ],
   "profiles": {
-    "Condition": [
+    "AllergyIntolerance": [
       {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCID10Avaliado-1.0",
-        "title": "CID10 Avaliado"
-      }
-    ],
-    "Immunization": [
-      {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRImunobiologicoAdministrado-3.0",
-        "title": "Imunobiológico Administrado em Rotina"
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0",
+        "title": "Alergia ou Reação Adversa"
       }
     ],
     "Composition": [
       {
-        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRegistroImunobiologicoAdministradoRotina-2.0",
-        "title": "Registro de Imunobiológico Administrado na Rotina"
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta",
+        "title": "Sumário de Alta (SA)"
+      }
+    ],
+    "Encounter": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0",
+        "title": "Contato Assistencial"
+      }
+    ],
+    "Location": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLocalAtendimento-1.0",
+        "title": "Local de Atendimento"
+      }
+    ],
+    "Medication": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento",
+        "title": "Medicamento (StructureDefinition)"
+      }
+    ],
+    "Observation": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0",
+        "title": "Observação Descritiva"
+      }
+    ],
+    "CarePlan": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0",
+        "title": "Plano de Cuidados"
+      }
+    ],
+    "MedicationRequest": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento",
+        "title": "Prescrição de Medicamento"
+      }
+    ],
+    "Condition": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRestricaoFuncionalIncapacidadeSaude-1.0",
+        "title": "Restrições Funcionais e Incapacidades em Saúde"
+      }
+    ],
+    "Procedure": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0",
+        "title": "Procedimento Realizado"
+      }
+    ],
+    "ClinicalImpression": [
+      {
+        "url": "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResumoEvolucaoClinica",
+        "title": "Resumo da Evolução Clínica"
       }
     ]
   },
@@ -153,12 +274,20 @@
       "StructureDefinition.snapshot.element.constraint"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-bindingName": [
+      "StructureDefinition.differential.element.binding",
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet": [
       "StructureDefinition.snapshot.element.binding"
     ],
     "http://hl7.org/fhir/StructureDefinition/elementdefinition-translatable": [
+      "StructureDefinition.differential.element",
+      "StructureDefinition.snapshot.element"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/regex": [
+      "StructureDefinition.snapshot.element.type"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-display-hint": [
       "StructureDefinition.snapshot.element"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-fhir-type": [
@@ -169,6 +298,9 @@
       "ImplementationGuide",
       "StructureDefinition",
       "ValueSet"
+    ],
+    "http://hl7.org/fhir/StructureDefinition/structuredefinition-hierarchy": [
+      "StructureDefinition.snapshot.element.type"
     ],
     "http://hl7.org/fhir/StructureDefinition/structuredefinition-normative-version": [
       "CodeSystem",
@@ -213,25 +345,43 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCondicaoMaternal": [
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento": [
+      "Medication"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0": [
+      "Bundle.entry.resource.diagnosis.condition",
+      "Encounter.diagnosis.condition"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIdentificacaoEquipe-1.0": [
+      "Encounter.participant",
+      "Procedure.performer"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuoNaoIdentificado-1.0": [
+      "AllergyIntolerance.patient",
+      "CarePlan.subject",
+      "Composition.subject",
+      "Condition.subject",
+      "Encounter.subject",
+      "Procedure.subject"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses": [
+      "Bundle.entry.resource.dosageInstruction.timing.repeat",
+      "MedicationRequest.dosageInstruction.timing.repeat"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0": [
+      "Bundle.entry.resource.participant",
+      "Encounter.participant"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROutrasInformacoes": [
+      "Encounter.hospitalization"
+    ],
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0": [
       "Bundle.entry.resource",
-      "Immunization"
+      "Procedure"
     ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoHanseniase": [
-      "Bundle.entry.resource",
-      "Immunization"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacao-1.0": [
-      "Bundle.entry.resource.protocolApplied",
-      "Immunization.protocolApplied"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstrategiaVacinacaoPesquisa-1.0": [
-      "Bundle.entry.resource.protocolApplied",
-      "Immunization.protocolApplied"
-    ],
-    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRGrupoAtendimento": [
-      "Bundle.entry.resource",
-      "Immunization"
+    "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno": [
+      "Bundle.entry.resource.dosageInstruction.timing.repeat",
+      "MedicationRequest.dosageInstruction.timing.repeat"
     ]
   }
 }

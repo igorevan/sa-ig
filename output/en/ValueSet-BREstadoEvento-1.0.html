@@ -48,8 +48,8 @@
 	  <script type="text/javascript" src="assets/js/prism-cql.js"></script>
     <script type="text/javascript" src="assets/js/mermaid.js"></script>
     <script type="text/javascript" src="assets/js/mermaid-init.js"></script>
-    <style type="text/css">h2{--heading-prefix:"11.13"}
-    h3,h4,h5,h6{--heading-prefix:"11.13"}</style>
+    <style type="text/css">h2{--heading-prefix:"11.31"}
+    h3,h4,h5,h6{--heading-prefix:"11.31"}</style>
     <div id="segment-header" class="segment">  <!-- segment-header -->
       <div class="container">  <!-- container -->
 
@@ -103,21 +103,20 @@
   </li>
 
   <li class="dropdown">
-    <a data-toggle="dropdown" href="miRiar.html" class="dropdown-toggle"> RIA <b class="caret"></b>
+    <a data-toggle="dropdown" href="miSA.html" class="dropdown-toggle"> SA <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="miRiar.html">Modelo de Informação</a>
+        <a href="miSA.html">Modelo de Informação</a>
       </li>
       <li>
-        <a href="mcRiar.html">Modelo Computacional</a>
+        <a href="mcSA.html">Modelo Computacional</a>
       </li>
     </ul>
   </li>
 
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle"> Especificação <b
-        class="caret"></b>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
@@ -137,8 +136,7 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> Especificações do FHIR R4 <img
-            src="external.png"
+        <a target="_blank" href="http://hl7.org/fhir/R4/index.html"> Especificações do FHIR R4 <img src="external.png"
             style="text-align: baseline" />
         </a>
       </li>
@@ -175,7 +173,7 @@
 
           <span style="float: var(--ig-right);">
 
-            <a href="ValueSet-BRDose-1.0.ttl.html">&lt; prev</a> | 
+            <a href="ValueSet-BREstadoDocumento-1.0.ttl.html">&lt; prev</a> | 
 
             <a href="#bottom">bottom</a>
 
@@ -305,7 +303,7 @@
   </p>
   
 <ul>
- <li><a href="StructureDefinition-BRImunobiologicoAdministrado-3.0.html">Imunobiológico Administrado em Rotina</a></li>
+ <li><a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">Procedimento Realizado</a></li>
 </ul>
 
 
@@ -320,7 +318,7 @@
   <h3>Logical Definition (CLD)</h3>
 <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated"><p class="res-header-id"></p><a name="BREstadoEvento-1.0"> </a><a name="hcBREstadoEvento-1.0"> </a>
 <div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px">Língua: en</p></div>
-<ul><li>Include estes códigos, tal como definidos em <a href="http://hl7.org/fhir/R4/codesystem-event-status.html"><code>http://hl7.org/fhir/event-status</code></a><span title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references"> versão &#x1F4E6;4.0.1</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation">preparation</a></td><td style="color: #cccccc">Preparation</td><td>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</td><td>Pré-procedimento</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress">in-progress</a></td><td style="color: #cccccc">In Progress</td><td>The event is currently occurring.</td><td>Em andamento</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done">not-done</a></td><td style="color: #cccccc">Not Done</td><td>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</td><td>Não Realizado</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold">on-hold</a></td><td style="color: #cccccc">On Hold</td><td>The event has been temporarily stopped but is expected to resume in the future.</td><td>Suspenso</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped">stopped</a></td><td style="color: #cccccc">Stopped</td><td>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</td><td>Cancelado</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed">completed</a></td><td style="color: #cccccc">Completed</td><td>The event has now concluded.</td><td>Completado</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown">unknown</a></td><td style="color: #cccccc">Unknown</td><td>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for "other" - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</td><td>Desconhecido</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error">entered-in-error</a></td><td style="color: #cccccc">Entered in Error</td><td>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be "stopped" rather than "entered-in-error".).</td><td>Entrada com erro</td></tr></table></li></ul></div>
+<ul><li>Include estes códigos, tal como definidos em <a href="http://hl7.org/fhir/R4/codesystem-event-status.html"><code>http://hl7.org/fhir/event-status</code></a><span title="Version is not explicitly stated, which means it is fixed to 4.0.1, the version found through the package references"> versão &#x1F4E6;4.0.1</span><table class="none" data-fhir="generated"><tr><td style="white-space:nowrap"><b>Código</b></td><td><b>Ecrã</b></td><td><b>Definição</b></td><td><b>Portuguese (Brazil) (pt)</b></td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-preparation">preparation</a></td><td>Preparation</td><td>The core event has not started yet, but some staging activities have begun (e.g. surgical suite preparation).  Preparation stages may be tracked for billing purposes.</td><td>Pré-procedimento</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-in-progress">in-progress</a></td><td>In Progress</td><td>The event is currently occurring.</td><td>Em andamento</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-not-done">not-done</a></td><td>Not Done</td><td>The event was terminated prior to any activity beyond preparation.  I.e. The 'main' activity has not yet begun.  The boundary between preparatory and the 'main' activity is context-specific.</td><td>Não Realizado</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-on-hold">on-hold</a></td><td>On Hold</td><td>The event has been temporarily stopped but is expected to resume in the future.</td><td>Suspenso</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-stopped">stopped</a></td><td>Stopped</td><td>The event was terminated prior to the full completion of the intended activity but after at least some of the 'main' activity (beyond preparation) has occurred.</td><td>Cancelado</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-completed">completed</a></td><td>Completed</td><td>The event has now concluded.</td><td>Completado</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-unknown">unknown</a></td><td>Unknown</td><td>The authoring/source system does not know which of the status values currently applies for this event.  Note: This concept is not to be used for "other" - one of the listed statuses is presumed to apply,  but the authoring/source system does not know which.</td><td>Desconhecido</td></tr><tr><td><a href="http://hl7.org/fhir/R4/codesystem-event-status.html#event-status-entered-in-error">entered-in-error</a></td><td>Entered in Error</td><td>This electronic record should never have existed, though it is possible that real-world decisions were based on it.  (If real-world activity has occurred, the status should be "stopped" rather than "entered-in-error".).</td><td>Entrada com erro</td></tr></table></li></ul></div>
 
   <p>&#160;</p>
   <a name="expansion"> </a>
@@ -365,7 +363,7 @@
             <tr>
               <td style="text-align:var(--ig-left);">&#xA0;
 
-                <a href="ValueSet-BRDose-1.0.ttl.html">&lt; prev</a>
+                <a href="ValueSet-BREstadoDocumento-1.0.ttl.html">&lt; prev</a>
 
               </td>
               <td style="text-align:center">
@@ -389,8 +387,8 @@
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
           Package br.gov.saude.sa.fhir#1.0.0-release based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-09-15 16:38:00 -0300">
-    2026-09-15
+  <span title="2026-09-16 19:02:00 -0300">
+    2026-09-16
   </span>
 
           <br/>

@@ -8,6 +8,9 @@
 <https://fhir.saude.gov.br/sa/ValueSet/BROcupacao-1.0> a fhir:ValueSet ;
   fhir:nodeRole fhir:treeRoot ;
   fhir:Resource.id [ fhir:value "BROcupacao-1.0"] ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2020-03-12T13:22:07.223+00:00"^^xsd:dateTime ]
+  ] ;
   fhir:Resource.language [ fhir:value "en"] ;
   fhir:DomainResource.text [
      fhir:Narrative.status [ fhir:value "generated" ]

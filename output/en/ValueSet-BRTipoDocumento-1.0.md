@@ -7,7 +7,8 @@ Classifica o tipo de documento que está sendo trafegado.
 
  **References** 
 
-* [Registro de Imunobiológico Administrado na Rotina](StructureDefinition-BRRegistroImunobiologicoAdministradoRotina-2.0.md)
+* [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)
+* [Registro de Prescrição de Medicamento](StructureDefinition-BRRegistroPrescricaoMedicamento.md)
 
 ### Logical Definition (CLD)
 
@@ -27,6 +28,10 @@ Classifica o tipo de documento que está sendo trafegado.
 {
   "resourceType" : "ValueSet",
   "id" : "BRTipoDocumento-1.0",
+  "meta" : {
+    "versionId" : "1",
+    "lastUpdated" : "2020-03-12T13:26:59.33+00:00"
+  },
   "language" : "pt-BR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",

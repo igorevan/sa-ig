@@ -93,12 +93,4 @@
     <code value="ATM"/>
     <display value="Atestado Médico/Odontológico"/>
   </concept>
-  <concept>
-    <code value="REPM"/>
-    <display value="Registro Eletrônico da Prescrição de Medicamento"/>
-  </concept>
-  <concept>
-    <code value="REDFM"/>
-    <display value="Registro Eletrônico de Dispensação ou Fornecimento de Medicamentos"/>
-  </concept>
 </CodeSystem>

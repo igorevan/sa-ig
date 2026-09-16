@@ -116,14 +116,6 @@ This Code system is referenced in the definition of the following value sets:
   {
     "code" : "ATM",
     "display" : "Atestado Médico/Odontológico"
-  },
-  {
-    "code" : "REPM",
-    "display" : "Registro Eletrônico da Prescrição de Medicamento"
-  },
-  {
-    "code" : "REDFM",
-    "display" : "Registro Eletrônico de Dispensação ou Fornecimento de Medicamentos"
   }]
 }
 

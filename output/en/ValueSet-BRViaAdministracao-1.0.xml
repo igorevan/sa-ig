@@ -2,6 +2,9 @@
 
 <ValueSet xmlns="http://hl7.org/fhir">
   <id value="BRViaAdministracao-1.0"/>
+  <meta>
+    <lastUpdated value="2021-08-27T14:51:30.604+00:00"/>
+  </meta>
   <language value="en"/>
   <text>
     <status value="generated"/>

@@ -13,21 +13,20 @@
   </li>
 
   <li class="dropdown">
-    <a data-toggle="dropdown" href="miRiar.html" class="dropdown-toggle"> RIA <b class="caret"></b>
+    <a data-toggle="dropdown" href="miSA.html" class="dropdown-toggle"> SA <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
-        <a href="miRiar.html">Modelo de Informação</a>
+        <a href="miSA.html">Modelo de Informação</a>
       </li>
       <li>
-        <a href="mcRiar.html">Modelo Computacional</a>
+        <a href="mcSA.html">Modelo Computacional</a>
       </li>
     </ul>
   </li>
 
   <li class="dropdown">
-    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle"> Especificação <b
-        class="caret"></b>
+    <a data-toggle="dropdown" href="artifacts.html" class="dropdown-toggle"> Especificação <b class="caret"></b>
     </a>
     <ul class="dropdown-menu">
       <li>
@@ -47,8 +46,7 @@
         <a href="toc.html">Índice</a>
       </li>
       <li>
-        <a target="_blank" href="{{site.data.fhir.path}}index.html"> Especificações do FHIR R4 <img
-            src="external.png"
+        <a target="_blank" href="{{site.data.fhir.path}}index.html"> Especificações do FHIR R4 <img src="external.png"
             style="text-align: baseline" />
         </a>
       </li>

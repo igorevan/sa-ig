@@ -1,0 +1,81 @@
+<div xmlns="http://www.w3.org/1999/xhtml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://hl7.org/fhir ../../input-cache/schemas/R5/fhir-single.xsd">
+  <!-- The spaces between the open and close "a" tag are mandatory.  (Cuz HTML renderers are dumb...) -->
+
+  <a name="objetivo"> </a>
+  <h3>Objetivo</h3>
+
+  <p>O documento clínico <b>RIA-R</b> (Registro de Imunobiológico Administrado em Rotina),
+    destina-se ao registro das doses das vacinas previstas no Calendário Nacional de Imunização em
+    atividades de vacinação rotineiras, bem como das doses aplicadas durante os estudos clínicos que
+    subsidiaram a autorização de uso emergencial ou aprovação de registro sanitário de vacinas
+    Covid-19 e de outras vacinas pela <a href="https://www.gov.br/anvisa/pt-br">Agência Nacional de Vigilância Sanitária
+      (ANVISA)</a>.</p>
+
+  <a name="marcos"> </a>
+  <h3>Marcos Legais</h3>
+  <ul>
+    <li>
+      <a
+        href="https://www.in.gov.br/web/dou/-/portaria-conjunta-saes/svsa/seidigi-n-25-de-27-de-novembro-de-2023-527017519">PORTARIA
+        CONJUNTA SAES/SVSA/SEIDIGI Nº 25, DE 27 DE NOVEMBRO DE 2023</a>
+    </li>
+  </ul>
+
+  <a name="ria"> </a>
+  <h3>Modelo de Informação</h3>
+  <p>
+    O modelo de informação é uma representação conceitual e canônica, onde os elementos referentes a
+    um documento específico são modelados em seções e blocos de dados, com seus respectivos tipos
+    de dados a serem informados. Também são apresentadas as referências para o uso de recursos
+    terminológicos, da seguinte maneira:
+  </p>
+  <ul>
+    <li>
+      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+    </li>
+    <li>
+      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento
+        deve/pode aparecer:</p>
+
+      <pre><code>
+          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez
+          [1..1] - O elemento é obrigatório e deve estar presente uma única vez
+          [0..N] - O elemento é opcional e pode ocorrer várias vezes
+          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes</code>
+        </pre>
+
+    </li>
+    <li>
+      <b>Coluna 3</b> - Seção/Item: nome do bloco ou da informação a ser enviada;
+    </li>
+    <li>
+      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+    </li>
+    <li>
+      <b>Coluna 5</b> - Conceito: apresenta as definições do elemento;
+    </li>
+    <li>
+      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas
+      ao elemento;
+    </li>
+    <li>
+      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
+      a ser utilizado para preenchimento do elemento;
+    </li>
+    <li>
+      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do
+      Modelo Computacional em FHIR.
+    </li>
+  </ul>
+
+  <a name="blocos"> </a>
+  <h3>Blocos do Modelo de Informação</h3>
+
+  <p>
+    Segue abaixo o modelo de informação para o Sumário de Alta (SA):
+  </p>
+
+
+
+</div>

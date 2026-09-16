@@ -1,0 +1,727 @@
+@prefix fhir: <http://hl7.org/fhir/> .
+@prefix loinc: <http://loinc.org/rdf#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+# - resource -------------------------------------------------------------------
+
+<https://fhir.saude.gov.br/sa/Bundle/example-SA> a fhir:Bundle ;
+  fhir:nodeRole fhir:treeRoot ;
+  fhir:Resource.id [ fhir:value "example-SA"] ;
+  fhir:Bundle.identifier [
+     fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/NamingSystem/BRRNDS-12345" ] ;
+     fhir:Identifier.value [ fhir:value "c6d8d486" ]
+  ] ;
+  fhir:Bundle.type [ fhir:value "document"] ;
+  fhir:Bundle.timestamp [ fhir:value "2022-12-07T10:59:51.244-03:00"^^xsd:dateTime] ;
+  fhir:Bundle.entry [
+     fhir:index 0 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:b602ff2a-11c1-498a-b1e2-afbc41476225" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:b602ff2a-11c1-498a-b1e2-afbc41476225>
+  ], [
+     fhir:index 1 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:613e423b-175e-4adc-b062-e477da88ba3c" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:613e423b-175e-4adc-b062-e477da88ba3c>
+  ], [
+     fhir:index 2 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c6d8d486-6c0d-411b-a51f-746400f57faf" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:c6d8d486-6c0d-411b-a51f-746400f57faf>
+  ], [
+     fhir:index 3 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:282704c4-979b-402a-b8ed-5e740a320982" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:282704c4-979b-402a-b8ed-5e740a320982>
+  ], [
+     fhir:index 4 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:42ed53db-5dec-437f-bd10-8895b6f6105d" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:42ed53db-5dec-437f-bd10-8895b6f6105d>
+  ], [
+     fhir:index 5 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:efc37c9a-fdb2-4d11-ade4-b0c0d218f69c" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:efc37c9a-fdb2-4d11-ade4-b0c0d218f69c>
+  ], [
+     fhir:index 6 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:6fd5513d-96f2-4e52-be36-fbbc85cb91f4" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:6fd5513d-96f2-4e52-be36-fbbc85cb91f4>
+  ], [
+     fhir:index 7 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:c8e3cf5f-96b7-43a9-919e-22e9947dc415" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:c8e3cf5f-96b7-43a9-919e-22e9947dc415>
+  ], [
+     fhir:index 8 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:5c1de72d-fdc9-448d-9032-505dc78de8ca" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:5c1de72d-fdc9-448d-9032-505dc78de8ca>
+  ], [
+     fhir:index 9 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:7f396bd9-998a-4784-bbcb-8554ba5b015c" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:7f396bd9-998a-4784-bbcb-8554ba5b015c>
+  ], [
+     fhir:index 10 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:98d60b66-07b6-4c6c-a31f-dc6d1f80e626" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:98d60b66-07b6-4c6c-a31f-dc6d1f80e626>
+  ], [
+     fhir:index 11 ;
+     fhir:Bundle.entry.fullUrl [ fhir:value "urn:uuid:038ad91c-ba1a-4560-8719-2428e998ea53" ] ;
+     fhir:Bundle.entry.resource <urn:uuid:038ad91c-ba1a-4560-8719-2428e998ea53>
+  ] .
+
+<urn:uuid:b602ff2a-11c1-498a-b1e2-afbc41476225> a fhir:Composition ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Composition_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Composition </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRSumarioAlta.html\">Sumário de Alta (SA)</a></p></div><p><b>status</b>: Final</p><p><b>type</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento SA}\">Sumário de Alta</span></p><p><b>category</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial 04}\">Atenção Hospitalar</span></p><p><b>date</b>: 2021-01-25</p><p><b>author</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/1113333</p><p><b>title</b>: Sumário de Alta</p></div>"
+  ] ;
+  fhir:Composition.status [ fhir:value "final"] ;
+  fhir:Composition.type [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento" ] ;
+       fhir:Coding.code [ fhir:value "SA" ]
+     ]
+  ] ;
+  fhir:Composition.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial" ] ;
+       fhir:Coding.code [ fhir:value "04" ]
+     ]
+  ] ;
+  fhir:Composition.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] ;
+  fhir:Composition.date [ fhir:value "2021-01-25"^^xsd:date] ;
+  fhir:Composition.author [
+     fhir:index 0 ;
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "1113333" ]
+     ]
+  ] ;
+  fhir:Composition.title [ fhir:value "Sumário de Alta"] ;
+  fhir:Composition.section [
+     fhir:index 0 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:613e423b-175e-4adc-b062-e477da88ba3c" ]
+     ]
+  ], [
+     fhir:index 1 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:c6d8d486-6c0d-411b-a51f-746400f57faf" ]
+     ]
+  ], [
+     fhir:index 2 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:282704c4-979b-402a-b8ed-5e740a320982" ]
+     ]
+  ], [
+     fhir:index 3 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:42ed53db-5dec-437f-bd10-8895b6f6105d" ]
+     ]
+  ], [
+     fhir:index 4 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:efc37c9a-fdb2-4d11-ade4-b0c0d218f69c" ]
+     ]
+  ], [
+     fhir:index 5 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:6fd5513d-96f2-4e52-be36-fbbc85cb91f4" ]
+     ]
+  ], [
+     fhir:index 6 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:c8e3cf5f-96b7-43a9-919e-22e9947dc415" ]
+     ]
+  ], [
+     fhir:index 7 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:5c1de72d-fdc9-448d-9032-505dc78de8ca" ]
+     ]
+  ], [
+     fhir:index 8 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:7f396bd9-998a-4784-bbcb-8554ba5b015c" ]
+     ]
+  ], [
+     fhir:index 9 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:98d60b66-07b6-4c6c-a31f-dc6d1f80e626" ]
+     ]
+  ], [
+     fhir:index 10 ;
+     fhir:Composition.section.entry [
+       fhir:index 0 ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:038ad91c-ba1a-4560-8719-2428e998ea53" ]
+     ]
+  ] .
+
+<urn:uuid:613e423b-175e-4adc-b062-e477da88ba3c> a fhir:Encounter ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRContatoAssistencial-1.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Encounter_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Encounter </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRContatoAssistencial-1.0.html\">Contato Assistencial</a></p></div><p><b>status</b>: Finished</p><p><b>class</b>: <a href=\"CodeSystem-BRModalidadeAssistencial.html#BRModalidadeAssistencial-04\">Modalidade Assistencial (CodeSystem): 04</a> (Atenção Hospitalar)</p><p><b>priority</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento 02}\">Urgência</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p><h3>Participants</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Type</b></td><td><b>Individual</b></td></tr><tr><td style=\"display: none\">*</td><td/><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante alta}\">Profissional que realizou a alta do indivíduo no Contato Assistencial</span></td><td>Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0</code>/815113499149874-3191384</td></tr></table><p><b>period</b>: 2021-01-18 11:00:00+0000 --&gt; 2021-01-25 11:00:00+0000</p><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Bundle-example-SA.html#urn-uuid-c6d8d486-6c0d-411b-a51f-746400f57faf\">Condition Pneumonia devida a vírus respiratório sincicial</a></p><p><b>use</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/diagnosis-role AD}\">Admission diagnosis</span></p><p><b>rank</b>: 1</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Bundle-example-SA.html#urn-uuid-282704c4-979b-402a-b8ed-5e740a320982\">Condition Infecção por coronavírus de localização não especificada</a></p><p><b>rank</b>: 2</p></blockquote><blockquote><p><b>diagnosis</b></p><p><b>condition</b>: <a href=\"Bundle-example-SA.html#urn-uuid-42ed53db-5dec-437f-bd10-8895b6f6105d\">Procedure TOMOGRAFIA DE HEMITORAX, PULMÃO OU DO MEDIASTINO</a></p></blockquote><h3>Hospitalizations</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>AdmitSource</b></td><td><b>DischargeDisposition</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia 09}\">Demanda espontânea</span></td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho 03}\">Encaminhamento</span></td></tr></table><p><b>serviceProvider</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/1113333</p></div>"
+  ] ;
+  fhir:Encounter.status [ fhir:value "finished"] ;
+  fhir:Encounter.class [
+     fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial" ] ;
+     fhir:Coding.code [ fhir:value "04" ]
+  ] ;
+  fhir:Encounter.priority [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCaraterAtendimento" ] ;
+       fhir:Coding.code [ fhir:value "02" ]
+     ]
+  ] ;
+  fhir:Encounter.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] ;
+  fhir:Encounter.participant [
+     fhir:index 0 ;
+     fhir:Element.extension [
+       fhir:index 0 ;
+       fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BROcupacao-1.0" ] ;
+       fhir:Extension.valueCodeableConcept [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" ] ;
+           fhir:Coding.code [ fhir:value "225125" ]
+         ]
+       ]
+     ] ;
+     fhir:Encounter.participant.type [
+       fhir:index 0 ;
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRResponsabilidadeParticipante" ] ;
+         fhir:Coding.code [ fhir:value "alta" ]
+       ]
+     ] ;
+     fhir:Encounter.participant.individual [
+       fhir:Reference.identifier [
+         fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRLotacaoProfissional-1.0" ] ;
+         fhir:Identifier.value [ fhir:value "815113499149874-3191384" ]
+       ]
+     ]
+  ] ;
+  fhir:Encounter.period [
+     fhir:Period.start [ fhir:value "2021-01-18T11:00:00Z"^^xsd:dateTime ] ;
+     fhir:Period.end [ fhir:value "2021-01-25T11:00:00Z"^^xsd:dateTime ]
+  ] ;
+  fhir:Encounter.diagnosis [
+     fhir:index 0 ;
+     fhir:Encounter.diagnosis.condition [
+       fhir:Reference.reference [ fhir:value "urn:uuid:c6d8d486-6c0d-411b-a51f-746400f57faf" ]
+     ] ;
+     fhir:Encounter.diagnosis.use [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/diagnosis-role" ] ;
+         fhir:Coding.code [ fhir:value "AD" ]
+       ]
+     ] ;
+     fhir:Encounter.diagnosis.rank [ fhir:value "1"^^xsd:positiveInteger ]
+  ], [
+     fhir:index 1 ;
+     fhir:Encounter.diagnosis.condition [
+       fhir:Reference.reference [ fhir:value "urn:uuid:282704c4-979b-402a-b8ed-5e740a320982" ]
+     ] ;
+     fhir:Encounter.diagnosis.rank [ fhir:value "2"^^xsd:positiveInteger ]
+  ], [
+     fhir:index 2 ;
+     fhir:Encounter.diagnosis.condition [
+       fhir:Element.extension [
+         fhir:index 0 ;
+         fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRFinanciamento-1.0" ] ;
+         fhir:Extension.valueCodeableConcept [
+           fhir:CodeableConcept.coding [
+             fhir:index 0 ;
+             fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRFinanciamento" ] ;
+             fhir:Coding.code [ fhir:value "02" ]
+           ]
+         ]
+       ] ;
+       fhir:Reference.reference [ fhir:value "urn:uuid:42ed53db-5dec-437f-bd10-8895b6f6105d" ]
+     ]
+  ] ;
+  fhir:Encounter.hospitalization [
+     fhir:Encounter.hospitalization.admitSource [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRProcedencia" ] ;
+         fhir:Coding.code [ fhir:value "09" ]
+       ]
+     ] ;
+     fhir:Encounter.hospitalization.dischargeDisposition [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho" ] ;
+         fhir:Coding.code [ fhir:value "03" ]
+       ]
+     ]
+  ] ;
+  fhir:Encounter.serviceProvider [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "1113333" ]
+     ]
+  ] .
+
+<urn:uuid:c6d8d486-6c0d-411b-a51f-746400f57faf> a fhir:Condition ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Condition </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRProblemaDiagnostico.html\">Problema / Diagnóstico</a></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 J121}\">Pneumonia devida a vírus respiratório sincicial</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p></div>"
+  ] ;
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ] ;
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ] ;
+  fhir:Condition.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-category" ] ;
+       fhir:Coding.code [ fhir:value "encounter-diagnosis" ]
+     ]
+  ] ;
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10" ] ;
+       fhir:Coding.code [ fhir:value "J121" ]
+     ]
+  ] ;
+  fhir:Condition.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] .
+
+<urn:uuid:282704c4-979b-402a-b8ed-5e740a320982> a fhir:Condition ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProblemaDiagnostico>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Condition </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRProblemaDiagnostico.html\">Problema / Diagnóstico</a></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>category</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-category encounter-diagnosis}\">Encounter Diagnosis</span></p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10 B342}\">Infecção por coronavírus de localização não especificada</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p></div>"
+  ] ;
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ] ;
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ] ;
+  fhir:Condition.category [
+     fhir:index 0 ;
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-category" ] ;
+       fhir:Coding.code [ fhir:value "encounter-diagnosis" ]
+     ]
+  ] ;
+  fhir:Condition.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10" ] ;
+       fhir:Coding.code [ fhir:value "B342" ]
+     ]
+  ] ;
+  fhir:Condition.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] .
+
+<urn:uuid:42ed53db-5dec-437f-bd10-8895b6f6105d> a fhir:Procedure ;
+  fhir:Resource.meta [
+     fhir:Meta.lastUpdated [ fhir:value "2022-05-09T17:39:08.701859Z"^^xsd:dateTime ] ;
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRProcedimentoRealizado-1.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "extensions" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Procedure_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Procedure </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\">Última atualização: 2022-05-09 17:39:08+0000</p><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRProcedimentoRealizado-1.0.html\">Procedimento Realizado</a></p></div><p><b>Quantidade</b>: 8</p><p><b>identifier</b>: Código de Autorização/301010170</p><p><b>status</b>: Completed</p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS 0206020040}\">TOMOGRAFIA DE HEMITORAX, PULMÃO OU DO MEDIASTINO</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p><p><b>performed</b>: 2026-06-05 12:20:32-0300</p><h3>Performers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Function</b></td><td><b>Actor</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO 225125}\">MEDICO CLINICO</span></td><td>Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0</code>/1113333</td></tr></table><p><b>note</b>: </p><blockquote><div><p>Texto livre</p>\n</div></blockquote></div>"
+  ] ;
+  fhir:DomainResource.extension [
+     fhir:index 0 ;
+     fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRQuantidade-1.0" ] ;
+     fhir:Extension.valuePositiveInt [ fhir:value "8"^^xsd:positiveInteger ]
+  ] ;
+  fhir:Procedure.identifier [
+     fhir:index 0 ;
+     fhir:Identifier.type [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoIdentificador" ] ;
+         fhir:Coding.code [ fhir:value "AUTH" ]
+       ]
+     ] ;
+     fhir:Identifier.value [ fhir:value "301010170" ]
+  ] ;
+  fhir:Procedure.status [ fhir:value "completed"] ;
+  fhir:Procedure.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTabelaSUS" ] ;
+       fhir:Coding.code [ fhir:value "0206020040" ]
+     ]
+  ] ;
+  fhir:Procedure.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] ;
+  fhir:Procedure.performedDateTime [ fhir:value "2026-06-05T12:20:32-03:00"^^xsd:dateTime] ;
+  fhir:Procedure.performer [
+     fhir:index 0 ;
+     fhir:Procedure.performer.function [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCBO" ] ;
+         fhir:Coding.code [ fhir:value "225125" ]
+       ]
+     ] ;
+     fhir:Procedure.performer.actor [
+       fhir:Reference.identifier [
+         fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BREstabelecimentoSaude-1.0" ] ;
+         fhir:Identifier.value [ fhir:value "1113333" ]
+       ]
+     ]
+  ] ;
+  fhir:Procedure.note [
+     fhir:index 0 ;
+     fhir:Annotation.text [ fhir:value "Texto livre" ]
+  ] .
+
+<urn:uuid:efc37c9a-fdb2-4d11-ade4-b0c0d218f69c> a fhir:Condition ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRestricaoFuncionalIncapacidadeSaude" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRestricaoFuncionalIncapacidadeSaude>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Condition_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Condition </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRRestricaoFuncionalIncapacidadeSaude</code></p></div><p><b>clinicalStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/condition-clinical active}\">Active</span></p><p><b>code</b>: <span title=\"Códigos:\">Texto livre</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p></div>"
+  ] ;
+  fhir:Condition.clinicalStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/condition-clinical" ] ;
+       fhir:Coding.code [ fhir:value "active" ]
+     ]
+  ] ;
+  fhir:Condition.code [
+     fhir:CodeableConcept.text [ fhir:value "Texto livre" ]
+  ] ;
+  fhir:Condition.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] .
+
+<urn:uuid:6fd5513d-96f2-4e52-be36-fbbc85cb91f4> a fhir:AllergyIntolerance ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRAlergiaReacaoAdversa-1.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"AllergyIntolerance_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: AllergyIntolerance </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRAlergiaReacaoAdversa-1.0.html\">Alergia ou Reação Adversa</a></p></div><p><b>verificationStatus</b>: <span title=\"Códigos:{http://terminology.hl7.org/CodeSystem/allergyintolerance-verification confirmed}\">Confirmed</span></p><p><b>category</b>: Medication</p><p><b>criticality</b>: High Risk</p><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento BR0267205U0063}\">DIPIRONA SÓDICA  500 MG/ML SOLUÇÃO ORAL 10 ML</span></p><p><b>patient</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p><p><b>onset</b>: 2025-09-17</p><p><b>note</b>: </p><blockquote><div><p>Alergia a dipirona sódica</p>\n</div></blockquote><h3>Reactions</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Manifestation</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA 10002198}\">Anafilaxia</span></td></tr></table></div>"
+  ] ;
+  fhir:AllergyIntolerance.verificationStatus [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification" ] ;
+       fhir:Coding.code [ fhir:value "confirmed" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.category [
+     fhir:value "medication" ;
+     fhir:index 0
+  ] ;
+  fhir:AllergyIntolerance.criticality [ fhir:value "high"] ;
+  fhir:AllergyIntolerance.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedicamento" ] ;
+       fhir:Coding.code [ fhir:value "BR0267205U0063" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.patient [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] ;
+  fhir:AllergyIntolerance.onsetDateTime [ fhir:value "2025-09-17"^^xsd:date] ;
+  fhir:AllergyIntolerance.note [
+     fhir:index 0 ;
+     fhir:Annotation.text [ fhir:value "Alergia a dipirona sódica" ]
+  ] ;
+  fhir:AllergyIntolerance.reaction [
+     fhir:index 0 ;
+     fhir:AllergyIntolerance.reaction.manifestation [
+       fhir:index 0 ;
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMedDRA" ] ;
+         fhir:Coding.code [ fhir:value "10002198" ]
+       ]
+     ]
+  ] .
+
+<urn:uuid:c8e3cf5f-96b7-43a9-919e-22e9947dc415> a fhir:MedicationRequest ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPrescricaoMedicamento>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"MedicationRequest_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: MedicationRequest </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRPrescricaoMedicamento.html\">Prescrição de Medicamento</a></p></div><p><b>status</b>: Completed</p><p><b>medication</b>: <a href=\"Bundle-example-SA.html#urn-uuid-5c1de72d-fdc9-448d-9032-505dc78de8ca\">Medication Água para injeção 1 L Sistema Fechado; frasco-ampola</a></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p><p><b>note</b>: Por Dr. Getúlio @2022-03-04</p><blockquote><div><p>Medicamento necessário para tratamento da febre devido à gripe.</p>\n</div></blockquote><blockquote><p><b>dosageInstruction</b></p><p><b>text</b>: Texto livre</p><p><b>patientInstruction</b>: Tomar uma vez ao dia via oral.</p><p><b>timing</b>: Contagem 1  times, 12</p><p><b>asNeeded</b>: true</p><p><b>route</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao 10907}\">Oral</span></p><h3>DoseAndRates</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Dose[x]</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida 13}\">Cápsula</span></td><td>10</td></tr></table><p><b>maxDosePerAdministration</b>: 10</p></blockquote><h3>DispenseRequests</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ValidityPeriod</b></td><td><b>Quantity</b></td></tr><tr><td style=\"display: none\">*</td><td>2022-02-24 --&gt; 2022-03-03</td><td>10</td></tr></table></div>"
+  ] ;
+  fhir:MedicationRequest.status [ fhir:value "completed"] ;
+  fhir:MedicationRequest.medicationReference [
+     fhir:Reference.reference [ fhir:value "urn:uuid:5c1de72d-fdc9-448d-9032-505dc78de8ca" ]
+  ] ;
+  fhir:MedicationRequest.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] ;
+  fhir:MedicationRequest.note [
+     fhir:index 0 ;
+     fhir:Annotation.authorString [ fhir:value "Dr. Getúlio" ] ;
+     fhir:Annotation.time [ fhir:value "2022-03-04"^^xsd:date ] ;
+     fhir:Annotation.text [ fhir:value "Medicamento necessário para tratamento da febre devido à gripe." ]
+  ] ;
+  fhir:MedicationRequest.dosageInstruction [
+     fhir:index 0 ;
+     fhir:Dosage.text [ fhir:value "Texto livre" ] ;
+     fhir:Dosage.patientInstruction [ fhir:value "Tomar uma vez ao dia via oral." ] ;
+     fhir:Dosage.timing [
+       fhir:Timing.repeat [
+         fhir:Element.extension [
+           fhir:index 0 ;
+           fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRTurno" ] ;
+           fhir:Extension.valueCode [ fhir:value "3" ]
+         ], [
+           fhir:index 1 ;
+           fhir:Element.extension [
+             fhir:index 0 ;
+             fhir:Extension.url [ fhir:value "periodUnit" ] ;
+             fhir:Extension.valueCode [ fhir:value "min" ]
+           ], [
+             fhir:index 1 ;
+             fhir:Extension.url [ fhir:value "period" ] ;
+             fhir:Extension.valuePositiveInt [ fhir:value "1"^^xsd:positiveInteger ]
+           ] ;
+           fhir:Extension.url [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIntervaloDoses" ]
+         ] ;
+         fhir:Timing.repeat.count [ fhir:value "1"^^xsd:positiveInteger ] ;
+         fhir:Timing.repeat.countMax [ fhir:value "1"^^xsd:positiveInteger ] ;
+         fhir:Timing.repeat.frequency [ fhir:value "12"^^xsd:positiveInteger ]
+       ]
+     ] ;
+     fhir:Dosage.asNeededBoolean [ fhir:value "true"^^xsd:boolean ] ;
+     fhir:Dosage.route [
+       fhir:CodeableConcept.coding [
+         fhir:index 0 ;
+         fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao" ] ;
+         fhir:Coding.code [ fhir:value "10907" ]
+       ]
+     ] ;
+     fhir:Dosage.doseAndRate [
+       fhir:index 0 ;
+       fhir:Dosage.doseAndRate.type [
+         fhir:CodeableConcept.coding [
+           fhir:index 0 ;
+           fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida" ] ;
+           fhir:Coding.code [ fhir:value "13" ]
+         ]
+       ] ;
+       fhir:Dosage.doseAndRate.doseQuantity [
+         fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ]
+       ]
+     ] ;
+     fhir:Dosage.maxDosePerAdministration [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ]
+     ]
+  ] ;
+  fhir:MedicationRequest.dispenseRequest [
+     fhir:MedicationRequest.dispenseRequest.validityPeriod [
+       fhir:Period.start [ fhir:value "2022-02-24"^^xsd:date ] ;
+       fhir:Period.end [ fhir:value "2022-03-03"^^xsd:date ]
+     ] ;
+     fhir:MedicationRequest.dispenseRequest.quantity [
+       fhir:Quantity.value [ fhir:value "10"^^xsd:decimal ]
+     ]
+  ] .
+
+<urn:uuid:5c1de72d-fdc9-448d-9032-505dc78de8ca> a fhir:Medication ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRMedicamento>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Medication_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Medication </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRMedicamento.html\">Medicamento (StructureDefinition)</a></p></div><p><b>code</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT BR0352317}\">Água para injeção 1 L Sistema Fechado; frasco-ampola</span></p><p><b>form</b>: <span title=\"Códigos:{http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida 2}\">Ampola</span></p></div>"
+  ] ;
+  fhir:Medication.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRObmCATMAT" ] ;
+       fhir:Coding.code [ fhir:value "BR0352317" ]
+     ]
+  ] ;
+  fhir:Medication.form [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       fhir:Coding.system [ fhir:value "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeMedida" ] ;
+       fhir:Coding.code [ fhir:value "2" ]
+     ]
+  ] .
+
+<urn:uuid:7f396bd9-998a-4784-bbcb-8554ba5b015c> a fhir:ClinicalImpression ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResumoEvolucaoClinica" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRResumoEvolucaoClinica>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"ClinicalImpression_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: ClinicalImpression </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRResumoEvolucaoClinica.html\">Resumo da Evolução Clínica</a></p></div><p><b>status</b>: Completed</p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p><p><b>summary</b>: Evoluiu com agravamento do desconforto respiratório, aumento da necessidade de oxigênio suplementar e transferência para unidade de terapia intensiva.</p></div>"
+  ] ;
+  fhir:ClinicalImpression.status [ fhir:value "completed"] ;
+  fhir:ClinicalImpression.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] ;
+  fhir:ClinicalImpression.summary [ fhir:value "Evoluiu com agravamento do desconforto respiratório, aumento da necessidade de oxigênio suplementar e transferência para unidade de terapia intensiva."] .
+
+<urn:uuid:98d60b66-07b6-4c6c-a31f-dc6d1f80e626> a fhir:CarePlan ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRPlanoCuidados-1.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"CarePlan_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: CarePlan </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRPlanoCuidados-1.0.html\">Plano de Cuidados</a></p></div><p><b>status</b>: Active</p><p><b>intent</b>: Plan</p><p><b>description</b>: Repouso pós-medicação intramuscular</p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p></div>"
+  ] ;
+  fhir:CarePlan.status [ fhir:value "active"] ;
+  fhir:CarePlan.intent [ fhir:value "plan"] ;
+  fhir:CarePlan.description [ fhir:value "Repouso pós-medicação intramuscular"] ;
+  fhir:CarePlan.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] .
+
+<urn:uuid:038ad91c-ba1a-4560-8719-2428e998ea53> a fhir:Observation ;
+  fhir:Resource.meta [
+     fhir:Meta.profile [
+       fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0" ;
+       fhir:index 0 ;
+       fhir:link <http://www.saude.gov.br/fhir/r4/StructureDefinition/BRObservacaoDescritiva-1.0>
+     ]
+  ] ;
+  fhir:DomainResource.text [
+     fhir:Narrative.status [ fhir:value "generated" ] ;
+     fhir:Narrative.div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><a name=\"Observation_null\"> </a><p class=\"res-header-id\"><b>Narrativa gerada: Observation </b></p><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Perfil: <a href=\"StructureDefinition-BRObservacaoDescritiva-1.0.html\">Observação Descritiva</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Códigos:{http://loinc.org 48767-8}\">Annotation comment [Interpretation] Narrative</span></p><p><b>subject</b>: Identifier: <code>http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0</code>/706004324048847</p><p><b>issued</b>: 2026-06-05 12:20:32-0300</p><p><b>value</b>: Após 7 dias de tratamento recebeu alta com encaminhamento para Unidade Básica de Saúde sem queixas ou sintomas respiratórios, com saturação O2 = 92-93%.</p></div>"
+  ] ;
+  fhir:Observation.status [ fhir:value "final"] ;
+  fhir:Observation.code [
+     fhir:CodeableConcept.coding [
+       fhir:index 0 ;
+       a loinc:48767-8 ;
+       fhir:Coding.system [ fhir:value "http://loinc.org" ] ;
+       fhir:Coding.code [ fhir:value "48767-8" ]
+     ]
+  ] ;
+  fhir:Observation.subject [
+     fhir:Reference.identifier [
+       fhir:Identifier.system [ fhir:value "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRIndividuo-1.0" ] ;
+       fhir:Identifier.value [ fhir:value "706004324048847" ]
+     ]
+  ] ;
+  fhir:Observation.issued [ fhir:value "2026-06-05T12:20:32-03:00"^^xsd:dateTime] ;
+  fhir:Observation.valueString [ fhir:value "Após 7 dias de tratamento recebeu alta com encaminhamento para Unidade Básica de Saúde sem queixas ou sintomas respiratórios, com saturação O2 = 92-93%."] .
+
+# - ontology header ------------------------------------------------------------
+
+<https://fhir.saude.gov.br/sa/Bundle/example-SA.ttl> a owl:Ontology ;
+  owl:imports fhir:fhir.ttl .
+
+# -------------------------------------------------------------------------------------
+

@@ -1,13 +1,13 @@
-# Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem) - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0-release
+# Classificação Internacional de Doenças - Décima Revisão - CID-10 - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0-release
 
-## CodeSystem: Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem) 
+## CodeSystem: Classificação Internacional de Doenças - Décima Revisão - CID-10 
 
  
 Classifica as doenças e outros problemas em saúde registrados em diversos tipos de documentos clínicos. 
 
 This Code system is referenced in the definition of the following value sets:
 
-* [Classificação Internacional de Doenças - Décima Revisão - CID-10 (ValueSet)](ValueSet-BRCID10-1.0.md)
+* [Classificação Internacional de Doenças e Atenção Primária](ValueSet-BRProblemaDiagnostico.md)
 
 -------
 
@@ -21,6 +21,9 @@ This Code system is referenced in the definition of the following value sets:
 {
   "resourceType" : "CodeSystem",
   "id" : "BRCID10",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T19:14:22.960+00:00"
+  },
   "language" : "pt-BR",
   "extension" : [{
     "url" : "http://hl7.org/fhir/StructureDefinition/structuredefinition-wg",
@@ -53,7 +56,7 @@ This Code system is referenced in the definition of the following value sets:
   "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRCID10",
   "version" : "1.0.0-release",
   "name" : "BRCID10",
-  "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10 (CodeSystem)",
+  "title" : "Classificação Internacional de Doenças - Décima Revisão - CID-10",
   "status" : "active",
   "experimental" : false,
   "date" : "2020-03-11T19:14:37.3549708+00:00",

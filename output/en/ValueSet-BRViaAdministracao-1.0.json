@@ -1,6 +1,9 @@
 {
   "resourceType" : "ValueSet",
   "id" : "BRViaAdministracao-1.0",
+  "meta" : {
+    "lastUpdated" : "2021-08-27T14:51:30.604+00:00"
+  },
   "language" : "en",
   "text" : {
     "status" : "generated"

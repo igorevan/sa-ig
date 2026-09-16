@@ -1,0 +1,66 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRSexo-1.0",
+  "language": "en",
+  "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRSexo-1.0",
+  "version": "01.01",
+  "name": "BRSexo",
+  "title": "Sexo",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-04-07T21:07:00.8812267+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Sexo de um indivíduo.",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/administrative-gender",
+        "concept": [
+          {
+            "code": "male",
+            "display": "Male",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Masculino"
+              },
+              {
+                "language": "es",
+                "value": "Masculino"
+              }
+            ]
+          },
+          {
+            "code": "female",
+            "display": "Female",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Feminino"
+              },
+              {
+                "language": "es",
+                "value": "Femenino"
+              }
+            ]
+          },
+          {
+            "code": "unknown",
+            "display": "Unknown",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Ignorado"
+              },
+              {
+                "language": "es",
+                "value": "Desconocido"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

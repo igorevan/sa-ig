@@ -120,14 +120,6 @@
      fhir:index -1 ;
      fhir:CodeSystem.concept.code [ fhir:value "ATM" ] ;
      fhir:CodeSystem.concept.display [ fhir:value "Atestado Médico/Odontológico" ]
-  ], [
-     fhir:index -1 ;
-     fhir:CodeSystem.concept.code [ fhir:value "REPM" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Registro Eletrônico da Prescrição de Medicamento" ]
-  ], [
-     fhir:index -1 ;
-     fhir:CodeSystem.concept.code [ fhir:value "REDFM" ] ;
-     fhir:CodeSystem.concept.display [ fhir:value "Registro Eletrônico de Dispensação ou Fornecimento de Medicamentos" ]
   ] .
 
 # - ontology header ------------------------------------------------------------

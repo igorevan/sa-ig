@@ -1,0 +1,54 @@
+{
+  "resourceType": "ValueSet",
+  "id": "BRCriticidadeAlergiasReacoesAdversas-1.0",
+  "language": "en",
+  "url": "http://www.saude.gov.br/fhir/r4/ValueSet/BRCriticidadeAlergiasReacoesAdversas-1.0",
+  "version": "1.0",
+  "name": "BRCriticidadeAlergiasReacoesAdversas",
+  "title": "Criticidade de Alergias e Reações Adversas",
+  "status": "active",
+  "experimental": false,
+  "date": "2020-09-20T20:36:30.5275401+00:00",
+  "publisher": "Ministério da Saúde do Brasil",
+  "description": "Indica o potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida..",
+  "immutable": false,
+  "compose": {
+    "include": [
+      {
+        "system": "http://hl7.org/fhir/allergy-intolerance-criticality",
+        "concept": [
+          {
+            "code": "low",
+            "display": "Low Risk",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Baixa"
+              }
+            ]
+          },
+          {
+            "code": "high",
+            "display": "High Risk",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Alta"
+              }
+            ]
+          },
+          {
+            "code": "unable-to-assess",
+            "display": "Unable to Assess Risk",
+            "designation": [
+              {
+                "language": "pt-BR",
+                "value": "Indeterminada"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

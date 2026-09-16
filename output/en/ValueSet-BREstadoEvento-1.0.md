@@ -7,7 +7,7 @@ Identificação do estado de um evento.
 
  **References** 
 
-* [Imunobiológico Administrado em Rotina](StructureDefinition-BRImunobiologicoAdministrado-3.0.md)
+* [Procedimento Realizado](StructureDefinition-BRProcedimentoRealizado-1.0.md)
 
 ### Logical Definition (CLD)
 
@@ -88,6 +88,7 @@ Identificação do estado de um evento.
       "system" : "http://hl7.org/fhir/event-status",
       "concept" : [{
         "code" : "preparation",
+        "display" : "Preparation",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Pré-procedimento"
@@ -95,6 +96,7 @@ Identificação do estado de um evento.
       },
       {
         "code" : "in-progress",
+        "display" : "In Progress",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Em andamento"
@@ -102,6 +104,7 @@ Identificação do estado de um evento.
       },
       {
         "code" : "not-done",
+        "display" : "Not Done",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Não Realizado"
@@ -109,6 +112,7 @@ Identificação do estado de um evento.
       },
       {
         "code" : "on-hold",
+        "display" : "On Hold",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Suspenso"
@@ -116,6 +120,7 @@ Identificação do estado de um evento.
       },
       {
         "code" : "stopped",
+        "display" : "Stopped",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Cancelado"
@@ -123,6 +128,7 @@ Identificação do estado de um evento.
       },
       {
         "code" : "completed",
+        "display" : "Completed",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Completado"
@@ -130,6 +136,7 @@ Identificação do estado de um evento.
       },
       {
         "code" : "unknown",
+        "display" : "Unknown",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Desconhecido"
@@ -137,6 +144,7 @@ Identificação do estado de um evento.
       },
       {
         "code" : "entered-in-error",
+        "display" : "Entered in Error",
         "designation" : [{
           "language" : "pt-BR",
           "value" : "Entrada com erro"
