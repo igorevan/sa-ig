@@ -5,24 +5,20 @@
   <a name="objetivo"> </a>
   <h3>Objetivo</h3>
 
-  <p>O documento clínico <b>RIA-R</b> (Registro de Imunobiológico Administrado em Rotina),
-    destina-se ao registro das doses das vacinas previstas no Calendário Nacional de Imunização em
-    atividades de vacinação rotineiras, bem como das doses aplicadas durante os estudos clínicos que
-    subsidiaram a autorização de uso emergencial ou aprovação de registro sanitário de vacinas
-    Covid-19 e de outras vacinas pela <a href="https://www.gov.br/anvisa/pt-br">Agência Nacional de Vigilância Sanitária
-      (ANVISA)</a>.</p>
+  <p>O Sumário de Alta (SA) consiste no documento que contém o relato clínico objetivo sobre as intervenções realizadas,
+    as instruções para continuidade do cuidado pós-alta e o estado de saúde do indivíduo ao final de sua permanência na
+    internação em estabelecimentos de saúde.</p>
 
   <a name="marcos"> </a>
   <h3>Marcos Legais</h3>
   <ul>
     <li>
-      <a
-        href="https://www.in.gov.br/web/dou/-/portaria-conjunta-saes/svsa/seidigi-n-25-de-27-de-novembro-de-2023-527017519">PORTARIA
-        CONJUNTA SAES/SVSA/SEIDIGI Nº 25, DE 27 DE NOVEMBRO DE 2023</a>
+      <a href="https://www.in.gov.br/en/web/dou/-/portaria-gm/ms-n-8.026-de-27-de-agosto-de-2025-651423099">Portaria
+        GM/MS Nº 8.026, DE 27 DE agosto DE 2025</a>
     </li>
   </ul>
 
-  <a name="ria"> </a>
+  <a name="mi"> </a>
   <h3>Modelo de Informação</h3>
   <p>
     O modelo de informação é uma representação conceitual e canônica, onde os elementos referentes a
@@ -32,39 +28,31 @@
   </p>
   <ul>
     <li>
-      <b>Coluna 1</b> - Nível: apresenta o nível do elemento no modelo de informação;
+      <b>Nível</b>: apresenta o nível do elemento no modelo de informação;
     </li>
     <li>
-      <p><b>Coluna 2</b> - Ocorrência: descreve o número de vezes (cardinalidade) que o elemento
-        deve/pode aparecer:</p>
+      <p><b>Ocorrência</b>: descreve o número de vezes (cardinalidade) que o elemento deve/pode
+        aparecer:</p>
 
       <pre><code>
-          [0..1] - O elemento é opcional e, se ocorrer, aparece uma vez
-          [1..1] - O elemento é obrigatório e deve estar presente uma única vez
-          [0..N] - O elemento é opcional e pode ocorrer várias vezes
-          [1..N] - O elemento é obrigatório e pode ocorrer várias vezes</code>
+          <b>[0..1]</b> - O elemento é opcional e, se ocorrer, aparece uma vez
+          <b>[1..1]</b> - O elemento é obrigatório e deve estar presente uma única vez
+          <b>[0..N]</b> - O elemento é opcional e pode ocorrer várias vezes
+          <b>[1..N]</b> - O elemento é obrigatório e pode ocorrer várias vezes</code>
         </pre>
 
     </li>
     <li>
-      <b>Coluna 3</b> - Seção/Item: nome do bloco ou da informação a ser enviada;
+      <b>Seção/Item</b>: nome do bloco ou da informação a ser enviada;
     </li>
     <li>
-      <b>Coluna 4</b> - Tipo de dado: descreve o tipo de dado a ser preenchido;
+      <b>Tipo de dado</b>: descreve o tipo de dado a ser preenchido;
     </li>
     <li>
-      <b>Coluna 5</b> - Conceito: apresenta as definições do elemento;
+      <b>Conceito/Observações</b>: apresenta as definições do elemento;
     </li>
     <li>
-      <b>Coluna 6</b> - Definição de uso do elemento: Observações e regras de negócio relacionadas
-      ao elemento;
-    </li>
-    <li>
-      <b>Coluna 7</b> - Conteúdo: apresenta, quando necessário, o grupo de códigos (<i>ValueSet</i>)
-      a ser utilizado para preenchimento do elemento;
-    </li>
-    <li>
-      <b>Coluna 8</b> - Recurso FHIR: relaciona o atributo do Modelo Informacional com o perfil do
+      <b>Mapeamento Computacional - FHIR</b>: relaciona o atributo do Modelo Informacional com o
       Modelo Computacional em FHIR.
     </li>
   </ul>
@@ -76,6 +64,962 @@
     Segue abaixo o modelo de informação para o Sumário de Alta (SA):
   </p>
 
+  <a name="individuo"> </a>
+  <h4>Identificação do indivíduo</h4>
 
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Nível</th>
+        <th>Ocorrência</th>
+        <th>Seção/Item</th>
+        <th>Tipo de Dados</th>
+        <th>Conceito/Observações</th>
+        <th>Mapeamento Computacional - FHIR</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Identificação do indivíduo</td>
+        <td>Seção</td>
+        <td>Indivíduo: pessoa que recebe o atendimento registrado no contato assistencial. Todos os campos são de
+          preenchimento obrigatório, exceto se o indivíduo não puder ser identificado durante o contato assistencial,
+          sendo preenchida a justificativa da ausência do Cartão Nacional de Saúde (CNS) ou Cadastro de Pessoa Física
+          (CPF).</td>
+        <td>
+          <code>Composition <a href="StructureDefinition-BRSumarioAlta.html">(BRSumarioAlta)</a></code><br />
+          <code>Encounter <a href="StructureDefinition-BRContatoAssistencial-1.0.html">(BRContatoAssistencial-1.0)</a></code><br />
+          <code>Condition <a href="StructureDefinition-BRProblemaDiagnostico.html">(BRProblemaDiagnostico</a> e <a href="StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html">BRRestricaoFuncionalIncapacidadeSaude-1.0)</a></code><br />
+          <code>Procedure <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">(BRProcedimentoRealizado-1.0)</a></code><br />
+          <code>ClinicalImpression <a href="StructureDefinition-BRResumoEvolucaoClinica.html">(BRResumoEvolucaoClinica)</a></code><br />
+          <code>AllergyIntolerance <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">(BRAlergiaReacaoAdversa-1.0)</a></code><br />
+          <code>CarePlan <a href="StructureDefinition-BRPlanoCuidados-1.0.html">(BRPlanoCuidados-1.0)</a></code><br />
+          <code>Observation <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">(BRObservacaoDescritiva-1.0)</a></code><br />
+          <code>Composition <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html">(BRRegistroPrescricaoMedicamento)</a></code><br />
+          <code>MedicationRequest <a href="StructureDefinition-BRPrescricaoMedicamento.html">(BRPrescricaoMedicamento)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Identificador Nacional do Indivíduo</td>
+        <td>Caracteres numéricos</td>
+        <td>Identificação unívoca dos usuários das ações e serviços de saúde, com atribuição de um número único válido
+          em todo o território nacional. (Port. nº 940/GM/MS/2011)</td>
+        <td>
+          <code>Composition.subject.identifier.value</code><br />
+          <code>Encounter.subject.identifier.value</code><br />
+          <code>Condition.subject.identifier.value</code><br />
+          <code>Procedure.subject.identifier.value</code><br />
+          <code>ClinicalImpression.subject.identifier.value</code><br />
+          <code>AllergyIntolerance.patient.identifier.value</code><br />
+          <code>CarePlan.subject.identifier.value</code><br />
+          <code>Observation.subject.identifier.value</code><br />
+          <code>Composition.subject.identifier.value</code><br />
+          <code>MedicationRequest.subject.identifier.value</code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Identificação por dados demográficos</td>
+        <td></td>
+        <td>Razão pela qual não foi possível obter os dados de identificação do indivíduo no contato assistencial.
+          (Port.
+          nº 84/SAS/MS/1997 e Port. nº02/SAS/SGEP/MS/2012)</td>
+        <td>
+          <code>.extension.extension.valueCodeableConcept.coding.code</code><br />
+          <code>Composition.subject</code><br />
+          <code>Encounter.subject</code><br />
+          <code>Condition.subject</code><br />
+          <code>Procedure.subject</code><br />
+          <code>ClinicalImpression.subject</code><br />
+          <code>AllergyIntolerance.patient</code><br />
+          <code>CarePlan.subject</code><br />
+          <code>Observation.subject</code>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Data de nascimento</td>
+        <td>Data conforme ISO 8601</td>
+        <td>Estima-se e informa-se apenas o ano de nascimento para contatos assistenciais de indivíduos sem
+          identificação.
+        </td>
+        <td>
+          <code>Composition.subject.extension.extension.valueDate</code><br />
+          <code>Encounter.subject.extension.extension.valueDate</code><br />
+          <code>Condition.subject.extension.extension.valueDate</code><br />
+          <code>Procedure.subject.extension.extension.valueDate</code><br />
+          <code>ClinicalImpression.subject.extension.extension.valueDate</code><br />
+          <code>AllergyIntolerance.patient.extension.extension.valueDate</code><br />
+          <code>CarePlan.subject.extension.extension.valueDate</code><br />
+          <code>Observation.subject.extension.extension.valueDate</code>
+        </td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Sexo</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Masculino</li>
+            <li>Feminino</li>
+            <li>Ignorado</li>
+          </ul>
+        </td>
+        <td></td>
+        <td>
+          <code>Composition.subject.extension.extension.valueCode</code><br />
+          <code>Encounter.subject.extension.extension.valueCode</code><br />
+          <code>Condition.subject.extension.extension.valueCode</code><br />
+          <code>Procedure.subject.extension.extension.valueCode</code><br />
+          <code>ClinicalImpression.subject.extension.extension.valueCode</code><br />
+          <code>AllergyIntolerance.patient.extension.extension.valueCode</code><br />
+          <code>CarePlan.subject.extension.extension.valueCode</code><br />
+          <code>Observation.subject.extension.extension.valueCode</code>
+        </td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Caracterização do atendimento</td>
+        <td>Seção</td>
+        <td></td>
+        <td>
+          <code>Encounter <a href="StructureDefinition-BRContatoAssistencial-1.0.html">(BRContatoAssistencial-1.0)</a></code><br />
+          <code>Procedure <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">(BRProcedimentoRealizado-1.0)</a></code><br />
+          <code>Composition.subject <a href="StructureDefinition-BRSumarioAlta.html">(BRSumarioAlta)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Identificador do Estabelecimento de saúde</td>
+        <td>Caracteres numéricos</td>
+        <td>Número de identificação no CNES do estabelecimento de saúde que realizou o contato assistencial</td>
+        <td><code>Encounter.serviceProvider.identifier.value</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Procedência</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Ordem Judicial</li>
+            <li>Retorno</li>
+            <li>Demanda espontânea</li>
+            <li>Demanda referenciada</li>
+          </ul>
+        </td>
+        <td>Identifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso
+          ao
+          serviço de saúde.</td>
+        <td><code>Encounter.hospitalization.admitSource.coding.code</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Identificação da equipe de saúde</td>
+        <td>Caracteres numéricos</td>
+        <td>Número válido do Identificador Nacional de Equipe (INE) no CNES.</td>
+        <td>
+          <code>Encounter.participant.extension:team</code><br />
+          <code>Procedure.performer.extension.valueInteger</code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Caráter da internação</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Eletiva</li>
+            <li>Urgência</li>
+          </ul>
+        </td>
+        <td>Identifica a internação de acordo com a prioridade de sua realização.</td>
+        <td><code>Encounter.priority.coding.code</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Data e hora da internação</td>
+        <td>Data e hora</td>
+        <td>Conforme ISO 8601. Data e hora da aceitação do indivíduo para início da internação.</td>
+        <td><code>Encounter.period.start</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Modalidade assistencial</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Atenção Domiciliar</li>
+            <li>Atenção Hospitalar</li>
+            <li>Atenção Intermediária</li>
+            <li>Atenção Psicossocial</li>
+            <li>Atenção à Urgência/Emergência</li>
+          </ul>
+        </td>
+        <td>Classificação do contato com o serviço de saúde de acordo com as especificidades do modo, local e duração do
+          atendimento.</td>
+        <td>
+          <code>Composition.category.coding.code</code><br />
+          <code>Encounter.class.code</code>
+        </td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Motivo da admissão, diagnósticos relevantes e patologias associadas desenvolvidas na internação</td>
+        <td>Seção</td>
+        <td></td>
+        <td>
+          <code>Condition <a href="StructureDefinition-BRProblemaDiagnostico.html">(BRProblemaDiagnostico)</a></code><br />
+          <code>Encounter <a href="StructureDefinition-BRContatoAssistencial-1.0.html">(BRContatoAssistencial-1.0)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..N]</td>
+        <td>Diagnósticos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Código do Diagnóstico</td>
+        <td>Texto codificado por terminologia externa</td>
+        <td></td>
+        <td><code>Condition.code.coding.code</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Terminologia que descreve o diagnóstico</td>
+        <td>Identificador único do objeto:<br />
+          CID-10</td>
+        <td>Identificador da terminologia que será utilizada para informar os problemas/diagnósticos avaliados</td>
+        <td><code>Condition.code.coding.system</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Categoria do diagnóstico</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>Principal</li>
+            <li>Secundário</li>
+          </ul>
+        </td>
+        <td>Condição estabelecida após estudo de forma a esclarecer qual o mais importante ou principal motivo
+          responsável
+          pela demanda do contato assistencial. O diagnóstico primário reflete achados clínicos descobertos durante a
+          permanência do indivíduo no estabelecimento de saúde, podendo, portanto, ser diferente do diagnóstico de
+          admissão. (Port. nº 1.324/SAS/MS/2014)</td>
+        <td><code>Encounter.diagnosis.rank</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Indicador de presença na admissão</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>Sim</li>
+            <li>Não</li>
+            <li>Desconhecido</li>
+          </ul>
+        </td>
+        <td>Identifica se o problema/diagnóstico é previamente conhecido na admissão do indivíduo para o
+          atendimento.
+        </td>
+        <td><code>Encounter.diagnosis.use.coding.code</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Estado de resolução</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>Ativo</li>
+            <li>Recorrente</li>
+            <li>Recidiva</li>
+            <li>Inativo</li>
+            <li>Remissão</li>
+            <li>Resolvido</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>Condition.clinicalStatus.coding.code</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Restrições funcionais e incapacidades em saúde</td>
+        <td>Seção</td>
+        <td></td>
+        <td>
+          <code>Condition <a href="StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html">(BRRestricaoFuncionalIncapacidadeSaude-1.0)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Restrição funcional ou incapacidade</td>
+        <td>Texto livre</td>
+        <td></td>
+        <td><code>Condition.code.text</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Status da restrição funcional ou incapacidade</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Ativo</li>
+            <li>Inativo</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>Condition.clinicalStatus.coding.code</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Procedimento (s) realizado (s) ou solicitado (s)</td>
+        <td>Seção</td>
+        <td></td>
+        <td>
+          <code>Procedure <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">(BRProcedimentoRealizado-1.0)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..N]</td>
+        <td>Procedimentos</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Terminologia que descreve o procedimento</td>
+        <td>Identificador único do objeto. Texto codificado:
+          <ul>
+            <li>SIGTAP</li>
+            <li>CBHPM</li>
+            <li>TUSS</li>
+          </ul>
+        </td>
+        <td>Identificador da terminologia que será utilizada para informar o(s) procedimento(s) realizado(s) ou
+          solicitados (s).</td>
+        <td><code>Procedure.code.coding.system</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Procedimento realizado</td>
+        <td>Texto codificado por terminologia externa:
+          <ul>
+            <li>SIGTAP</li>
+            <li>CBHPM</li>
+            <li>TUSS</li>
+          </ul>
+        </td>
+        <td>Ação de saúde realizada no indivíduo durante o contato assistencial (Número TUSS, ex.).</td>
+        <td><code>Procedure.code.coding.code</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Data da realização</td>
+        <td>Data conforme ISO 8601</td>
+        <td></td>
+        <td><code>Procedure.performedDateTime</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Status do procedimento</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Pré-procedimento</li>
+            <li>Em andamento</li>
+            <li>Não realizado</li>
+            <li>Suspenso</li>
+            <li>Cancelado</li>
+            <li>Completado</li>
+            <li>Desconhecido</li>
+            <li>Entrada com erro</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>Procedure.status</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Resultado ou observações do procedimento</td>
+        <td>Texto livre</td>
+        <td></td>
+        <td><code>Procedure.note</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Resumo da evolução clínica do indivíduo durante a internação</td>
+        <td>Seção</td>
+        <td>Resume a evolução clínica durante a internação de um paciente, bem como referencia quaisquer informações
+          adicionais ou complementares para a alta do paciente.</td>
+        <td>
+          <code>ClinicalImpression <a href="StructureDefinition-BRResumoEvolucaoClinica.html">(BRResumoEvolucaoClinica)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Descrição da evolução clínica do indivíduo durante a internação</td>
+        <td>Texto livre</td>
+        <td></td>
+        <td><code>ClinicalImpression.summary</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..N]</td>
+        <td>Alergias e/ou reações adversas na internação</td>
+        <td>Seção</td>
+        <td>Lista todas as alergias e/ou reações adversas do paciente durante a internação</td>
+        <td>
+          <code>AllergyIntolerance <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">(BRAlergiaReacaoAdversa-1.0)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..N]</td>
+        <td>Alergia e/ou reação adversa</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Categoria do agente causador da alergia ou reação adversa</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Alimento</li>
+            <li>Medicamento</li>
+            <li>Fator Externo/ Ambiental</li>
+            <li>Biológico</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>AllergyIntolerance.category</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Agente/substância específica</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>CBARA</li>
+            <li>CATMAT</li>
+            <li>Lista vacinas PNI</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>AllergyIntolerance.code</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Manifestação</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>CBARA</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>AllergyIntolerance.reaction.manifestation</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Grau de certeza</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Não Confirmado</li>
+            <li>Confirmado</li>
+            <li>Refutado</li>
+            <li>Cancelado por informação errada</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>AllergyIntolerance.verificationStatus</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Criticidade</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Alta</li>
+            <li>Baixa</li>
+            <li>Indeterminada</li>
+          </ul>
+        </td>
+        <td>Uma indicação do potencial de danos nos órgãos críticos do sistema ou consequência de ameaça à vida.</td>
+        <td><code>AllergyIntolerance.criticality</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Data/hora da instalação da reação adversa</td>
+        <td>ISO 8601</td>
+        <td></td>
+        <td><code>AllergyIntolerance.onsetDateTime</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Evolução da alergia/reação adversa</td>
+        <td>Texto livre</td>
+        <td></td>
+        <td><code>AllergyIntolerance.note</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Prescrição da alta</td>
+        <td></td>
+        <td></td>
+        <td>
+          <code>Composition <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html">(BRRegistroPrescricaoMedicamento)</a></code><br />
+          <code>MedicationRequest <a href="StructureDefinition-BRPrescricaoMedicamento.html">(BRPrescricaoMedicamento)</a></code><br />
+          <code>Medication <a href="StructureDefinition-BRMedicamento.html">(BRMedicamento)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Medicamentos prescritos na alta (não estruturado)</td>
+        <td></td>
+        <td></td>
+        <td><code>MedicationRequest</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Descrição da prescrição</td>
+        <td>Texto livre</td>
+        <td>Descrição da prescrição de medicamentos de forma livre, em texto, podendo ter vários medicamentos no mesmo
+          texto. O profissional prescritor deverá descrever todos os campos necessários a uma prescrição, entre outros
+          elementos relevantes.</td>
+        <td><code>MedicationRequest.dosageInstruction.text</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Medicamentos prescritos na alta (estruturado)</td>
+        <td></td>
+        <td></td>
+        <td><code>MedicationRequest</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Terminologia que descreve o medicamento</td>
+        <td>Texto Codificado:
+          <ul>
+            <li>ANVISA</li>
+            <li>Ontologia Brasileira de Medicamentos (OBM)</li>
+            <li>CATMAT</li>
+          </ul>
+        </td>
+        <td></td>
+        <td><code>Medication.code.coding.system</code></td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>[1..N]</td>
+        <td>Medicamento</td>
+        <td>Texto codificado por terminologia externa</td>
+        <td>Indica o nome do princípio ativo, concentração, unidade de medida e forma farmacêutica do medicamento
+          prescrito.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>[1..1]</td>
+        <td>Via de administração</td>
+        <td>Texto codificado por terminologia externa</td>
+        <td></td>
+        <td><code>MedicationRequest.dosageInstruction.route</code></td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>[1..1]</td>
+        <td>Posologia</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>[0..1]</td>
+        <td>Posologia não estruturada</td>
+        <td>Texto livre</td>
+        <td>Descrição da posologia de medicamento de forma livre, em texto. O profissional prescritor deverá descrever
+          todos os campos necessários a uma posologia, entre outros elementos relevantes.</td>
+        <td><code>MedicationRequest.dosageInstruction.text</code></td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>[0..1]</td>
+        <td>Posologia estruturada</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[1..1]</td>
+        <td>Quantidade da Dose</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade da unidade de consumo do medicamento prescrito a cada dose.</td>
+        <td><code>MedicationRequest.dosageInstruction.doseAndRate.doseValue</code></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[1..1]</td>
+        <td>Unidade de consumo da dose</td>
+        <td>Texto codificado por terminologia externa</td>
+        <td>Unidade de consumo do medicamento prescrito (ex.: comprimido, cápsula, aplicação, mL, gota, copo dosador,
+          infusão etc.).</td>
+        <td><code>MedicationRequest.dosageInstruction.doseAndRate.type</code></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[1..1]</td>
+        <td>Frequência de uso do medicamento</td>
+        <td></td>
+        <td></td>
+        <td><code>MedicationRequest.dosageInstruction.timing</code></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[1..1]</td>
+        <td>Dose única</td>
+        <td>Boleano</td>
+        <td>Sim; Não <br />(verdadeiro/falso)</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[0..1]</td>
+        <td>Uso contínuo</td>
+        <td></td>
+        <td>RN09: preenchido obrigatoriamente se &quot;Dose Única&quot; = não/falso.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>[0..1]</td>
+        <td>Uso se necessário</td>
+        <td>Boleano</td>
+        <td>Sim; Não <br />(verdadeiro/falso)</td>
+        <td><code>MedicationRequest.dosageInstruction.asNeededBoolean</code></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>[1..1]</td>
+        <td>Descrição da necessidade de uso do medicamento</td>
+        <td>Texto livre</td>
+        <td>Descrição de uso do medicamento indicado para o caso de uma necessidade específica (ex.: dor, febre, após
+          tratamento etc.)</td>
+        <td><code>MedicationRequest.note</code></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>[0..1]</td>
+        <td>Intervalo em horas de cada dose do medicamento</td>
+        <td>Caracteres numéricos</td>
+        <td>Intervalo, em horas, de cada uso do medicamento</td>
+        <td><code>MedicationRequest.dosageInstruction.timing.repeat.frequency</code></td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>[0..1]</td>
+        <td>Frequência de doses do medicamento</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>[1..1]</td>
+        <td>Repetições de dose para uma mesma unidade de tempo</td>
+        <td>Caracteres numéricos</td>
+        <td>Número de doses a cada uso do medicamento (ex.: 1x, 2x, 3x 4x etc.)</td>
+        <td><code>MedicationRequest.dosageInstruction.timing.repeat.count</code></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>[1..1]</td>
+        <td>Intervalo entre doses</td>
+        <td>Caracteres numéricos</td>
+        <td>Descritor quantitativo da unidade de tempo entre doses</td>
+        <td>
+          <code>MedicationRequest.dosageInstruction.timing.repeat</code><br />
+          Extensão - Intervalo entre doses
+        </td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>[1..1]</td>
+        <td>Unidade de tempo entre doses</td>
+        <td>Texto codificado</td>
+        <td>Unidade de tempo entre doses (ex.: hora, dia, semana, mês etc.).</td>
+        <td>
+          <code>MedicationRequest.dosageInstruction.timing.repeat</code><br />
+          Extensão - Intervalo entre doses
+        </td>
+      </tr>
+      <tr>
+        <td>9</td>
+        <td>[0..1]</td>
+        <td>Turno</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>[1..1]</td>
+        <td>Turno do dia</td>
+        <td>Texto codificado</td>
+        <td>Manhã, tarde, noite.</td>
+        <td>
+          <code>MedicationRequest.dosageInstruction.timing.repeat</code><br />
+          Extensão BRTurno
+        </td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>[1..1]</td>
+        <td>Intervalo entre doses</td>
+        <td>Caracteres numéricos</td>
+        <td>Descritor quantitativo da unidade de tempo entre doses</td>
+        <td>
+          <code>MedicationRequest.dosageInstruction.timing.repeat</code><br />
+          Extensão - Intervalo entre doses
+        </td>
+      </tr>
+      <tr>
+        <td>10</td>
+        <td>[1..1]</td>
+        <td>Unidade de tempo entre doses</td>
+        <td>Texto codificado</td>
+        <td>Unidade de tempo entre doses (ex.: hora, dia, semana, mês, bimestre, trimestre, quadrimestre, semestre,
+          ano).
+        </td>
+        <td>
+          <code>MedicationRequest.dosageInstruction.timing.repeat</code><br />
+          Extensão - Intervalo entre doses
+        </td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Quantidade de medicamento prescrito</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[1..1]</td>
+        <td>Quantidade a ser dispensada por atendimento</td>
+        <td>Caracteres numéricos</td>
+        <td></td>
+        <td><code>MedicationRequest.dosageInstruction.maxDosePerAdministration</code></td>
+      </tr>
+      <tr>
+        <td>8</td>
+        <td>[1..1]</td>
+        <td>Unidade de medida do medicamento</td>
+        <td>Texto codificado</td>
+        <td>Unidade de medida do medicamento prescrito (ex.: comprimido, cápsula, frasco, caixa etc.).</td>
+        <td><code>MedicationRequest.dosageInstruction.doseAndRate.type</code></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Duração de uso do medicamento</td>
+        <td>Caracteres alfanuméricos</td>
+        <td>Duração conforme ISO 8601</td>
+        <td><code>MedicationRequest.dispenseRequest.validityPeriod</code></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Total do tratamento</td>
+        <td>Caracteres numéricos</td>
+        <td>Quantidade total de medicamento prescrito.</td>
+        <td><code>MedicationRequest.dispenseRequest.quantity</code></td>
+      </tr>
+      <tr>
+        <td>7</td>
+        <td>[0..1]</td>
+        <td>Orientações sobre o uso do medicamento</td>
+        <td>Texto livre</td>
+        <td></td>
+        <td><code>MedicationRequest.dosageInstruction.patientInstruction</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Plano de cuidados, instruções e recomendações (na alta)</td>
+        <td>Seção</td>
+        <td>Plano de cuidados, instruções e recomendações na alta do paciente</td>
+        <td>
+          <code>CarePlan <a href="StructureDefinition-BRPlanoCuidados-1.0.html">(BRPlanoCuidados-1.0)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Descrição do plano de cuidados, instruções e recomendações</td>
+        <td>Texto livre</td>
+        <td></td>
+        <td><code>CarePlan.description</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[1..1]</td>
+        <td>Informações da alta</td>
+        <td>Seção</td>
+        <td></td>
+        <td>
+          <code>Encounter <a href="StructureDefinition-BRContatoAssistencial-1.0.html">(BRContatoAssistencial-1.0)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Data e hora do desfecho da internação</td>
+        <td>Data e hora</td>
+        <td>Conforme ISO 8601. Data e hora da alta do paciente</td>
+        <td><code>Encounter.period.end</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Desfecho da internação</td>
+        <td>Texto codificado:
+          <ul>
+            <li>Alta clínica</li>
+            <li>Alta voluntária</li>
+            <li>Encaminhamento</li>
+            <li>Evasão</li>
+            <li>Óbito</li>
+            <li>Ordem Judicial</li>
+            <li>Permanência</li>
+            <li>Retorno</li>
+            <li>Transferência</li>
+          </ul>
+        </td>
+        <td>Caracteriza o motivo de conclusão da internação.</td>
+        <td><code>Encounter.hospitalization.dischargeDisposition.coding.code</code></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Encaminhamento pós-alta</td>
+        <td></td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Tipo de estabelecimento de saúde</td>
+        <td>Caracteres numéricos</td>
+        <td>CNES válido.</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[0..1]</td>
+        <td>Descrição do serviço ou especialidade</td>
+        <td>Texto livre</td>
+        <td></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[0..1]</td>
+        <td>Profissional responsável pela alta</td>
+        <td></td>
+        <td></td>
+        <td><code>Encounter.participant</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>CNS do profissional</td>
+        <td>Caracteres numéricos.</td>
+        <td>CNS válido do profissional responsável pela alta.</td>
+        <td><code>Encounter.participant.identifier.value</code></td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>[1..1]</td>
+        <td>Ocupação do profissional responsável pela alta</td>
+        <td>Texto codificado por terminologia externa:
+          <ul>
+            <li>CBO MTE</li>
+          </ul>
+        </td>
+        <td>Atividade desempenhada pelo profissional responsável pela alta.</td>
+        <td><code>Encounter.participant.extension:function</code></td>
+      </tr>
+      <tr style="background-color: #4dbf4d">
+        <td>1</td>
+        <td>[0..1]</td>
+        <td>Informações Adicionais/Complementares</td>
+        <td></td>
+        <td></td>
+        <td>
+          <code>Observation <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">(BRObservacaoDescritiva-1.0)</a></code><br />
+          <code>Encounter <a href="StructureDefinition-BRContatoAssistencial-1.0.html">(BRContatoAssistencial-1.0)</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>[1..1]</td>
+        <td>Descrição das informações</td>
+        <td>Texto livre</td>
+        <td>Este campo é destinado às informações relevantes em texto livre para a continuidade do cuidado, como
+          resultados de exames, principais terapias medicamentosas usadas, etc, observando que este não deve ser
+          utilizado
+          em substituição aos blocos de informações disponíveis em outros campos do sumário de alta.</td>
+        <td>
+          <code>Observation.valueString</code><br />
+          <code>Encounter.hospitalization.extension:otherInformations</code><br />
+          <br />
+          Representa quaisquer outras informações descritivas relacionadas aos dados de desfecho do atendimento
+          registrado.
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
 </div>

@@ -6,7 +6,6 @@
 * [Credenciamento](en/credenciamento.md)
 * [Downloads](en/downloads.md)
 * [Suporte da RNDS](en/suporte.md)
-* [Artifacts Table](en/artifacts-table.md)
 * [Modelo de Informação](en/miSA.md)
 * [Feedback](en/forms.md)
 * [Integração](en/integracao.md)

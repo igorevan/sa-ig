@@ -497,8 +497,8 @@
     "description" : "Code System utilizado para definir a unidade de medida de um medicamento prescrito, para consumo ou especificação do fabricante.",
     "uses" : {
     },
-    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo",
-    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento"
+    "ValueSet-BRUnidadeMedidaMedicamento.html" : "Unidade de Medida de Medicamento",
+    "ValueSet-BRUnidadeConsumo.html" : "Unidade de Consumo"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRUnidadeTempo",

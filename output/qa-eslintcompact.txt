@@ -1,13 +1,10 @@
 SARNDSIG
 =========================================
 
-/home/igor/sa-ig/input/examples/example-SA.json: line 91, col 12, Info - Este elemento não corresponde a nenhuma fatia conhecida defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta|1.0.0-release (isto pode não ser um problema, mas deve verificar se não se destina a corresponder a uma fatia) (INFORMATIONAL)
-/home/igor/sa-ig/input/examples/example-SA.json: line 98, col 12, Info - Este elemento não corresponde a nenhuma fatia conhecida defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta|1.0.0-release (isto pode não ser um problema, mas deve verificar se não se destina a corresponder a uma fatia) (INFORMATIONAL)
-/home/igor/sa-ig/input/examples/example-SA.json: line 105, col 12, Info - Este elemento não corresponde a nenhuma fatia conhecida defined in the profile http://www.saude.gov.br/fhir/r4/StructureDefinition/BRSumarioAlta|1.0.0-release (isto pode não ser um problema, mas deve verificar se não se destina a corresponder a uma fatia) (INFORMATIONAL)
 /home/igor/sa-ig/input/resources/CodeSystem-BRAlergenosCBARA.json: line 1, col 38148, Error - Propriedade CodeSystem desconhecida 'http://hl7.org/fhir/ValueSet/allergy-intolerance-category'. Se estiver a criar a sua própria propriedade, não a crie no espaço de nomes HL7 (BUSINESSRULE)
 /home/igor/sa-ig/input/resources/StructureDefinition-BRAlergiaReacaoAdversa-1.0.json: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BRCategoriaAgenteAlergiasReacoesAdversas-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/allergy-intolerance-category|4.0.1 because The codes 'OTH' are not in the base valueset (BUSINESSRULE)
 /home/igor/sa-ig/input/resources/StructureDefinition-BRMedicamento.json: line 0, col 0, Error - Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 because The codes 'draft,active,cancelled,completed,entered-in-error,on-hold,unknown' are not in the base valueset (BUSINESSRULE)
 /home/igor/sa-ig/input/resources/StructureDefinition-BRSumarioAlta.json: line 1, col 629327, Error - A restrição falhou: eld-1 (INVARIANT)
 
-err = 4, warn = 0, info = 3
+err = 4, warn = 0, info = 0
 IG Publisher Version: 2.3.4

@@ -13,12 +13,12 @@
     para a publicação e distribuição dos perfis relacionados aos documentos computacionais em
     produção na rede.</p>
 
+
   <a name="bundle-sa"> </a>
   <h3>Bundle de Envio do SA</h3>
   <p>O diagrama abaixo apresenta o pacote <i>Bundle</i> no qual é condensado o Sumário de Alta (SA), referenciando todos
     os dados relevantes para
     caracterizar o sumário.</p>
-
   <p>
     <b>Figura 1 - Diagrama do <i>Bundle</i> do SA</b>
   </p>
@@ -30,19 +30,103 @@
 
   <a name="recursos"> </a>
   <h3>Recursos FHIR</h3>
-  <p> O modelo computacional do SA é definido pelo perfil BRSumarioAlta [<code>Composition</code>].</p>
+  <p> O modelo computacional do SA é definido pelo perfil BRSumarioAlta [<code>Composition</code>] e
+    os demais Recursos FHIR apresentados abaixo.</p>
 
-
-  <p>Extensões utilizadas:</p>
-
+  <table class="grid">
+    <thead>
+      <tr style="background-color: #538ce9">
+        <th>Resource</th>
+        <th>Profile</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Composition</td>
+        <td>
+          <code><a href="StructureDefinition-BRSumarioAlta.html">BRSumarioAlta</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Encounter</td>
+        <td>
+          <code><a href="StructureDefinition-BRContatoAssistencial-1.0.html">BRContatoAssistencial-1.0</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Condition</td>
+        <td>
+          <code><a href="StructureDefinition-BRProblemaDiagnostico.html">BRProblemaDiagnostico</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Condition</td>
+        <td>
+          <code><a href="StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html">BRRestricaoFuncionalIncapacidadeSaude-1.0</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Procedure</td>
+        <td>
+          <code><a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">BRProcedimentoRealizado-1.0</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>ClinicalImpression</td>
+        <td>
+          <code><a href="StructureDefinition-BRResumoEvolucaoClinica.html">BRResumoEvolucaoClinica</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>AllergyIntolerance</td>
+        <td>
+          <code><a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">BRAlergiaReacaoAdversa-1.0</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>CarePlan</td>
+        <td>
+          <code><a href="StructureDefinition-BRPlanoCuidados-1.0.html">BRPlanoCuidados-1.0</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Observation</td>
+        <td>
+          <code><a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">BRObservacaoDescritiva-1.0</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Location</td>
+        <td>
+          <code><a href="StructureDefinition-BRLocalAtendimento-1.0.html">BRLocalAtendimento-1.0</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Composition</td>
+        <td>
+          <code><a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html">BRRegistroPrescricaoMedicamento</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>MedicationRequest</td>
+        <td>
+          <code><a href="StructureDefinition-BRPrescricaoMedicamento.html">BRPrescricaoMedicamento</a></code>
+        </td>
+      </tr>
+      <tr>
+        <td>Medication</td>
+        <td>
+          <code><a href="StructureDefinition-BRMedicamento.html">BRMedicamento</a></code>
+        </td>
+      </tr>
+    </tbody>
+  </table>
 
   <p>Perfis dos tipos <i>ValueSet</i> e <i>CodeSystem</i> estão associados a recursos
-    terminológicos. No contexto de imunizações e os domínios utilizados, foram criados <i>
+    terminológicos. No contexto de sumário de alta e os domínios utilizados, foram criados <i>
       CodeSystems</i> específicos definidos pelo <a
       href="https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd">Comitê
       Gestor de Saúde Digital (CGSD)</a>.</p>
-
-
   <p>Vale destacar que os perfis terminológicos podem passar por atualizações e versionamentos com
     periodicidade específica de cada domínio, por isso é importante acompanhar a disponibilização
     dessas atualizações no projeto <a href="https://simplifier.net/redenacionaldedadosemsaude">RNDS
@@ -51,6 +135,5 @@
     para <i>CodeSystems</i>. Já no JSON (<code>Bundle</code>), o elemento “<i>system</i>” sempre
     indicará os <i>CodeSystems</i> relacionados aos códigos (“<i>value</i>”) indicados pelo
     integrador (autor do registro). </p>
-
 
 </div>

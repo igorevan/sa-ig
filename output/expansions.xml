@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="274ee160-a6b7-4650-9273-97f465f4ebf5"/>
+  <id value="5a5f5e7e-9307-4150-a19c-18b48d8f8af6"/>
   <meta>
-    <lastUpdated value="2026-09-16T19:02:54.297-03:00"/>
+    <lastUpdated value="2026-09-22T22:11:28.921-03:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -23086,8 +23086,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:943113d5-b7e9-4d3f-b455-4b9796a2fd73"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:6223d7fc-6f8a-4294-89dc-2aee05917c6f"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="4551"/>
           <offset value="0"/>
           <parameter>
@@ -51226,8 +51226,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:cc746980-d718-4670-a809-7a8912e6ad4e"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:a5acca3a-26d1-4f0f-a8a9-010ab01e4697"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="4551"/>
           <offset value="0"/>
           <parameter>
@@ -56478,8 +56478,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:80aaa9ca-8141-4f89-8990-622503b5baa7"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:50cfe694-6686-4188-b7b9-f59afa50be38"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -56733,8 +56733,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9b8befdf-e77c-45e0-a3df-1727e8bc122c"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:4f98a97a-edb9-4679-86f3-52aafd577e50"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -56815,7 +56815,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
                   </span>
@@ -56934,7 +56934,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
                 </td>
                 <td>other</td>
                 <td>
@@ -56978,8 +56978,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:4d0d761d-a21c-48f5-aa0c-ac5a258df0a6"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:79648e6b-1f00-4187-b67a-f8b8358a91bc"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -57058,7 +57058,7 @@
                   </span>
                 </li>
                 <li>
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html">codesystem NullFlavor v4.0.0 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/v3-NullFlavor|4.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
                   </span>
@@ -57177,7 +57177,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/v3-NullFlavor</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-v3-NullFlavor.html#v3-NullFlavor-OTH">OTH</a>
                 </td>
                 <td>other</td>
                 <td>
@@ -57221,8 +57221,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:5c3ad96e-7a25-458e-96e9-632797a932a3"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:e66c54f3-2299-4258-bd27-3d8394e40612"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -57295,7 +57295,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-category|2.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -57328,7 +57328,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
                 </td>
                 <td>Problem List Item</td>
                 <td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td>
@@ -57349,7 +57349,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
                 </td>
                 <td>Encounter Diagnosis</td>
                 <td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td>
@@ -57382,8 +57382,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0ec1e9ee-e789-47ff-be2b-57e1ab09ad26"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:f5839440-eb2e-4125-a84e-ea8641b441c8"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -57433,7 +57433,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html">codesystem Condition Category Codes v2.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-category|2.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -57466,7 +57466,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-problem-list-item">problem-list-item</a>
                 </td>
                 <td>Problem List Item</td>
                 <td>An item on a problem list that can be managed over time and can be expressed by a practitioner (e.g. physician, nurse), patient, or related person.</td>
@@ -57487,7 +57487,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-category</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-category.html#condition-category-encounter-diagnosis">encounter-diagnosis</a>
                 </td>
                 <td>Encounter Diagnosis</td>
                 <td>A point in time diagnosis (e.g. from a physician or nurse) in context of an encounter.</td>
@@ -57520,8 +57520,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:76006d83-bf84-484e-aba7-a52563495b63"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:e5c2d967-8b38-4297-8a22-537662f14563"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -57676,8 +57676,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:bb8e66c1-8418-4ceb-94b7-260c327d6814"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:bce16029-0868-4495-a514-bb1424e34050"/>
+          <timestamp value="2026-09-22T22:20:08-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -57841,8 +57841,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e6359b1d-73cb-4a60-9f7f-5336d8ce0bd2"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:22b19cf6-f286-4444-99e3-34500dbccece"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -57985,8 +57985,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:2d957c67-5df6-42b1-810e-30f35e3b7582"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:5cab880d-2f7d-4093-a4d8-3d0dc1a7b6e2"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -58124,8 +58124,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:ae844cc9-cf64-48bb-b46a-d9f6a45b7f85"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:e303140c-247b-4c67-b45e-2b39b879d7b5"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -58305,8 +58305,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1ceab480-4467-480f-aee1-6194b14948f5"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:fb00c7f0-2d3d-4c9a-bf71-a172acb87998"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -58496,8 +58496,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7ace57d6-053d-4719-8bd4-02ccf24513bf"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:71bf36bb-c70c-4f5b-8462-8718808267e6"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -58771,8 +58771,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:27e1db7d-d64b-4848-8d1e-320e7ffb1693"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:a522a80e-e734-49f8-8b83-85c235c3a1eb"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -59066,8 +59066,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b3e2e4e0-fb40-4790-bd5c-c4d6a6d80a8c"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:17f1d64c-b607-4c50-b23c-62e814036278"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -59249,8 +59249,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d79dc30d-3fd6-4432-8617-83a256f9516f"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:ffa5d34e-c741-444e-ae41-4fa30a18fad5"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -59398,8 +59398,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:78ebbe35-23a9-4cee-9ff5-5089a653c574"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:e2a9bb8c-8668-4d95-80a4-236ede144f63"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -59446,7 +59446,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -59479,7 +59479,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
                 </td>
                 <td>Active</td>
                 <td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td>
@@ -59500,7 +59500,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
                 </td>
                 <td>Recurrence</td>
                 <td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td>
@@ -59521,7 +59521,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
                 </td>
                 <td>Relapse</td>
                 <td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td>
@@ -59542,7 +59542,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
                 </td>
                 <td>Inactive</td>
                 <td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td>
@@ -59563,7 +59563,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
                 </td>
                 <td>Remission</td>
                 <td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td>
@@ -59584,7 +59584,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
                 </td>
                 <td>Resolved</td>
                 <td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td>
@@ -59617,8 +59617,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:91aa4a91-23b6-4aaa-bc71-ad93f5c08aae"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:d918bc06-ffe7-47eb-809f-37adf58af278"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -59685,7 +59685,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -59718,7 +59718,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
                 </td>
                 <td>Active</td>
                 <td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td>
@@ -59739,7 +59739,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-recurrence">recurrence</a>
                 </td>
                 <td>Recurrence</td>
                 <td>The subject is experiencing a reoccurence or repeating of a previously resolved condition or situation, e.g. urinary tract infection, food insecurity.</td>
@@ -59760,7 +59760,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-relapse">relapse</a>
                 </td>
                 <td>Relapse</td>
                 <td>The subject is experiencing a return of a condition or situation after a period of improvement or remission, e.g. relapse of cancer, alcoholism.</td>
@@ -59781,7 +59781,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
                 </td>
                 <td>Inactive</td>
                 <td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td>
@@ -59802,7 +59802,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-remission">remission</a>
                 </td>
                 <td>Remission</td>
                 <td>The subject is not presently experiencing the condition or situation, but there is a risk of the condition or situation returning.</td>
@@ -59823,7 +59823,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-resolved">resolved</a>
                 </td>
                 <td>Resolved</td>
                 <td>The subject is not presently experiencing the condition or situation and there is a negligible perceived risk of the condition or situation returning.</td>
@@ -59856,8 +59856,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:d14148b0-527c-4138-8d59-7cb635ece413"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:4f4aa155-994b-48bf-8b6c-bcff73417e28"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -59924,7 +59924,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -59957,7 +59957,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
                 </td>
                 <td>Active</td>
                 <td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td>
@@ -59978,7 +59978,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
                 </td>
                 <td>Inactive</td>
                 <td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td>
@@ -60011,8 +60011,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6c71e3b8-a54b-47fc-835f-7157caf4b865"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:b1eddbd8-ecd2-462a-be8c-0ea11adfa2d7"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -60059,7 +60059,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html">codesystem Condition Clinical Status Codes v3.0.0 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/condition-clinical|3.0.0" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -60092,7 +60092,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-active">active</a>
                 </td>
                 <td>Active</td>
                 <td>The subject is currently experiencing the condition or situation, there is evidence of the condition or situation, or considered to be a significant risk.</td>
@@ -60113,7 +60113,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/condition-clinical</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-condition-clinical.html#condition-clinical-inactive">inactive</a>
                 </td>
                 <td>Inactive</td>
                 <td>The subject is no longer experiencing the condition or situation and there is no longer evidence or appreciable risk of the condition or situation.</td>
@@ -60146,8 +60146,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:9d4aef70-6133-4f90-a797-ca402f133356"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:d1074b82-d77e-4331-a09e-f125c478f9a0"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -60281,8 +60281,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:0ab7c065-c5c9-413d-912b-ca677fb2683d"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:ff0ae623-8927-4b76-ad5e-1af216782766"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -60420,8 +60420,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:1cf41b81-78dc-4a6d-b669-b16d02eee8ce"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:46b97696-86eb-4672-ae22-d7cfdbcb56b5"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -60664,8 +60664,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:07c65e79-77a9-456b-adf1-b064d939185a"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:0634abac-d394-4591-b3c4-274eccccbe12"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -60933,8 +60933,8 @@
         </jurisdiction>
         <immutable value="true"/>
         <expansion>
-          <identifier value="urn:uuid:d7633373-ec70-40c9-a568-8cf369e8f625"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:bf6c11a1-7a95-4439-b155-598f07f6afda"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="7"/>
           <offset value="0"/>
           <parameter>
@@ -61215,8 +61215,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:771adff5-fbd8-4a5c-b041-7ecb7fa3b25e"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:f8141faa-618d-456c-895a-8c52e3887898"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -61498,8 +61498,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a45db03d-0306-475f-8e51-1b5659d21d1c"/>
-          <timestamp value="2026-09-16T19:12:27-03:00"/>
+          <identifier value="urn:uuid:8c093d1c-4b23-4dfe-81d8-4d6dc1c697a9"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="8"/>
           <offset value="0"/>
           <parameter>
@@ -61576,7 +61576,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification|1.0.1" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -61609,7 +61609,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
                 </td>
                 <td>Unconfirmed</td>
                 <td>The propensity for a reaction to the identified substance has not been objectively verified.</td>
@@ -61630,7 +61630,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
                 </td>
                 <td>Confirmed</td>
                 <td>The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).</td>
@@ -61651,7 +61651,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
                 </td>
                 <td>Refuted</td>
                 <td>A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.</td>
@@ -61672,7 +61672,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
                 </td>
                 <td>Entered in Error</td>
                 <td>The statement was entered in error and is not valid.</td>
@@ -61705,8 +61705,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7a3ec2d5-a7b2-4029-a551-b90c9f4fa11d"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:7a1db121-4756-4b53-beec-6d0d179cb294"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -61763,7 +61763,7 @@
           <div xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansão efectuada internamente com base em 
-              <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
+              <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html">codesystem AllergyIntolerance Verification Status v1.0.1 (CodeSystem)</a>
               <span class="copy-text-inline">
                 <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/allergyintolerance-verification|1.0.1" title="Clique para copiar o URL" class="btn-copy"> </button>
               </span>
@@ -61796,7 +61796,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-unconfirmed">unconfirmed</a>
                 </td>
                 <td>Unconfirmed</td>
                 <td>The propensity for a reaction to the identified substance has not been objectively verified.</td>
@@ -61817,7 +61817,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-confirmed">confirmed</a>
                 </td>
                 <td>Confirmed</td>
                 <td>The propensity for a reaction to the identified substance has been objectively verified (which may include clinical evidence by testing, rechallenge, or observation).</td>
@@ -61838,7 +61838,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-refuted">refuted</a>
                 </td>
                 <td>Refuted</td>
                 <td>A propensity for a reaction to the identified substance has been disputed or disproven with a sufficient level of clinical certainty to justify invalidating the assertion. This might or might not include testing or rechallenge.</td>
@@ -61859,7 +61859,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/allergyintolerance-verification</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-allergyintolerance-verification.html#allergyintolerance-verification-entered-in-error">entered-in-error</a>
                 </td>
                 <td>Entered in Error</td>
                 <td>The statement was entered in error and is not valid.</td>
@@ -61892,8 +61892,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3c01549f-1a0b-487e-8340-814a3fd9347b"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:0668e9b8-e44c-4ec8-8f09-d9346b8b3ff2"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="4"/>
           <offset value="0"/>
           <parameter>
@@ -62115,8 +62115,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:132c2c9e-49cd-4d5e-8b57-13cde1cc18de"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:ecbcf418-a441-4f79-b111-b444271aa579"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -62348,8 +62348,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:4b9ca966-775a-4071-aba4-fd00590dc86e"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:2b664323-0060-48b8-bbaf-bc1bbcfd7636"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -62641,8 +62641,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:010e1b37-48af-4777-9dc5-e6063f7936f9"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:c7384a9a-6318-45c0-a0a6-a1569fc941a5"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -62949,8 +62949,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b566b959-f392-4326-8d97-7d218b8ea5b0"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:a63ca896-398e-4e23-be7f-9b81b74aef39"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -63093,8 +63093,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:44cbdeb0-25d9-445d-aa4b-5d84e3c906a1"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:f8a10ef8-a261-45ff-ba3b-1aa2c39ee6d9"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -63197,8 +63197,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:6b2181dd-ce59-4fb1-a2e2-283100d828fb"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:a89a641b-63ca-45a6-a902-b44549d6ff95"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -63485,8 +63485,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:60da5eb7-5115-45a3-ba31-e87061bdb241"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:6b8becbb-3f6c-4630-8af2-a2ff552c816a"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -63818,8 +63818,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:44308c87-72ef-4c9a-8e43-c2384c8e1dfc"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:86d70039-d0e0-44a5-ad20-70e21772e7d7"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="10"/>
           <offset value="0"/>
           <parameter>
@@ -83951,8 +83951,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:be2504aa-7a4c-4ff6-bce0-1bfd97652196"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:66dd2aab-2b89-423e-ba23-76aa3257f4ee"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2714"/>
           <offset value="0"/>
           <parameter>
@@ -109034,8 +109034,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e926e54a-cc81-4cb3-9c3d-9ae0fa24fb0e"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:c8e79ba1-f9e6-4fb0-a462-c521a6f201ea"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2714"/>
           <offset value="0"/>
           <parameter>
@@ -114078,7 +114078,7 @@
               <p>Expansão efectuada internamente com base em:</p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/diagnosis-role|1.1.1" title="Clique para copiar o URL" class="btn-copy"> </button>
                   </span>
@@ -114161,7 +114161,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
                 </td>
                 <td>Admission diagnosis</td>
                 <td>The diagnoses documented for administrative purposes as the basis for a hospital or other institutional admission</td>
@@ -114182,7 +114182,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
                 </td>
                 <td>Discharge diagnosis</td>
                 <td>The diagnoses documented for administrative purposes at the time of hospital or other institutional discharge</td>
@@ -114203,7 +114203,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
                 </td>
                 <td>Chief complaint</td>
                 <td/>
@@ -114224,7 +114224,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
                 </td>
                 <td>Comorbidity diagnosis</td>
                 <td/>
@@ -114245,7 +114245,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
                 </td>
                 <td>pre-op diagnosis</td>
                 <td/>
@@ -114266,7 +114266,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
                 </td>
                 <td>post-op diagnosis</td>
                 <td/>
@@ -114287,7 +114287,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
                 </td>
                 <td>Billing</td>
                 <td>The diagnosis documented for billing purposes</td>
@@ -114320,8 +114320,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:8460fec1-064e-49a4-a0e1-941cf5d0b76e"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:a09eda3e-6d36-4b6e-bd32-d57d261fa59c"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -114413,7 +114413,7 @@
               <p>Expansão efectuada internamente com base em:</p>
               <ul>
                 <li>
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html">codesystem Diagnosis Role v1.1.1 (CodeSystem)</a>
                   <span class="copy-text-inline">
                     <button data-clipboard-text="http://terminology.hl7.org/CodeSystem/diagnosis-role|1.1.1" title="Clique para copiar o URL" class="btn-copy"> </button>
                   </span>
@@ -114496,7 +114496,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-AD">AD</a>
                 </td>
                 <td>Admission diagnosis</td>
                 <td>The diagnoses documented for administrative purposes as the basis for a hospital or other institutional admission</td>
@@ -114517,7 +114517,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-DD">DD</a>
                 </td>
                 <td>Discharge diagnosis</td>
                 <td>The diagnoses documented for administrative purposes at the time of hospital or other institutional discharge</td>
@@ -114538,7 +114538,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CC">CC</a>
                 </td>
                 <td>Chief complaint</td>
                 <td/>
@@ -114559,7 +114559,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-CM">CM</a>
                 </td>
                 <td>Comorbidity diagnosis</td>
                 <td/>
@@ -114580,7 +114580,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-pre-op">pre-op</a>
                 </td>
                 <td>pre-op diagnosis</td>
                 <td/>
@@ -114601,7 +114601,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-post-op">post-op</a>
                 </td>
                 <td>post-op diagnosis</td>
                 <td/>
@@ -114622,7 +114622,7 @@
                   <code>http://terminology.hl7.org/CodeSystem/diagnosis-role</code>
                 </td>
                 <td style="white-space:nowrap">  
-                  <a href="http://terminology.hl7.org/7.3.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
+                  <a href="http://terminology.hl7.org/7.4.0/CodeSystem-diagnosis-role.html#diagnosis-role-billing">billing</a>
                 </td>
                 <td>Billing</td>
                 <td>The diagnosis documented for billing purposes</td>
@@ -114655,8 +114655,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f8d77c03-2e69-414f-9b91-da653ae2b000"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:b3d9e892-02f8-4211-b623-1b979d166cca"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -114832,8 +114832,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6310964a-5db3-4fbd-b947-0c8c0791e02d"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:91c9a39e-81f1-4126-9e56-4a1fbd3c16df"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -114970,8 +114970,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b2796d95-bad0-44ff-8bef-a416c3238da1"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:725d08ca-6080-4d5c-8ecd-5211949f5893"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="2"/>
           <offset value="0"/>
           <parameter>
@@ -135074,8 +135074,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:8a989c43-504d-4666-8ae6-7238ded4f66b"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:c1b160e3-9ce0-4e7a-9615-edfa119b146e"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="14916"/>
           <offset value="0"/>
           <parameter>
@@ -160172,8 +160172,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:050385b1-68b4-45e0-9b84-542c8c9bd9e7"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:f0829c5d-31ff-4843-a40f-0392d60f6248"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="14916"/>
           <offset value="0"/>
           <parameter>
@@ -165359,8 +165359,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7a73e63d-3dcd-4bd7-b8bc-89978984c7e9"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:b7836957-6f36-44d9-b298-04d2ed2e3c0e"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -165567,8 +165567,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:12698fbb-eb50-407f-8a3a-f77946fdd29b"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:57f725c0-dc77-42d6-9adb-a493f6d4ef61"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -186689,8 +186689,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:83adf313-8944-4f55-b702-fd1fad2f4993"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:c6765555-febc-446b-bfb3-3a1dbf92d5a1"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="55698"/>
           <offset value="0"/>
           <parameter>
@@ -212790,8 +212790,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:eb6dd196-fd8d-42d9-b822-f62abd5f9db1"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:05cb84bc-c921-45ec-a008-aa08c79dccd7"/>
+          <timestamp value="2026-09-22T22:20:09-03:00"/>
           <total value="55698"/>
           <offset value="0"/>
           <parameter>
@@ -218469,8 +218469,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3c7bb03a-6e02-4f54-8de2-d9e63a308646"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:f120702b-d6a3-4115-8782-9d07f02a1723"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="28"/>
           <offset value="0"/>
           <parameter>
@@ -219284,8 +219284,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:3cd5a787-69fd-46dd-b3f8-9834ce0b6d3f"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:fa9ea9a7-487d-4296-87a4-b1c94a23f316"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="28"/>
           <offset value="0"/>
           <parameter>
@@ -219607,8 +219607,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b5c61b70-ba59-4ee4-bcc2-52da05e0d507"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:b25c6516-fd83-491d-8fa6-08de9532ae38"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -219815,8 +219815,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:08f02be9-86e6-4ee7-8b92-cb5ec059106a"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:889d4fe4-a0ca-4130-84d8-bc2945fb1b32"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="5"/>
           <offset value="0"/>
           <parameter>
@@ -219986,8 +219986,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:49139f4f-078c-46c9-8872-3ce713c9dfdc"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:719402fc-2207-42e9-9e61-c477f16ec9f8"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -220147,8 +220147,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:23fb9a78-2058-4daf-bd95-205b97eb0f01"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:5048761c-9b5b-4ca4-98c4-42bf58f1539d"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -240274,8 +240274,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:69ef34b1-7062-46bb-8dc9-3d700ff95d17"/>
-          <timestamp value="2026-09-16T19:12:28-03:00"/>
+          <identifier value="urn:uuid:e49d8a40-0efc-48dd-947a-f5b833f4153c"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="32610"/>
           <offset value="0"/>
           <parameter>
@@ -265402,8 +265402,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:60d93788-1771-4200-bc88-f614c807652f"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:7c863e58-5df7-41c3-afcd-fedd0e0d873f"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="32610"/>
           <offset value="0"/>
           <parameter>
@@ -270694,8 +270694,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:aaeb2e14-558e-41ad-803e-93af2d3e2471"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:966b2286-aeea-4f3b-b2b8-8964fe8580aa"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -271015,8 +271015,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:af4d5bca-840d-472c-a8b5-a4e848127f73"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:ddd50bf8-b412-4cb1-a9e9-5737c00aa850"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="9"/>
           <offset value="0"/>
           <parameter>
@@ -271167,8 +271167,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e959abda-f491-44c3-8973-c9a3dc80d470"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:d9b808c5-d317-4080-a09b-00c7cc108e14"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -271279,8 +271279,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:6bc62150-c070-40f2-803b-6e5d05d0a452"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:ef70540a-63f2-4912-8594-f71e559091f2"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="1"/>
           <offset value="0"/>
           <parameter>
@@ -271866,8 +271866,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e4840e1e-ed11-4aba-ad8d-e8c7bb93ea49"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:7356b4d0-327a-4fd4-8d5e-508103505190"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -272583,8 +272583,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:b6e6484d-695e-4293-b77f-05e19a7c6c4d"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:db48aba5-a9fb-405b-9f37-04de903fda8e"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="23"/>
           <offset value="0"/>
           <parameter>
@@ -272861,8 +272861,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:61ce39e6-cf0e-4eb9-b19f-9b68181bd457"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:2ef52130-74dd-4f4e-8497-f1f8f58ead46"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -273019,8 +273019,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:7bb49ca0-b63a-4524-9a97-fb1743d1fb70"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:4cc49f4a-ec12-4a6b-ae23-cc4465bae8e9"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -274637,8 +274637,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:c6ba1cfd-2e4b-491f-a0a9-05be3cd529bc"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:9de95996-de38-46b0-9b46-26159bdb4273"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -276620,8 +276620,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:97d37ff0-b0df-4690-bca0-3661f4dd78db"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:d4205538-005b-4c51-88f3-d34d07d67ce9"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -278603,8 +278603,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:cf5964b3-74f5-470d-92b9-471a147cd6b8"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:4992db7e-e1a5-4746-82ee-d7633f129c8e"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -280586,8 +280586,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:cc48dd3d-c62f-4222-a400-fd1abead2fd1"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:ec724bce-d6ba-48b7-b418-77127e366027"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="76"/>
           <offset value="0"/>
           <parameter>
@@ -281169,8 +281169,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:fd70efb8-bd36-4569-be8c-ba0fd915bfe0"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:e81f4864-ccc4-46d2-8a54-83a0c2a74f46"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -281402,8 +281402,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:a3e1e24f-d678-45d0-aedd-3f1cd28e04c0"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:c2db7711-7dc8-44dc-bd04-bbc126962a9e"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="6"/>
           <offset value="0"/>
           <parameter>
@@ -282915,8 +282915,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:e13ed12c-0614-45a5-ab21-c69bb1a3fdf4"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:7473042b-f16d-41c9-a00f-49ff163829c6"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="70"/>
           <offset value="0"/>
           <parameter>
@@ -284748,8 +284748,8 @@
         </jurisdiction>
         <immutable value="false"/>
         <expansion>
-          <identifier value="urn:uuid:f46538cf-6310-4b9b-8fe5-e5e9a7152c06"/>
-          <timestamp value="2026-09-16T19:12:29-03:00"/>
+          <identifier value="urn:uuid:c863ac34-5c72-483d-9afe-a4b3810fa05a"/>
+          <timestamp value="2026-09-22T22:20:10-03:00"/>
           <total value="70"/>
           <offset value="0"/>
           <parameter>
