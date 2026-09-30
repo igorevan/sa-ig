@@ -81,10 +81,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
     "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/care-plan-activity-kind",
@@ -210,9 +210,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.238"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/composition-status",
@@ -254,9 +254,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.161"],
     "uses" : {
     },
-    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
     "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
     "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
+    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
     "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
   },
   {
@@ -271,8 +271,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.168"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-stage",
@@ -286,8 +286,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.170"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-stage-type",
@@ -301,8 +301,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.171"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/condition-ver-status",
@@ -316,8 +316,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.166"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/data-absent-reason",
@@ -345,8 +345,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.512"],
     "uses" : {
     },
-    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-    "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento"
+    "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
+    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/device-action",
@@ -402,9 +402,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.237"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/document-classcodes",
@@ -432,9 +432,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.244"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/encounter-diet",
@@ -548,17 +548,17 @@
     "sources" : ["2.16.840.1.113883.4.642.3.45"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
-    "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
-    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
     "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
+    "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
     "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
+    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-use",
@@ -572,17 +572,17 @@
     "sources" : ["2.16.840.1.113883.4.642.3.57"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
-    "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
-    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
     "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
+    "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
     "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
+    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/investigation-sets",
@@ -610,20 +610,20 @@
     "sources" : ["2.16.840.1.113883.4.642.3.20"],
     "uses" : {
     },
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
+    "StructureDefinition-BRMedicamento.html" : "Medicamento (StructureDefinition)",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
     "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
     "StructureDefinition-BRLocalAtendimento-1.0.html" : "Local de Atendimento",
-    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
-    "StructureDefinition-BRMedicamento.html" : "Medicamento (StructureDefinition)",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
-    "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
     "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
+    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/list-empty-reason",
@@ -637,9 +637,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.322"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/list-mode",
@@ -653,9 +653,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.318"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/list-order",
@@ -669,9 +669,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.324"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/location-mode",
@@ -728,8 +728,8 @@
     "sources" : ["2.16.840.1.113883.4.642.3.169"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/medication-codes",
@@ -1052,18 +1052,18 @@
     "sources" : ["2.16.840.1.113883.4.642.3.27"],
     "uses" : {
     },
-    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
-    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
-    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
-    "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
-    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
-    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
-    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
     "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
+    "StructureDefinition-BRProcedimentoRealizado-1.0.html" : "Procedimento Realizado",
     "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
-    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde"
+    "StructureDefinition-BRResumoEvolucaoClinica.html" : "Resumo da Evolução Clínica",
+    "StructureDefinition-BRPrescricaoMedicamento.html" : "Prescrição de Medicamento",
+    "StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" : "Restrições Funcionais e Incapacidades em Saúde",
+    "StructureDefinition-BRProblemaDiagnostico.html" : "Problema / Diagnóstico",
+    "StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" : "Alergia ou Reação Adversa",
+    "StructureDefinition-BRObservacaoDescritiva-1.0.html" : "Observação Descritiva",
+    "StructureDefinition-BRPlanoCuidados-1.0.html" : "Plano de Cuidados",
+    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/route-codes",
@@ -1173,9 +1173,9 @@
     "systems" : ["http://terminology.hl7.org/CodeSystem/v3-ActCode"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ActEncounterCode",
@@ -1217,9 +1217,9 @@
     "sources" : ["2.16.840.1.113883.1.11.10228"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v3-ServiceDeliveryLocationRoleType",
@@ -1334,8 +1334,8 @@
     "systems" : ["http://hl7.org/fhir/composition-status"],
     "uses" : {
     },
-    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
+    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoEvento-1.0",
@@ -1455,9 +1455,9 @@
     "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"],
     "uses" : {
     },
-    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
     "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
-    "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial"
+    "StructureDefinition-BRContatoAssistencial-1.0.html" : "Contato Assistencial",
+    "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeTelessaude",
@@ -1621,9 +1621,9 @@
     "systems" : ["http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento"],
     "uses" : {
     },
-    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento",
+    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)",
     "StructureDefinition-BRConjuntoMinimoDados-1.1.html" : "Conjunto Mínimo de Dados",
-    "StructureDefinition-BRSumarioAlta.html" : "Sumário de Alta (SA)"
+    "StructureDefinition-BRRegistroPrescricaoMedicamento.html" : "Registro de Prescrição de Medicamento"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRTipoIdentificadorProcedimento-1.0",

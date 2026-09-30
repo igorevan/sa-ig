@@ -62,7 +62,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRRegistroPrescri
   "title" : "Registro de Prescrição de Medicamento",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-22T22:11:28-03:00",
+  "date" : "2026-09-30T19:01:17-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
