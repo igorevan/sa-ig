@@ -2,14 +2,11 @@
 
 ## ValueSet: Classificação Internacional de Doenças e Atenção Primária 
 
- 
-Código Internacional de Atenção Primária (CIAP2) e Classificação Internacional de Doenças (CID10) 
-
  **References** 
 
 * [Problema / Diagnóstico](StructureDefinition-BRProblemaDiagnostico.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

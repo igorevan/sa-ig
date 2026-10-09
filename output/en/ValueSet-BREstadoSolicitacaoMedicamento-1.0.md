@@ -2,14 +2,11 @@
 
 ## ValueSet: Estado da Solicitação de Medicamento 
 
- 
-Estado da Solicitação de Medicamento 
-
  **References** 
 
 * [Medicamento (StructureDefinition)](StructureDefinition-BRMedicamento.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

@@ -2,9 +2,6 @@
 
 ## Resource Profile: Restrições Funcionais e Incapacidades em Saúde 
 
- 
-Registra restrições funcionais ou incapacidades em saúde observadas no indivíduo. 
-
 **Usos:**
 
 * Refere a este Perfil: [Sumário de Alta (SA)](StructureDefinition-BRSumarioAlta.md)

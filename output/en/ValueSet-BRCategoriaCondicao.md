@@ -2,14 +2,11 @@
 
 ## ValueSet: Classificação de uma condição 
 
- 
-Tradução para o português do brasil da classificação de uma condição 
-
  **References** 
 
 * [Problema / Diagnóstico](StructureDefinition-BRProblemaDiagnostico.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

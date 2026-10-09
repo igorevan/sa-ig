@@ -2,14 +2,11 @@
 
 ## ValueSet: Estado da Restrição Funcional ou Incapacidade de Saúde 
 
- 
-Estado da Restrição Funcional ou Incapacidade de Saúde 
-
  **References** 
 
 * [Restrições Funcionais e Incapacidades em Saúde](StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

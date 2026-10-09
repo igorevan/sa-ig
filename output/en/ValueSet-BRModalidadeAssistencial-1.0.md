@@ -2,15 +2,12 @@
 
 ## ValueSet: Modalidade Assistencial (ValueSet) 
 
- 
-Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento. 
-
  **References** 
 
 * [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

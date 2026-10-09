@@ -2,14 +2,11 @@
 
 ## ValueSet: Tipo de Identificador do Procedimento 
 
- 
-Classifica o tipo de identificador que está sendo utilizado para o procedimento. 
-
  **References** 
 
 * [Procedimento Realizado](StructureDefinition-BRProcedimentoRealizado-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

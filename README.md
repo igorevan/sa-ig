@@ -1,5 +1,5 @@
 # sa-ig
 
-Para subir esse IG no Github Pages é necessário mudar o nome da pasta "output" para "docs" sempre que gerar uma nova versão do IG.
+Esse é o Guia de Implementação do **Sumário de Alta (SA)** da Rede Nacional de Dados em Saúde (RNDS).
 
-O arquivo "full-ig.zip" esta no .gitignore porque tem um tamanho que o Github não aceita em um commit.
+[https://fhir.saude.gov.br/sa/] (https://fhir.saude.gov.br/sa/)

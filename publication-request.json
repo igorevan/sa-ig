@@ -9,7 +9,7 @@
   "changes": "changes.html",
   "first": true,
   "title": "SA IG",
-  "ci-build": "https://igorevan.github.io/sa-ig/",
+  "ci-build": "https://github.com/igorevan/sa-ig",
   "registry-description": "Primeira versão do Guia de Implementação do Sumário de Alta (SA) da RNDS",
   "registry-country": "BR",
   "registry-authority": "Ministério da Saúde do Brasil",

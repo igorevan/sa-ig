@@ -20,9 +20,9 @@
     <link href="assets/css/pygments-manni.css" rel="stylesheet"/>
     <link href="assets/css/jquery-ui.css" rel="stylesheet"/>
   	<link href="assets/css/prism.css" rel="stylesheet" />
+    <link href="assets/css/liquid.css" rel="stylesheet" />
     <link href="assets/css/project.css" rel="stylesheet"/>
-  	<link href="assets/css/cqf.css" rel="stylesheet" />
-    <!-- Placeholder for child template CSS declarations -->
+  	<!-- Placeholder for child template CSS declarations -->
 
     <script type="text/javascript" src="fhir-table-scripts.js"> </script>
     <script type="text/javascript" src="assets/js/direction-management.js"> </script>
@@ -227,9 +227,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
   <a name="computacional">  </a>
   <h3>Modelo Computacional</h3>
-  <p> Para a modelagem do modelo computacional do Sumário de Alta (SA),
-    foram mapeados os campos do Modelo de Informação (MI) aos recursos internacionais <a href="https://hl7.org/fhir/R4/">FHIR
-      R4</a>. Assim, foi realizada a modelagem fechada dos perfis de modo a atender o contexto nacional. </p>
+  <p> Para a modelagem do modelo computacional do Sumário de Alta (SA), foram mapeados os campos do
+    Modelo de Informação (MI) aos recursos internacionais <a href="https://hl7.org/fhir/R4/">FHIR
+      R4</a>. Assim, foi realizada a modelagem fechada dos perfis de modo a atender o contexto
+    nacional. </p>
   <p>Foi criado um <a href="https://simplifier.net/redenacionaldedadosemsaude/">Projeto Rede
       Nacional de Dados em Saúde</a>, na plataforma <a href="https://simplifier.net/">SIMPLIFIER.NET</a>,
     para a publicação e distribuição dos perfis relacionados aos documentos computacionais em
@@ -238,16 +239,213 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
   <a name="bundle-sa">  </a>
   <h3>Bundle de Envio do SA</h3>
-  <p>O diagrama abaixo apresenta o pacote <i>Bundle</i> no qual é condensado o Sumário de Alta (SA), referenciando todos
-    os dados relevantes para
-    caracterizar o sumário.</p>
+  <p>O diagrama abaixo apresenta o pacote <i>Bundle</i> no qual é condensado o Sumário de Alta (SA),
+    referenciando todos os dados relevantes para caracterizar o sumário.</p>
   <p>
     <b>Figura 1 - Diagrama do <i>Bundle</i> do SA</b>
   </p>
+
   <div>
-
-    <img height="600" src="saMC.png" alt="Diagrama do Bundle do SA"/>
-
+    <svg width="700" height="661" viewBox="0 0 2600 2290" style="max-width:100%; height:auto;" role="img" aria-labelledby="sav-title sav-desc">
+      <title id="sav-title">Estrutura do Sumário de Alta</title>
+      <desc id="sav-desc">Contêiner tracejado representa inclusão dos recursos no Bundle por
+        entry[*].resource. Setas
+        contínuas representam referências entre recursos, com os paths da imagem fornecida. Blocos
+        do mesmo tipo possuem a
+        mesma cor, e todos os perfis possuem links.</desc>
+      <defs>
+        <marker id="sav-arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+          <path d="M1 1 L9 5 L1 9" fill="none" stroke="#334155" stroke-width="1.5"/>
+        </marker>
+      </defs>
+      <rect x="20" y="20" width="2560" height="2120" rx="28" fill="none" stroke="#526781" stroke-width="3" stroke-dasharray="12 8"/>
+      <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d">
+        <text x="65" y="85" font-size="42" font-weight="700">Bundle</text>
+        <text x="290" y="85" font-size="28">entry[*].resource</text>
+      </g>
+      <path d="M530 1067 L950 200" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="608.0" y="610.5" width="264" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="642.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section[0].entry</text>
+      </g>
+      <path d="M530 1079 L950 420" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="726.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="758.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M530 1091 L950 640" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="842.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="874.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M530 1103 L950 860" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="958.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="990.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M530 1115 L950 1080" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="1074.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="1106.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M530 1127 L950 1300" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="1190.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="1222.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M530 1139 L950 1520" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="1306.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="1338.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M530 1151 L950 1740" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="1422.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="1454.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M530 1163 L950 1960" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="630.5" y="1538.5" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="740" y="1570.5" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M1650 170 H1970" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="1910.5" y="82" width="279" height="46" rx="8" fill="#ffffff"/>
+        <text x="2050" y="114" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          location.location</text>
+      </g>
+      <path d="M1650 220 H1750 V640 H1650" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="1705.5" y="502" width="249" height="46" rx="8" fill="#ffffff"/>
+        <text x="1830" y="534" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          reasonReference</text>
+      </g>
+      <path d="M1650 1740 H1970" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="1710.5" y="1597" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="1820" y="1629" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          section.entry</text>
+      </g>
+      <path d="M2245 1810 V1940" fill="none" stroke="#334155" stroke-width="3" stroke-linejoin="round" marker-end="url(#sav-arrow)"/>
+      <g>
+        <rect x="2135.5" y="1852" width="219" height="46" rx="8" fill="#ffffff"/>
+        <text x="2245" y="1884" text-anchor="middle" font-family="Consolas, monospace" font-size="26" fill="#334155">
+          medication[x]</text>
+      </g>
+      <a href="StructureDefinition-BRSumarioAlta.html" aria-label="Abrir perfil BRSumarioAlta">
+        <title>Abrir perfil BRSumarioAlta</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="60" y="1050" width="470" height="140" rx="20" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+          <text x="295.0" y="1100" font-size="35" font-weight="700">Composition</text>
+          <text x="295.0" y="1151" font-size="27">BRSumarioAlta</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRContatoAssistencial-1.0.html" aria-label="Abrir perfil BRContatoAssistencial-1.0">
+        <title>Abrir perfil BRContatoAssistencial-1.0</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="130" width="700" height="140" rx="20" fill="#cffafe" stroke="#0891b2" stroke-width="3"/>
+          <text x="1300.0" y="180" font-size="35" font-weight="700">Encounter</text>
+          <text x="1300.0" y="231" font-size="27">BRContatoAssistencial-1.0</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRProblemaDiagnostico.html" aria-label="Abrir perfil BRProblemaDiagnostico">
+        <title>Abrir perfil BRProblemaDiagnostico</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="350" width="700" height="140" rx="20" fill="#ffedd5" stroke="#d97706" stroke-width="3"/>
+          <text x="1300.0" y="400" font-size="35" font-weight="700">Condition</text>
+          <text x="1300.0" y="451" font-size="27">BRProblemaDiagnostico</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html" aria-label="Abrir perfil BRObservacaoDescritiva-1.0">
+        <title>Abrir perfil BRObservacaoDescritiva-1.0</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="570" width="700" height="140" rx="20" fill="#ede9fe" stroke="#7c3aed" stroke-width="3"/>
+          <text x="1300.0" y="620" font-size="35" font-weight="700">Observation</text>
+          <text x="1300.0" y="671" font-size="27">BRObservacaoDescritiva-1.0</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html" aria-label="Abrir perfil BRProcedimentoRealizado-1.0">
+        <title>Abrir perfil BRProcedimentoRealizado-1.0</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="790" width="700" height="140" rx="20" fill="#fce7f3" stroke="#db2777" stroke-width="3"/>
+          <text x="1300.0" y="840" font-size="35" font-weight="700">Procedure</text>
+          <text x="1300.0" y="891" font-size="27">BRProcedimentoRealizado-1.0</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html" aria-label="Abrir perfil BRRestricaoFuncionalIncapacidadeSaude-1.0">
+        <title>Abrir perfil BRRestricaoFuncionalIncapacidadeSaude-1.0</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="1010" width="700" height="140" rx="20" fill="#ffedd5" stroke="#d97706" stroke-width="3"/>
+          <text x="1300.0" y="1060" font-size="35" font-weight="700">Condition</text>
+          <text x="1300.0" y="1111" font-size="27">BRRestricaoFuncionalIncapacidadeSaude-1.0</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRResumoEvolucaoClinica.html" aria-label="Abrir perfil BRResumoEvolucaoClinica">
+        <title>Abrir perfil BRResumoEvolucaoClinica</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="1230" width="700" height="140" rx="20" fill="#fef9c3" stroke="#ca8a04" stroke-width="3"/>
+          <text x="1300.0" y="1280" font-size="35" font-weight="700">ClinicalImpression</text>
+          <text x="1300.0" y="1331" font-size="27">BRResumoEvolucaoClinica</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html" aria-label="Abrir perfil BRAlergiaReacaoAdversa-1.0">
+        <title>Abrir perfil BRAlergiaReacaoAdversa-1.0</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="1450" width="700" height="140" rx="20" fill="#fee2e2" stroke="#dc2626" stroke-width="3"/>
+          <text x="1300.0" y="1500" font-size="35" font-weight="700">AllergyIntolerance</text>
+          <text x="1300.0" y="1551" font-size="27">BRAlergiaReacaoAdversa-1.0</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html" aria-label="Abrir perfil BRRegistroPrescricaoMedicamento">
+        <title>Abrir perfil BRRegistroPrescricaoMedicamento</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="1670" width="700" height="140" rx="20" fill="#dbeafe" stroke="#2563eb" stroke-width="3"/>
+          <text x="1300.0" y="1720" font-size="35" font-weight="700">Composition</text>
+          <text x="1300.0" y="1771" font-size="27">BRRegistroPrescricaoMedicamento</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRPlanoCuidados-1.0.html" aria-label="Abrir perfil BRPlanoCuidados-1.0">
+        <title>Abrir perfil BRPlanoCuidados-1.0</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="950" y="1890" width="700" height="140" rx="20" fill="#ecfccb" stroke="#65a30d" stroke-width="3"/>
+          <text x="1300.0" y="1940" font-size="35" font-weight="700">CarePlan</text>
+          <text x="1300.0" y="1991" font-size="27">BRPlanoCuidados-1.0</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRLocalAtendimento-1.0.html" aria-label="Abrir perfil BRLocalAtendimento-1.0">
+        <title>Abrir perfil BRLocalAtendimento-1.0</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="1970" y="130" width="550" height="140" rx="20" fill="#e0f2fe" stroke="#0284c7" stroke-width="3"/>
+          <text x="2245.0" y="180" font-size="35" font-weight="700">Location</text>
+          <text x="2245.0" y="231" font-size="27">BRLocalAtendimento-1.0</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRPrescricaoMedicamento.html" aria-label="Abrir perfil BRPrescricaoMedicamento">
+        <title>Abrir perfil BRPrescricaoMedicamento</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="1970" y="1670" width="550" height="140" rx="20" fill="#e0e7ff" stroke="#4f46e5" stroke-width="3"/>
+          <text x="2245.0" y="1720" font-size="35" font-weight="700">MedicationRequest</text>
+          <text x="2245.0" y="1771" font-size="27">BRPrescricaoMedicamento</text>
+        </g>
+      </a>
+      <a href="StructureDefinition-BRMedicamento.html" aria-label="Abrir perfil BRMedicamento">
+        <title>Abrir perfil BRMedicamento</title>
+        <g font-family="Arial, Helvetica, sans-serif" fill="#172b4d" text-anchor="middle">
+          <rect x="1970" y="1940" width="550" height="140" rx="20" fill="#ccfbf1" stroke="#0d9488" stroke-width="3"/>
+          <text x="2245.0" y="1990" font-size="35" font-weight="700">Medication</text>
+          <text x="2245.0" y="2041" font-size="27">BRMedicamento</text>
+        </g>
+      </a>
+    </svg>
   </div>
 
   <a name="recursos">  </a>
@@ -266,79 +464,108 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       <tr>
         <td>Composition</td>
         <td>
-          <code><a href="StructureDefinition-BRSumarioAlta.html">BRSumarioAlta</a></code>
+          <code>
+            <a href="StructureDefinition-BRSumarioAlta.html">BRSumarioAlta</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Encounter</td>
         <td>
-          <code><a href="StructureDefinition-BRContatoAssistencial-1.0.html">BRContatoAssistencial-1.0</a></code>
+          <code>
+            <a href="StructureDefinition-BRContatoAssistencial-1.0.html">BRContatoAssistencial-1.0</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Condition</td>
         <td>
-          <code><a href="StructureDefinition-BRProblemaDiagnostico.html">BRProblemaDiagnostico</a></code>
+          <code>
+            <a href="StructureDefinition-BRProblemaDiagnostico.html">BRProblemaDiagnostico</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Condition</td>
         <td>
-          <code><a href="StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html">BRRestricaoFuncionalIncapacidadeSaude-1.0</a></code>
+          <code>
+            <a href="StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.html">
+              BRRestricaoFuncionalIncapacidadeSaude-1.0</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Procedure</td>
         <td>
-          <code><a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">BRProcedimentoRealizado-1.0</a></code>
+          <code>
+            <a href="StructureDefinition-BRProcedimentoRealizado-1.0.html">
+              BRProcedimentoRealizado-1.0</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>ClinicalImpression</td>
         <td>
-          <code><a href="StructureDefinition-BRResumoEvolucaoClinica.html">BRResumoEvolucaoClinica</a></code>
+          <code>
+            <a href="StructureDefinition-BRResumoEvolucaoClinica.html">BRResumoEvolucaoClinica</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>AllergyIntolerance</td>
         <td>
-          <code><a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">BRAlergiaReacaoAdversa-1.0</a></code>
+          <code>
+            <a href="StructureDefinition-BRAlergiaReacaoAdversa-1.0.html">BRAlergiaReacaoAdversa-1.0</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>CarePlan</td>
         <td>
-          <code><a href="StructureDefinition-BRPlanoCuidados-1.0.html">BRPlanoCuidados-1.0</a></code>
+          <code>
+            <a href="StructureDefinition-BRPlanoCuidados-1.0.html">BRPlanoCuidados-1.0</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Observation</td>
         <td>
-          <code><a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">BRObservacaoDescritiva-1.0</a></code>
+          <code>
+            <a href="StructureDefinition-BRObservacaoDescritiva-1.0.html">BRObservacaoDescritiva-1.0</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Location</td>
         <td>
-          <code><a href="StructureDefinition-BRLocalAtendimento-1.0.html">BRLocalAtendimento-1.0</a></code>
+          <code>
+            <a href="StructureDefinition-BRLocalAtendimento-1.0.html">BRLocalAtendimento-1.0</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Composition</td>
         <td>
-          <code><a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html">BRRegistroPrescricaoMedicamento</a></code>
+          <code>
+            <a href="StructureDefinition-BRRegistroPrescricaoMedicamento.html">
+              BRRegistroPrescricaoMedicamento</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>MedicationRequest</td>
         <td>
-          <code><a href="StructureDefinition-BRPrescricaoMedicamento.html">BRPrescricaoMedicamento</a></code>
+          <code>
+            <a href="StructureDefinition-BRPrescricaoMedicamento.html">BRPrescricaoMedicamento</a>
+          </code>
         </td>
       </tr>
       <tr>
         <td>Medication</td>
         <td>
-          <code><a href="StructureDefinition-BRMedicamento.html">BRMedicamento</a></code>
+          <code>
+            <a href="StructureDefinition-BRMedicamento.html">BRMedicamento</a>
+          </code>
         </td>
       </tr>
     </tbody>
@@ -405,8 +632,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
           IG © 2026+ <a style="color:var(--footer-hyperlink-text-color)" href="http://www.saude.gov.br">Ministério da Saúde do Brasil</a>.  
           Package br.gov.saude.sa.fhir#1.0.0-release based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
           Generated 
-  <span title="2026-09-30 19:01:00 -0300">
-    2026-09-30
+  <span title="2026-10-08 21:31:00 -0300">
+    2026-10-08
   </span>
 
           <br/>

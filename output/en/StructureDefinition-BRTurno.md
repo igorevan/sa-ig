@@ -2,8 +2,6 @@
 
 ## Extension: Turno 
 
-Extensão para descrever uma unidade de tempo referenciada pelo UCUM.
-
 **Context of Use**
 
 **Usage info**
@@ -66,7 +64,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRTurno.csv), [Ex
   "title" : "Turno",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-30T19:01:17-03:00",
+  "date" : "2026-10-08T21:31:18-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

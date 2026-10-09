@@ -2,9 +2,6 @@
 
 ## Resource Profile: Registro de Prescrição de Medicamento 
 
- 
-Modelo que gera o documento de Registro de Prescrição de Medicamento 
-
 **Usos:**
 
 * Refere a este Perfil: [Sumário de Alta (SA)](StructureDefinition-BRSumarioAlta.md)
@@ -62,7 +59,7 @@ Other representations of profile: [CSV](../StructureDefinition-BRRegistroPrescri
   "title" : "Registro de Prescrição de Medicamento",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-30T19:01:17-03:00",
+  "date" : "2026-10-08T21:31:18-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",

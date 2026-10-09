@@ -2,14 +2,11 @@
 
 ## ValueSet: Via de Administração do Imunobiológico 
 
- 
-Via de administração de um imunobiológico. 
-
  **References** 
 
 * [Prescrição de Medicamento](StructureDefinition-BRPrescricaoMedicamento.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

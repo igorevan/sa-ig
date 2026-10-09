@@ -2,14 +2,11 @@
 
 ## ValueSet: Estado da Observação 
 
- 
-Tipos de estados de uma observação. 
-
  **References** 
 
 * [Observação Descritiva](StructureDefinition-BRObservacaoDescritiva-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

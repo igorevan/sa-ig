@@ -2,9 +2,6 @@
 
 ## Resource Profile: Resumo da Evolução Clínica 
 
- 
-Descrição da evolução clínica do indivíduo. 
-
 **Usos:**
 
 * Refere a este Perfil: [Sumário de Alta (SA)](StructureDefinition-BRSumarioAlta.md)

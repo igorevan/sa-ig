@@ -2,14 +2,11 @@
 
 ## ValueSet: Tipo de Observação (ValueSet) 
 
- 
-Tipo de Observação. 
-
  **References** 
 
 * [Observação Descritiva](StructureDefinition-BRObservacaoDescritiva-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

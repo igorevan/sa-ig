@@ -20,19 +20,19 @@ O diagrama abaixo apresenta o pacote *Bundle* no qual é condensado o Sumário d
 
 | | |
 | :--- | :--- |
-| Composition | `[BRSumarioAlta](StructureDefinition-BRSumarioAlta.md)` |
-| Encounter | `[BRContatoAssistencial-1.0](StructureDefinition-BRContatoAssistencial-1.0.md)` |
-| Condition | `[BRProblemaDiagnostico](StructureDefinition-BRProblemaDiagnostico.md)` |
-| Condition | `[BRRestricaoFuncionalIncapacidadeSaude-1.0](StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.md)` |
-| Procedure | `[BRProcedimentoRealizado-1.0](StructureDefinition-BRProcedimentoRealizado-1.0.md)` |
-| ClinicalImpression | `[BRResumoEvolucaoClinica](StructureDefinition-BRResumoEvolucaoClinica.md)` |
-| AllergyIntolerance | `[BRAlergiaReacaoAdversa-1.0](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)` |
-| CarePlan | `[BRPlanoCuidados-1.0](StructureDefinition-BRPlanoCuidados-1.0.md)` |
-| Observation | `[BRObservacaoDescritiva-1.0](StructureDefinition-BRObservacaoDescritiva-1.0.md)` |
-| Location | `[BRLocalAtendimento-1.0](StructureDefinition-BRLocalAtendimento-1.0.md)` |
-| Composition | `[BRRegistroPrescricaoMedicamento](StructureDefinition-BRRegistroPrescricaoMedicamento.md)` |
-| MedicationRequest | `[BRPrescricaoMedicamento](StructureDefinition-BRPrescricaoMedicamento.md)` |
-| Medication | `[BRMedicamento](StructureDefinition-BRMedicamento.md)` |
+| Composition | ` [BRSumarioAlta](StructureDefinition-BRSumarioAlta.md) ` |
+| Encounter | ` [BRContatoAssistencial-1.0](StructureDefinition-BRContatoAssistencial-1.0.md) ` |
+| Condition | ` [BRProblemaDiagnostico](StructureDefinition-BRProblemaDiagnostico.md) ` |
+| Condition | ` [ BRRestricaoFuncionalIncapacidadeSaude-1.0](StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.md) ` |
+| Procedure | ` [ BRProcedimentoRealizado-1.0](StructureDefinition-BRProcedimentoRealizado-1.0.md) ` |
+| ClinicalImpression | ` [BRResumoEvolucaoClinica](StructureDefinition-BRResumoEvolucaoClinica.md) ` |
+| AllergyIntolerance | ` [BRAlergiaReacaoAdversa-1.0](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md) ` |
+| CarePlan | ` [BRPlanoCuidados-1.0](StructureDefinition-BRPlanoCuidados-1.0.md) ` |
+| Observation | ` [BRObservacaoDescritiva-1.0](StructureDefinition-BRObservacaoDescritiva-1.0.md) ` |
+| Location | ` [BRLocalAtendimento-1.0](StructureDefinition-BRLocalAtendimento-1.0.md) ` |
+| Composition | ` [ BRRegistroPrescricaoMedicamento](StructureDefinition-BRRegistroPrescricaoMedicamento.md) ` |
+| MedicationRequest | ` [BRPrescricaoMedicamento](StructureDefinition-BRPrescricaoMedicamento.md) ` |
+| Medication | ` [BRMedicamento](StructureDefinition-BRMedicamento.md) ` |
 
 Perfis dos tipos *ValueSet* e *CodeSystem* estão associados a recursos terminológicos. No contexto de sumário de alta e os domínios utilizados, foram criados * CodeSystems* específicos definidos pelo [Comitê Gestor de Saúde Digital (CGSD)](https://www.gov.br/saude/pt-br/acesso-a-informacao/participacao-social/conselhos-e-orgaos-colegiados/cgsd).
 

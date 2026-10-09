@@ -13,10 +13,11 @@ O tipo da propriedade 'code' é 'código', mas não foi encontrada nenhuma infor
 %não é um código válido neste sistema de códigos%
 %Esta propriedade tem apenas um código%
 The value set expansion is too large, and only a subset has been displayed
-%Referência ao projeto CodeSystem%
 Binding http://www.saude.gov.br/fhir/r4/ValueSet/BREstadoSolicitacaoMedicamento-1.0 is not a subset of binding http://hl7.org/fhir/ValueSet/medication-status|4.0.1 because The codes 'draft,active,cancelled,completed,entered-in-error,on-hold,unknown' are not in the base valueset
+%Reference to draft CodeSystem%
 
 # Erros de validação de exemplos
+%The html source has duplicate anchor Ids%
 
 # Erros relacionados as especificações da RNDS
 %have an OID assigned%
@@ -24,6 +25,7 @@ Para o tipo complexo CodeableConcept, considere a possibilidade de utilizar um p
 O extensão http://hl7.org/fhir/StructureDefinition/elementdefinition-maxValueSet|5.3.0 está obsoleto com a nota Use additionalBinding extension or element instead
 O extensão http://hl7.org/fhir/StructureDefinition/regex|5.3.0 está obsoleto com a nota This was deprecated in favor of using a constraint on the element using FHIRPath, since constraints allow for the provision of a human readable message associated with the regex
 %Este elemento não corresponde a nenhuma fatia conhecida defined in the profile%
+%The slice definition for%
 
 # Outros erros
 %The Implementation Guide contains no examples%
@@ -32,4 +34,4 @@ An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analy
 An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml, dependency-table-nontech.xhtml] is not included anywhere in the produced implementation guide
 
 # Erros relacionados a versão do validador da RNDS
-%A restrição falhou%
+%Constraint failed%

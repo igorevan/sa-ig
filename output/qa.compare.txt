@@ -1,7 +1,7 @@
 SARNDSIG : Validation Results
 =========================================
 
-err = 4, warn = 0, info = 0
+err = 5, warn = 0, info = 0, broken links = 0
 $--
 Generated $--. FHIR version $-- for br.gov.saude.sa.fhir#$-- (canonical = https://fhir.saude.gov.br/sa)
  Build Errors : 0 / 0 / 0
@@ -59,7 +59,7 @@ Generated $--. FHIR version $-- for br.gov.saude.sa.fhir#$-- (canonical = https:
  /home/igor/sa-ig/input/resources/StructureDefinition-BRRegistroPrescricaoMedicamento : 0 / 16 / 2
  /home/igor/sa-ig/input/resources/StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0 : 0 / 6 / 2
  /home/igor/sa-ig/input/resources/StructureDefinition-BRResumoEvolucaoClinica : 0 / 6 / 2
- /home/igor/sa-ig/input/resources/StructureDefinition-BRSumarioAlta : 1 / 4 / 2
+ /home/igor/sa-ig/input/resources/StructureDefinition-BRSumarioAlta : 2 / 4 / 2
  /home/igor/sa-ig/input/resources/StructureDefinition-BRTurno : 0 / 0 / 2
  /home/igor/sa-ig/input/resources/ValueSet-BRAlergenos-1.0 : 0 / 1 / 3
  /home/igor/sa-ig/input/resources/ValueSet-BRCaraterAtendimento-1.0 : 0 / 1 / 1
@@ -158,7 +158,8 @@ ERROR: Medicamento (StructureDefinition).Medication.status: Binding http://www.s
 == input/resources/StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.json ==
 == input/resources/StructureDefinition-BRResumoEvolucaoClinica.json ==
 == input/resources/StructureDefinition-BRSumarioAlta.json ==
-ERROR: StructureDefinition/BRSumarioAlta: StructureDefinition.differential.element[5].slicing: A restrição falhou: eld-1
+ERROR: StructureDefinition.snapshot.element[116]: The slice definition for Composition.section has a minimum of 1 but the slices add up to a minimum of 2
+ERROR: StructureDefinition/BRSumarioAlta: StructureDefinition.differential.element[5].slicing: Constraint failed: eld-1: 'If there are no discriminators, there must be a definition (discriminator.exists() or description.exists())' at Composition.section
 == input/resources/StructureDefinition-BRTurno.json ==
 == input/resources/ValueSet-BRAlergenos-1.0.json ==
 == input/resources/ValueSet-BRCaraterAtendimento-1.0.json ==

@@ -2,9 +2,6 @@
 
 ## Resource Profile: Sumário de Alta (SA) 
 
- 
-O sumário de alta apresenta o conjunto dos principais registros realizados durante a permanência do indivíduo em um atendimento, como evolução clínica, procedimentos assistenciais, intervenções clínicas e diagnósticas, condutas adotadas e iniciadas para seguimento em clínica ou outro estabelecimento de assistência à saúde, e principalmente no final de sua permanência. A troca das informações essenciais referente ao período de permanência do indivíduo em um estabelecimento de saúde garante sua segurança na continuidade do tratamento. (Resolução CIT Nº 33, de 22 de março de 2018) 
-
 **Usos:**
 
 * Este Perfil não é utilizado por nenhum perfil neste guia de implementação

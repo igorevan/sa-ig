@@ -2,14 +2,11 @@
 
 ## ValueSet: Unidade de Medida de Medicamento 
 
- 
-ValueSet utilizado para definir a unidade de medida de medicamentos sob informações do fabricante. 
-
  **References** 
 
 * [Medicamento (StructureDefinition)](StructureDefinition-BRMedicamento.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

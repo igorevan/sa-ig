@@ -2,14 +2,11 @@
 
 ## ValueSet: Reponsabilidade no Contato Assistencial 
 
- 
-Classifica o tipo de responsabilidade de indivíduos ou profissionais no Contato Assistencial. 
-
  **References** 
 
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

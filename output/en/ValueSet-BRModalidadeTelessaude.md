@@ -2,14 +2,11 @@
 
 ## ValueSet: Modalidade de Telessaúde (ValueSet) 
 
- 
-Conjunto de códigos utilizados para identificar as modalidades de telessaúde no contexto do atendimento clínico. 
-
  **References** 
 
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

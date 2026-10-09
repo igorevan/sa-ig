@@ -2,14 +2,11 @@
 
 ## ValueSet: Procedência do Contato Assistencial 
 
- 
-Classifica o serviço que encaminhou o indivíduo ou a sua iniciativa/de seu responsável na busca pelo acesso ao serviço de saúde. 
-
  **References** 
 
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

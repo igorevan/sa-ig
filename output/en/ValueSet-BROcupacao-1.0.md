@@ -2,15 +2,12 @@
 
 ## ValueSet: Classificação Brasileira de Ocupações - CBO (ValueSet) 
 
- 
-Classifica as profissões do mercado de trabalho brasileiro. 
-
  **References** 
 
 * [Ocupação](StructureDefinition-BROcupacao-1.0.md)
 * [Procedimento Realizado](StructureDefinition-BRProcedimentoRealizado-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

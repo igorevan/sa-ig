@@ -2,9 +2,6 @@
 
 ## Resource Profile: Alergia ou Reação Adversa 
 
- 
-Alergia ou Reação Adversa 
-
 **Usos:**
 
 * Refere a este Perfil: [Sumário de Alta (SA)](StructureDefinition-BRSumarioAlta.md)

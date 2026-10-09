@@ -2,14 +2,11 @@
 
 ## ValueSet: Caráter de atendimento do Contato Assistencial 
 
- 
-ValueSet utilizado para classificar a prioridade de realização de um Contato Assistencial. 
-
  **References** 
 
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

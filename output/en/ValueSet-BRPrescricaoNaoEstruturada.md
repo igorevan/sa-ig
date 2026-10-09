@@ -2,14 +2,11 @@
 
 ## ValueSet: Indicativo de prescrição não estruturada ou medicamento não identificado 
 
- 
-Indicativo de prescrição não estruturada ou medicamento não identificado. 
-
  **References** 
 
 * [Prescrição de Medicamento](StructureDefinition-BRPrescricaoMedicamento.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

@@ -2,14 +2,11 @@
 
 ## ValueSet: Classificação do papel de um problema e diagnóstico (ValueSet) 
 
- 
-Tradução para o português do brasil da classificação do papel de um problema/diagnóstico. 
-
  **References** 
 
 * [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 

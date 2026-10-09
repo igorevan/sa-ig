@@ -2,14 +2,11 @@
 
 ## ValueSet: Financiamento do procedimento realizado (ValueSet) 
 
- 
-Descreve o agente, instituição ou entidade responsável por custear as ações e serviços de saúde. 
-
  **References** 
 
 * [Financiamento](StructureDefinition-BRFinanciamento-1.0.md)
 
-### Logical Definition (CLD)
+### Definição lógica (CLD)
 
  
 
