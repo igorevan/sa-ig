@@ -2,7 +2,7 @@
 
 ## Exemplos
 
-### Exemplos de Bundle do SA
+### Exemplos do SA
 
 *  [Bundle de exemplo do Sumário de Alta (SA)](Bundle-example-SA.md) 
 
