@@ -441,8 +441,8 @@
     "description" : "Padroniza os códigos e as nomenclaturas dos procedimentos, medicamentos e OPM para as informações trafegadas no SUS",
     "uses" : {
     },
-    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado",
-    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação (ValueSet)"
+    "ValueSet-BRTipoObservacao-1.0.html" : "Tipo de Observação (ValueSet)",
+    "ValueSet-BRProcedimentosNacionais-1.0.html" : "Procedimento realizado"
   },
   {
     "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRTipoDocumento",

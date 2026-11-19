@@ -25,8 +25,6 @@ O Sumário de Alta (SA) consiste no documento que contém o relato clínico obje
 
  Segue abaixo o modelo de informação para o Sumário de Alta (SA): 
 
-#### Identificação do indivíduo
-
 | | | | | | |
 | :--- | :--- | :--- | :--- | :--- | :--- |
 | 1 | [1..1] | Identificação do indivíduo | Seção | Indivíduo: pessoa que recebe o atendimento registrado no contato assistencial. Todos os campos são de preenchimento obrigatório, exceto se o indivíduo não puder ser identificado durante o contato assistencial, sendo preenchida a justificativa da ausência do Cartão Nacional de Saúde (CNS) ou Cadastro de Pessoa Física (CPF). | `Composition [(BRSumarioAlta)](StructureDefinition-BRSumarioAlta.md)``Encounter [(BRContatoAssistencial-1.0)](StructureDefinition-BRContatoAssistencial-1.0.md)``Condition [(BRProblemaDiagnostico](StructureDefinition-BRProblemaDiagnostico.md) e [BRRestricaoFuncionalIncapacidadeSaude-1.0)](StructureDefinition-BRRestricaoFuncionalIncapacidadeSaude-1.0.md)``Procedure [(BRProcedimentoRealizado-1.0)](StructureDefinition-BRProcedimentoRealizado-1.0.md)``ClinicalImpression [(BRResumoEvolucaoClinica)](StructureDefinition-BRResumoEvolucaoClinica.md)``AllergyIntolerance [(BRAlergiaReacaoAdversa-1.0)](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)``CarePlan [(BRPlanoCuidados-1.0)](StructureDefinition-BRPlanoCuidados-1.0.md)``Observation [(BRObservacaoDescritiva-1.0)](StructureDefinition-BRObservacaoDescritiva-1.0.md)``Composition [(BRRegistroPrescricaoMedicamento)](StructureDefinition-BRRegistroPrescricaoMedicamento.md)``MedicationRequest [(BRPrescricaoMedicamento)](StructureDefinition-BRPrescricaoMedicamento.md)` |
