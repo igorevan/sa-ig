@@ -83,7 +83,7 @@ Outras representações do perfil: [CSV](../StructureDefinition-BRCodigoSerialMe
   "name" : "BRCodigoSerialMedicamento",
   "title" : "Código Serial de Medicamento",
   "status" : "active",
-  "date" : "2026-11-19T16:41:48-03:00",
+  "date" : "2026-11-23T11:34:16-03:00",
   "publisher" : "Ministério da Saúde do Brasil",
   "contact" : [{
     "name" : "Ministério da Saúde do Brasil",
