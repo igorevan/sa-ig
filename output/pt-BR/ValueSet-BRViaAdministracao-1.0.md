@@ -1,0 +1,65 @@
+# Via de Administração do Imunobiológico - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0
+
+## ValueSet: Via de Administração do Imunobiológico 
+
+ **References** 
+
+* [Prescrição de Medicamento](StructureDefinition-BRPrescricaoMedicamento.md)
+
+### Definição lógica (CLD)
+
+ 
+
+### Expansão
+
+-------
+
+ [Descrição do(s) quadro(s) acima](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRViaAdministracao-1.0",
+  "meta" : {
+    "lastUpdated" : "2021-08-27T14:51:30.604+00:00"
+  },
+  "language" : "pt-BR",
+  "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRViaAdministracao-1.0",
+  "version" : "1.0.0",
+  "name" : "BRViaAdministracao",
+  "title" : "Via de Administração do Imunobiológico",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-12T14:51:30.2531733+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Via de administração de um imunobiológico.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRViaAdministracao"
+    }]
+  }
+}
+
+```

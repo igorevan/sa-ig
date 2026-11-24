@@ -1,0 +1,94 @@
+# Grau de Certeza de Alergias e Reações Adversas - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0
+
+## ValueSet: Grau de Certeza de Alergias e Reações Adversas 
+
+ **References** 
+
+* [Alergia ou Reação Adversa](StructureDefinition-BRAlergiaReacaoAdversa-1.0.md)
+
+### Definição lógica (CLD)
+
+ 
+
+### Expansão
+
+-------
+
+ [Descrição do(s) quadro(s) acima](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRGrauCertezaAlergiasReacoesAdversas-1.0",
+  "language" : "en",
+  "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRGrauCertezaAlergiasReacoesAdversas-1.0",
+  "version" : "1.0.0",
+  "name" : "BRGrauCertezaAlergiasReacoesAdversas",
+  "title" : "Grau de Certeza de Alergias e Reações Adversas",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-09-20T20:38:00.3881645+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Indica o grau de certeza que se possui ao avaliar uma alergia ou reação adversa.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "http://terminology.hl7.org/CodeSystem/allergyintolerance-verification",
+      "concept" : [{
+        "code" : "unconfirmed",
+        "display" : "Unconfirmed",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Não confirmada"
+        }]
+      },
+      {
+        "code" : "confirmed",
+        "display" : "Confirmed",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Confirmada"
+        }]
+      },
+      {
+        "code" : "refuted",
+        "display" : "Refuted",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Refutada"
+        }]
+      },
+      {
+        "code" : "entered-in-error",
+        "display" : "Entered in Error",
+        "designation" : [{
+          "language" : "pt-BR",
+          "value" : "Cancelada por informação errada"
+        }]
+      }]
+    }]
+  }
+}
+
+```

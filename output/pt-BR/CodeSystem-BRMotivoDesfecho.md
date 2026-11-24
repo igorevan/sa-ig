@@ -1,0 +1,95 @@
+# Motivo do Desfecho - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0
+
+## CodeSystem: Motivo do Desfecho 
+
+Este sistema de códigos é referenciado na definição dos seguintes conjuntos de valores:
+
+* [Motivo do desfecho do Contato assistencial](ValueSet-BRMotivoDesfecho-1.0.md)
+
+-------
+
+ [Descrição do(s) quadro(s) acima](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "CodeSystem",
+  "id" : "BRMotivoDesfecho",
+  "meta" : {
+    "lastUpdated" : "2020-03-11T18:16:07.800+00:00"
+  },
+  "language" : "pt-BR",
+  "url" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRMotivoDesfecho",
+  "version" : "1.0.0",
+  "name" : "BRMotivoDesfecho",
+  "title" : "Motivo do Desfecho",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-11T18:16:28.3110021+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Caracteriza o motivo de conclusão total ou parcial do contato assistencial.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "caseSensitive" : true,
+  "content" : "complete",
+  "concept" : [{
+    "code" : "01",
+    "display" : "Alta clínica"
+  },
+  {
+    "code" : "02",
+    "display" : "Alta Voluntária"
+  },
+  {
+    "code" : "03",
+    "display" : "Encaminhamento"
+  },
+  {
+    "code" : "04",
+    "display" : "Evasão"
+  },
+  {
+    "code" : "05",
+    "display" : "Ordem Judicial"
+  },
+  {
+    "code" : "06",
+    "display" : "Óbito"
+  },
+  {
+    "code" : "07",
+    "display" : "Permanência"
+  },
+  {
+    "code" : "08",
+    "display" : "Retorno"
+  },
+  {
+    "code" : "09",
+    "display" : "Transferência"
+  },
+  {
+    "code" : "99",
+    "display" : "Sem registro no modelo de informação de origem"
+  }]
+}
+
+```

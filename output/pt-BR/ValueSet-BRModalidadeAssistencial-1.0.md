@@ -1,0 +1,66 @@
+# Modalidade Assistencial (ValueSet) - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0
+
+## ValueSet: Modalidade Assistencial (ValueSet) 
+
+ **References** 
+
+* [Conjunto Mínimo de Dados](StructureDefinition-BRConjuntoMinimoDados-1.1.md)
+* [Contato Assistencial](StructureDefinition-BRContatoAssistencial-1.0.md)
+
+### Definição lógica (CLD)
+
+ 
+
+### Expansão
+
+-------
+
+ [Descrição do(s) quadro(s) acima](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "ValueSet",
+  "id" : "BRModalidadeAssistencial-1.0",
+  "meta" : {
+    "lastUpdated" : "2020-03-12T13:17:22.715+00:00"
+  },
+  "language" : "pt-BR",
+  "url" : "http://www.saude.gov.br/fhir/r4/ValueSet/BRModalidadeAssistencial-1.0",
+  "version" : "1.0.0",
+  "name" : "BRModalidadeAssistencial",
+  "title" : "Modalidade Assistencial (ValueSet)",
+  "status" : "active",
+  "experimental" : false,
+  "date" : "2020-03-12T13:17:18.5012669+00:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Classificação dos documentos e contatos assistenciais de acordo com as especificidades do modo, local e duração do atendimento.",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "immutable" : false,
+  "compose" : {
+    "include" : [{
+      "system" : "http://www.saude.gov.br/fhir/r4/CodeSystem/BRModalidadeAssistencial"
+    }]
+  }
+}
+
+```

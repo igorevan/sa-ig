@@ -1,0 +1,120 @@
+# Código Serial de Medicamento - Guia de Implementação do Sumário de Alta (SA) da RNDS v1.0.0
+
+## Extensão: Código Serial de Medicamento 
+
+**Context of Use**
+
+**Usage info**
+
+**Usos:**
+
+* Usa este Extensão: [Medicamento (StructureDefinition)](StructureDefinition-BRMedicamento.md)
+
+You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/br.gov.saude.sa.fhir|current/StructureDefinition/StructureDefinition-BRCodigoSerialMedicamento.json)
+
+### Visões formais do conteúdo da extensão
+
+ [Descrição de perfis, diferenciais, instantâneos e suas representações](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#structure-definitions). 
+
+*  [Tabela diferencial](#tabs-diff) 
+*  [Tabela de instantâneos](#tabs-snap) 
+*  [Estatísticas/Referências](#tabs-summ) 
+*  [Todas](#tabs-all) 
+
+Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+#### Restrições
+
+Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+ **Visão Diferencial** 
+
+Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+ **Visão Completa** 
+
+#### Restrições
+
+Esta estrutura deriva de [Extension](http://hl7.org/fhir/R4/extensibility.html#Extension) 
+
+ 
+
+Outras representações do perfil: [CSV](../StructureDefinition-BRCodigoSerialMedicamento.csv), [Excel](../StructureDefinition-BRCodigoSerialMedicamento.xlsx), [Schematron](../StructureDefinition-BRCodigoSerialMedicamento.sch) 
+
+
+
+## Resource Content
+
+```json
+{
+  "resourceType" : "StructureDefinition",
+  "id" : "BRCodigoSerialMedicamento",
+  "language" : "pt-BR",
+  "url" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento",
+  "version" : "1.0.0",
+  "name" : "BRCodigoSerialMedicamento",
+  "title" : "Código Serial de Medicamento",
+  "status" : "active",
+  "date" : "2026-11-24T16:44:26-03:00",
+  "publisher" : "Ministério da Saúde do Brasil",
+  "contact" : [{
+    "name" : "Ministério da Saúde do Brasil",
+    "telecom" : [{
+      "system" : "url",
+      "value" : "http://www.saude.gov.br"
+    },
+    {
+      "system" : "email",
+      "value" : "cgiis.datasus@saude.gov.br"
+    }]
+  }],
+  "description" : "Código Serial de Medicamento",
+  "jurisdiction" : [{
+    "coding" : [{
+      "system" : "urn:iso:std:iso:3166",
+      "code" : "BR"
+    }]
+  }],
+  "fhirVersion" : "4.0.1",
+  "mapping" : [{
+    "identity" : "rim",
+    "uri" : "http://hl7.org/v3",
+    "name" : "RIM Mapping"
+  }],
+  "kind" : "complex-type",
+  "abstract" : false,
+  "context" : [{
+    "type" : "element",
+    "expression" : "Medication"
+  }],
+  "type" : "Extension",
+  "baseDefinition" : "http://hl7.org/fhir/StructureDefinition/Extension",
+  "derivation" : "constraint",
+  "differential" : {
+    "element" : [{
+      "id" : "Extension",
+      "path" : "Extension"
+    },
+    {
+      "id" : "Extension.id",
+      "path" : "Extension.id",
+      "max" : "0"
+    },
+    {
+      "id" : "Extension.url",
+      "path" : "Extension.url",
+      "fixedUri" : "http://www.saude.gov.br/fhir/r4/StructureDefinition/BRCodigoSerialMedicamento"
+    },
+    {
+      "id" : "Extension.value[x]",
+      "path" : "Extension.value[x]",
+      "short" : "Código serial da unidade de medicamento",
+      "min" : 1,
+      "type" : [{
+        "code" : "string"
+      }]
+    }]
+  }
+}
+
+```
