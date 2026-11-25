@@ -3,7 +3,7 @@ SARNDSIG : Validation Results
 
 err = 5, warn = 0, info = 0, broken links = 0
 IG Publisher Version: 3.0.5
-Generated Tue Nov 24 16:47:08 BRT 2026. FHIR version 4.0.1 for br.gov.saude.sa.fhir#1.0.0 (canonical = https://fhir.saude.gov.br/sa)
+Generated Wed Nov 25 10:19:39 BRT 2026. FHIR version 4.0.1 for br.gov.saude.sa.fhir#1.0.0 (canonical = https://fhir.saude.gov.br/sa)
  Build Errors : 0 / 0 / 0
  /home/igor/sa-ig/input/examples/example-SA : 0 / 2 / 5
  /home/igor/sa-ig/input/myig : 0 / 0 / 2
